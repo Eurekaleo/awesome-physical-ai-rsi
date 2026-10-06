@@ -1,6 +1,6 @@
 # Contributing
 
-Contributions to public reference metadata, accessibility, and the project website are welcome. Please use an issue to report a citation correction or website problem, or submit a focused pull request.
+Contributions to **Physical AI & Recursive Self-Improvement** currently cover public reference metadata, accessibility, and the project website. Please use an issue to report a citation correction or website problem, or submit a focused pull request.
 
 ## Public scope
 
@@ -34,7 +34,7 @@ npm run build
 npm run preview
 ```
 
-The preview server prints its local URL. It serves the built website from `dist/` at the same project path used by GitHub Pages. Check a desktop viewport and a narrow mobile viewport when changing the interface. Confirm that search, filters, pagination, links, and keyboard focus still work.
+The preview server prints its local URL. It serves the built website from `dist/` at the same project path used by GitHub Pages. Check a desktop viewport and a narrow mobile viewport when changing the interface. Confirm that search, filters, collection charts, pagination, links, and keyboard focus still work. `npm run test` runs the focused catalog tests independently.
 
 README bibliography content is generated. Edit `tools/render-readme.mjs` for presentation changes, then run `npm run readme`. Include the generated README in the same pull request as a metadata change.
 
@@ -42,4 +42,4 @@ README bibliography content is generated. Edit `tools/render-readme.mjs` for pre
 
 Describe the problem, the visible result, and the checks you ran. Keep each request focused. Metadata corrections should link to public evidence. For interface changes, describe the viewports and interactions you checked.
 
-The automated checks verify data shape, generated README consistency, local site links, empty survey placeholders, and the public build boundary. They do not establish the scientific accuracy of a reference or approve unpublished material for release.
+The automated checks verify catalog behavior, data shape, generated README consistency, project naming, local site links, empty survey placeholders, and the public build boundary. They do not establish the scientific accuracy of a reference or approve unpublished material for release.

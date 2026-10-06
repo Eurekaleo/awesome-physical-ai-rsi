@@ -3,13 +3,16 @@ import {
   TYPES,
   readState,
   selectReferences,
+  summarizeReferences,
   referenceCitation,
+  referenceURL,
   pageWindow,
   venueLabel,
 } from "./catalog.js";
 
 const $ = (id) => document.getElementById(id);
 let references = [];
+let summary;
 let loadState = "loading";
 let state = readState(location.search);
 let toastTimeout;
@@ -70,7 +73,17 @@ function renderReference(reference) {
   const row = element("article", "reference-row");
   row.append(element("div", "reference-year", reference.year || "Undated"));
   const main = element("div", "reference-main");
-  main.append(element("h3", "reference-title", reference.title));
+  const title = element("h3", "reference-title");
+  const url = referenceURL(reference);
+  if (url) {
+    const link = element("a", "reference-title-link", reference.title);
+    link.href = url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.append(icon("arrow-up-right", 14));
+    title.append(link);
+  } else title.textContent = reference.title;
+  main.append(title);
   if (reference.authors.length) {
     const authors =
       reference.authors.length > 4
@@ -81,15 +94,6 @@ function renderReference(reference) {
     main.append(authorLine);
   }
   const bottom = element("div", "reference-bottom");
-  if (reference.url && /^https:\/\//.test(reference.url)) {
-    const link = element("a", "paper-link", "Paper");
-    link.href = reference.url;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    link.setAttribute("aria-label", `Read ${reference.title}`);
-    link.append(icon("arrow-up-right", 12));
-    bottom.append(link);
-  }
   const venue = element(
     "span",
     `venue venue-${reference.type}`,
@@ -117,12 +121,15 @@ function renderReference(reference) {
 
 function syncURL() {
   const url = new URL(location.href);
-  for (const key of ["q", "year", "type", "sort", "page"])
+  for (const key of ["q", "year", "type", "venue", "sort", "size", "page"])
     url.searchParams.delete(key);
   if (state.query) url.searchParams.set("q", state.query);
   if (state.year !== "all") url.searchParams.set("year", state.year);
   if (state.type !== "all") url.searchParams.set("type", state.type);
+  if (state.venue !== "all") url.searchParams.set("venue", state.venue);
   if (state.sort !== "newest") url.searchParams.set("sort", state.sort);
+  if (state.size !== PAGE_SIZE)
+    url.searchParams.set("size", String(state.size));
   if (state.page > 1) url.searchParams.set("page", String(state.page));
   history.replaceState(null, "", url);
 }
@@ -130,23 +137,28 @@ function syncURL() {
 function render(updateURL = true) {
   if (loadState !== "ready") return;
   const selected = selectReferences(references, state);
-  const pages = Math.max(1, Math.ceil(selected.length / PAGE_SIZE));
+  const pages = Math.max(1, Math.ceil(selected.length / state.size));
   state.page = Math.min(state.page, pages);
-  const start = (state.page - 1) * PAGE_SIZE;
-  const shown = selected.slice(start, start + PAGE_SIZE);
+  const start = (state.page - 1) * state.size;
+  const shown = selected.slice(start, start + state.size);
   list.replaceChildren(...shown.map(renderReference));
   list.setAttribute("aria-busy", "false");
   const active = Boolean(
-    state.query || state.year !== "all" || state.type !== "all",
+    state.query ||
+    state.year !== "all" ||
+    state.type !== "all" ||
+    state.venue !== "all",
   );
   $("result-count").textContent = selected.length
-    ? `${start + 1}\u2013${Math.min(start + PAGE_SIZE, selected.length)} of ${selected.length} references`
+    ? `${start + 1}\u2013${Math.min(start + state.size, selected.length)} of ${selected.length} references`
     : "0 references";
   $("clear-search").hidden = !state.query;
-  $("reset-filters").hidden = !active && state.sort === "newest";
+  $("reset-filters").hidden =
+    !active && state.sort === "newest" && state.size === PAGE_SIZE;
   $("empty-state").hidden = Boolean(selected.length);
   $("error-state").hidden = true;
-  $("pagination").hidden = pages <= 1;
+  $("pagination").hidden = !selected.length;
+  $("pagination").querySelector(".page-controls").hidden = pages <= 1;
   $("page-info").textContent = `Page ${state.page} of ${pages}`;
   $("previous-page").disabled = state.page <= 1;
   $("next-page").disabled = state.page >= pages;
@@ -161,7 +173,89 @@ function render(updateURL = true) {
       return button;
     }),
   );
+  for (const button of $("collection-overview").querySelectorAll(
+    "button[data-filter]",
+  ))
+    button.setAttribute(
+      "aria-pressed",
+      String(state[button.dataset.filter] === button.dataset.value),
+    );
   if (updateURL) syncURL();
+}
+
+function chartButton(filter, item, className) {
+  const button = element("button", className);
+  button.type = "button";
+  button.dataset.filter = filter;
+  button.dataset.value = item.value;
+  button.setAttribute("aria-pressed", "false");
+  const label = item.value === "earlier" ? "2014 and earlier" : item.label;
+  button.setAttribute(
+    "aria-label",
+    `${label}: ${item.count} collected ${item.count === 1 ? "reference" : "references"}`,
+  );
+  button.title = `${label}: ${item.count} references`;
+  button.disabled = item.count === 0;
+  button.addEventListener("click", () => {
+    clearTimeout(searchTimeout);
+    state[filter] = state[filter] === item.value ? "all" : item.value;
+    state.page = 1;
+    syncInputs();
+    render();
+  });
+  return button;
+}
+
+function renderOverview() {
+  $("collection-overview").querySelector(".profile-note").textContent =
+    `Current collection \u00b7 ${references.length.toLocaleString("en")} references`;
+  const maxYear = Math.max(1, ...summary.years.map((item) => item.count));
+  $("year-chart").replaceChildren(
+    ...summary.years.map((item) => {
+      const button = chartButton("year", item, "year-bar");
+      const fill = element("span", "bar-fill");
+      fill.style.setProperty("--bar-size", `${(item.count / maxYear) * 100}%`);
+      const label =
+        item.value === "earlier"
+          ? "<15"
+          : /^\d{4}$/.test(item.value)
+            ? item.value.slice(-2)
+            : item.label;
+      button.append(
+        element("span", "bar-count", item.count),
+        fill,
+        element("span", "bar-label", label),
+      );
+      return button;
+    }),
+  );
+  const maxType = Math.max(1, ...summary.types.map((item) => item.count));
+  $("type-chart").replaceChildren(
+    ...summary.types.map((item) => {
+      const button = chartButton("type", item, "type-bar");
+      const track = element("span", "bar-track");
+      const fill = element("span", "bar-fill");
+      fill.style.setProperty("--bar-size", `${(item.count / maxType) * 100}%`);
+      track.append(fill);
+      button.append(
+        element("span", "bar-label", item.label),
+        track,
+        element("span", "bar-count", item.count),
+      );
+      return button;
+    }),
+  );
+  $("venue-chart").replaceChildren(
+    ...summary.venues.slice(0, 6).map((item) => {
+      const button = chartButton("venue", item, "venue-filter");
+      button.append(
+        element("span", "bar-label", item.label),
+        element("span", "bar-count", item.count),
+      );
+      return button;
+    }),
+  );
+  $("collection-overview").hidden = false;
 }
 
 function changePage(page) {
@@ -182,7 +276,22 @@ function syncInputs() {
   $("search").value = state.query;
   $("year").value = state.year;
   $("type").value = state.type;
+  $("venue").value = state.venue;
   $("sort").value = state.sort;
+  $("page-size").value = String(state.size);
+}
+
+function validateFilters() {
+  if (
+    state.year !== "all" &&
+    ![...$("year").options].some((option) => option.value === state.year)
+  )
+    state.year = "all";
+  if (
+    state.venue !== "all" &&
+    !summary.venues.some((venue) => venue.value === state.venue)
+  )
+    state.venue = "all";
 }
 
 function reset() {
@@ -194,6 +303,7 @@ function reset() {
 
 async function loadReferences() {
   loadState = "loading";
+  $("collection-overview").hidden = true;
   $("error-state").hidden = true;
   $("result-count").textContent = "Loading references\u2026";
   list.setAttribute("aria-busy", "true");
@@ -211,6 +321,7 @@ async function loadReferences() {
     )
       throw new Error("Invalid reference data");
     references = data;
+    summary = summarizeReferences(references);
     loadState = "ready";
     const years = [
       ...new Set(references.map((item) => item.year).filter(Boolean)),
@@ -218,16 +329,32 @@ async function loadReferences() {
     $("year").replaceChildren(
       new Option("All years", "all"),
       ...years.map((year) => new Option(year, year)),
+      ...(summary.years.find((year) => year.value === "earlier")?.count
+        ? [new Option("2014 and earlier", "earlier")]
+        : []),
+      ...(summary.years.find((year) => year.value === "undated")?.count
+        ? [new Option("Undated", "undated")]
+        : []),
     );
-    if (!years.includes(Number(state.year))) state.year = "all";
+    $("venue").replaceChildren(
+      new Option("All venues", "all"),
+      ...[...summary.venues]
+        .sort((a, b) => a.label.localeCompare(b.label, "en"))
+        .map(
+          (venue) => new Option(`${venue.label} (${venue.count})`, venue.value),
+        ),
+    );
+    validateFilters();
     $("total-count").textContent = references.length.toLocaleString("en");
     $("year-range").textContent = years.length
       ? `${years.at(-1)} \u2013 ${years[0]}`
       : "";
     syncInputs();
+    renderOverview();
     render();
   } catch {
     loadState = "error";
+    $("collection-overview").hidden = true;
     $("error-state").hidden = false;
     $("empty-state").hidden = true;
     $("pagination").hidden = true;
@@ -247,12 +374,17 @@ $("search").addEventListener("input", (event) => {
     render();
   }, 150);
 });
-for (const id of ["year", "type", "sort"])
+for (const id of ["year", "type", "venue", "sort"])
   $(id).addEventListener("change", (event) => {
     state[id] = event.target.value;
     state.page = 1;
     render();
   });
+$("page-size").addEventListener("change", (event) => {
+  state.size = Number(event.target.value);
+  state.page = 1;
+  render();
+});
 $("clear-search").addEventListener("click", () => {
   clearTimeout(searchTimeout);
   state.query = "";
@@ -267,9 +399,11 @@ $("retry").addEventListener("click", loadReferences);
 $("previous-page").addEventListener("click", () => changePage(state.page - 1));
 $("next-page").addEventListener("click", () => changePage(state.page + 1));
 window.addEventListener("popstate", () => {
+  clearTimeout(searchTimeout);
   state = readState(location.search);
+  if (loadState === "ready") validateFilters();
   syncInputs();
-  render(false);
+  render();
 });
 
 const menu = $("menu-toggle");
@@ -303,5 +437,10 @@ document.addEventListener("click", (event) => {
 });
 matchMedia("(min-width: 641px)").addEventListener("change", (event) => {
   if (event.matches) closeMenu();
+});
+const overviewBreakpoint = matchMedia("(min-width: 1000px)");
+$("collection-overview").open = overviewBreakpoint.matches;
+overviewBreakpoint.addEventListener("change", (event) => {
+  $("collection-overview").open = event.matches;
 });
 loadReferences();

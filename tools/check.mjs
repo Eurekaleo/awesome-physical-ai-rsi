@@ -6,8 +6,11 @@ import { promisify } from "node:util";
 import {
   assertPublicPath,
   DATA_FILE,
+  PROJECT_NAME,
   publicFiles,
+  REPO_URL,
   ROOT,
+  SHORT_NAME,
   SITE_URL,
   walkFiles,
 } from "./public-files.mjs";
@@ -212,10 +215,48 @@ if (manifest.start_url)
   checkLocalReference(manifest.start_url, "site.webmanifest");
 
 const homepage = htmlByFile.get("index.html");
+const homepageText = homepage.replaceAll("&amp;", "&");
 assert(
-  homepage.includes("Physical AI Survey"),
-  "Generic project name is missing",
+  homepageText.includes(PROJECT_NAME) && homepageText.includes(SHORT_NAME),
+  "Project name or short brand is missing",
 );
+assert(
+  readme.replaceAll("&amp;", "&").includes(PROJECT_NAME),
+  "README project name is missing",
+);
+assert.equal(
+  manifest.name,
+  PROJECT_NAME,
+  "Manifest project name is inconsistent",
+);
+assert.equal(
+  manifest.short_name,
+  SHORT_NAME,
+  "Manifest short brand is inconsistent",
+);
+const packageMetadata = JSON.parse(
+  await readFile(path.join(ROOT, "package.json"), "utf8"),
+);
+assert.equal(
+  packageMetadata.repository.url,
+  `git+${REPO_URL}.git`,
+  "Package repository URL is inconsistent",
+);
+assert.equal(
+  packageMetadata.homepage,
+  SITE_URL,
+  "Package website URL is inconsistent",
+);
+for (const [file, html] of htmlByFile) {
+  assert(
+    !html.includes("Physical AI Survey"),
+    `Outdated project name in ${file}`,
+  );
+  assert(
+    !/awesome-physical-ai(?=[/"'#?]|\.git\b)/.test(html),
+    `Outdated project URL in ${file}`,
+  );
+}
 assert(homepage.includes(SITE_URL), "Canonical project URL is missing");
 assert(
   idsByFile.get("index.html").has("references"),

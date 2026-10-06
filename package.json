@@ -1,13 +1,14 @@
 {
-  "name": "awesome-physical-ai",
+  "name": "awesome-physical-ai-rsi",
   "version": "0.1.0",
   "private": true,
-  "description": "Public reference library and project website for Physical AI Survey.",
+  "description": "Physical AI & Recursive Self-Improvement: a survey and public reference library.",
   "type": "module",
   "scripts": {
     "readme": "node tools/render-readme.mjs",
-    "check": "node tools/check.mjs",
-    "build": "node tools/check.mjs && node tools/build.mjs",
+    "test": "node --test tools/catalog.test.mjs",
+    "check": "npm run test && node tools/check.mjs",
+    "build": "npm run check && node tools/build.mjs",
     "preview": "node tools/preview.mjs"
   },
   "engines": {
@@ -16,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Eurekaleo/awesome-physical-ai.git"
+    "url": "git+https://github.com/Eurekaleo/awesome-physical-ai-rsi.git"
   },
-  "homepage": "https://eurekaleo.github.io/awesome-physical-ai/"
+  "homepage": "https://eurekaleo.github.io/awesome-physical-ai-rsi/"
 }

@@ -1,6 +1,6 @@
 # Maintaining the project
 
-The repository contains a static website and a public bibliography. `data/references.json` is the source of truth for reference metadata; the browser and README use the same records. No framework, package installation, database, or build service is required.
+The **Physical AI & Recursive Self-Improvement** project contains a static website and a public bibliography. `data/references.json` is the source of truth for reference metadata; the browser and README use the same records. No framework, package installation, database, or build service is required.
 
 ## Structure
 
@@ -28,7 +28,9 @@ Bibliographic fields are deliberately limited. Records must not carry unpublishe
 
 ## Validation and deployment
 
-`npm run check` validates the data schema, IDs, generated README, site links, publication placeholders, repository file extensions, and public-file selection. External paper URLs are checked for safe syntax, not fetched during every build.
+`npm run check` runs the catalog tests, then validates the data schema, IDs, generated README, project naming and URLs, site links, publication placeholders, repository file extensions, and public-file selection. External paper URLs are checked for safe syntax, not fetched during every build.
+
+The catalog tests cover combined filtering, URL state, page-size bounds, venue normalization, reference summaries, publication links, and citation formatting. The site's year, publication-type, and venue views are calculated from public metadata; they do not encode the unpublished survey's research taxonomy.
 
 `npm run build` runs the checks, then copies only the files selected in `tools/public-files.mjs` to a fresh `dist/` directory. It creates `.nojekyll` there. GitHub Pages uploads only that directory, never the repository root. The build does not read the original manuscript or a parent directory.
 
@@ -41,7 +43,13 @@ npm run build
 npm run preview -- --port 4173
 ```
 
-The server binds to `127.0.0.1` and serves `/awesome-physical-ai/`. If the requested port is occupied, it uses the next available port and prints the resulting URL. The preview server serves only `dist/` and does not list directories.
+The server binds to `127.0.0.1` and serves `/awesome-physical-ai-rsi/`. If the requested port is occupied, it uses the next available port and prints the resulting URL. The preview server serves only `dist/` and does not list directories.
+
+## Project identity
+
+Use **Physical AI & Recursive Self-Improvement** for the complete public project name, **Physical AI + RSI** for compact labels, and **A Survey and Reference Library** for the subtitle. The project name describes the research direction. It is not a declaration of the manuscript's final title or a claim that every collected work demonstrates RSI.
+
+`tools/public-files.mjs` holds the canonical project and repository URLs used by the README, checks, and local preview. When changing them, update `index.html`, `404.html`, `site.webmanifest`, `robots.txt`, `sitemap.xml`, `package.json`, issue links, artwork, and deployment documentation together.
 
 ## Visual assets and licensing
 

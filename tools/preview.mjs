@@ -1,13 +1,13 @@
 import { createServer } from "node:http";
 import { readFile, realpath, stat } from "node:fs/promises";
 import path from "node:path";
-import { ROOT } from "./public-files.mjs";
+import { ROOT, SITE_URL } from "./public-files.mjs";
 
 const output = path.join(ROOT, "dist");
 await stat(path.join(output, "index.html")).catch(() => {
   throw new Error("Build the public site first with npm run build.");
 });
-const prefix = "/awesome-physical-ai/";
+const prefix = new URL(SITE_URL).pathname;
 const portArgument = process.argv.indexOf("--port");
 let port = Number(portArgument >= 0 ? process.argv[portArgument + 1] : 4173);
 if (!Number.isInteger(port) || port < 1024 || port > 65535)

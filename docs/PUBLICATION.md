@@ -13,4 +13,4 @@ Before adding survey content:
 - Keep the public build allowlist explicit. Add a manuscript download only when redistribution has been separately approved.
 - Run the full build and check desktop, mobile, keyboard navigation, citation copying, and links on the deployed site.
 
-Until that update, preserve the generic project name **Physical AI Survey**, public reference metadata, and empty survey-content templates. Do not publish an inferred abstract, outline, taxonomy, citation, author list, or publication date.
+Until that update, preserve the public project name **Physical AI & Recursive Self-Improvement** (short form: **Physical AI + RSI**), public reference metadata, and empty survey-content templates. The project name identifies the research direction without declaring the final manuscript title. Do not publish an inferred abstract, outline, taxonomy, citation, author list, or publication date.
