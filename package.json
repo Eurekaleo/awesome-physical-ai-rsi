@@ -1,0 +1,22 @@
+{
+  "name": "awesome-physical-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Public reference library and project website for Physical AI Survey.",
+  "type": "module",
+  "scripts": {
+    "readme": "node tools/render-readme.mjs",
+    "check": "node tools/check.mjs",
+    "build": "node tools/check.mjs && node tools/build.mjs",
+    "preview": "node tools/preview.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eurekaleo/awesome-physical-ai.git"
+  },
+  "homepage": "https://eurekaleo.github.io/awesome-physical-ai/"
+}

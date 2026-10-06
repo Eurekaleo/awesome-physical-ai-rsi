@@ -1,0 +1,38 @@
+name: Reference correction
+description: Correct public bibliographic metadata or a reference link.
+title: "[Reference] "
+labels: ["reference"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please use public bibliographic information only. Do not upload or paste unpublished survey material or manuscript attachments.
+  - type: input
+    id: reference
+    attributes:
+      label: Reference title or ID
+      placeholder: The affected reference in the library
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correction
+      description: Identify the incorrect field and its proposed replacement.
+    validations:
+      required: true
+  - type: input
+    id: evidence
+    attributes:
+      label: Public source
+      description: Link to the publisher, DOI, arXiv record, or official project supporting the correction.
+      placeholder: https://
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Public scope
+      options:
+        - label: This issue contains only public reference metadata and no unpublished survey content or attachments.
+          required: true

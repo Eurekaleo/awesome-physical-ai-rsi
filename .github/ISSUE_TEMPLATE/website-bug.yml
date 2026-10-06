@@ -1,0 +1,34 @@
+name: Website bug
+description: Report a website, accessibility, or repository problem.
+title: "[Website] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Report website behavior here. Do not attach unpublished survey documents, figures, or source archives.
+  - type: textarea
+    id: issue
+    attributes:
+      label: What happened?
+      description: Include the page URL, expected result, and actual result.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device
+      placeholder: Browser version, operating system, and approximate screen size
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Public scope
+      options:
+        - label: This issue contains no unpublished survey content or attachments.
+          required: true

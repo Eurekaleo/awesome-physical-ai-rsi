@@ -1,0 +1,4155 @@
+[
+  {
+    "id": "ahmed2021causalworld",
+    "title": "CausalWorld: A Robotic Manipulation Benchmark for Causal Structure and Transfer Learning",
+    "authors": [
+      "Ossama Ahmed",
+      "Frederik Träuble",
+      "Anirudh Goyal",
+      "Alexander Neitz",
+      "Yoshua Bengio",
+      "Bernhard Schölkopf",
+      "Manuel Wüthrich",
+      "Stefan Bauer"
+    ],
+    "year": 2021,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "ahn2023saycan",
+    "title": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",
+    "authors": [
+      "Brian Ichter",
+      "Anthony Brohan",
+      "Yevgen Chebotar",
+      "Chelsea Finn",
+      "Karol Hausman",
+      "et al."
+    ],
+    "year": 2023,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "ahn2024autort",
+    "title": "AutoRT: Embodied Foundation Models for Large Scale Orchestration of Robotic Agents",
+    "authors": [
+      "Michael Ahn",
+      "Debidatta Dwibedi",
+      "Chelsea Finn",
+      "Montse Gonzalez Arenas",
+      "Keerthana Gopalakrishnan",
+      "Karol Hausman",
+      "Brian Ichter",
+      "Alex Irpan",
+      "Nikhil Joshi",
+      "Ryan Julian",
+      "Sean Kirmani",
+      "Isabel Leal",
+      "Edward Lee",
+      "Sergey Levine",
+      "Yao Lu",
+      "Sharath Maddineni",
+      "Kanishka Rao",
+      "Dorsa Sadigh",
+      "Pannag Sanketi",
+      "Pierre Sermanet",
+      "Quan Vuong",
+      "Stefan Welker",
+      "Fei Xia",
+      "Ted Xiao",
+      "Peng Xu",
+      "Steve Xu",
+      "Zhuo Xu"
+    ],
+    "year": 2024,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2401.12963",
+    "doi": ""
+  },
+  {
+    "id": "alemohammad2024mad",
+    "title": "Self-Consuming Generative Models Go MAD",
+    "authors": [
+      "Sina Alemohammad",
+      "Josue Casco-Rodriguez",
+      "Lorenzo Luzi",
+      "Ahmed Imtiaz Humayun",
+      "Hossein Babaei",
+      "Daniel LeJeune",
+      "Ali Siahkoohi",
+      "Richard G. Baraniuk"
+    ],
+    "year": 2024,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "alshiekh2018shielding",
+    "title": "Safe Reinforcement Learning via Shielding",
+    "authors": [
+      "Mohammed Alshiekh",
+      "Roderick Bloem",
+      "Rüdiger Ehlers",
+      "Bettina Könighofer",
+      "Scott Niekum",
+      "Ufuk Topcu"
+    ],
+    "year": 2018,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "type": "conference",
+    "url": "https://doi.org/10.1609/aaai.v32i1.11797",
+    "doi": "10.1609/aaai.v32i1.11797"
+  },
+  {
+    "id": "ames2019cbf",
+    "title": "Control Barrier Functions: Theory and Applications",
+    "authors": [
+      "Aaron D. Ames",
+      "Samuel Coogan",
+      "Magnus Egerstedt",
+      "Gennaro Notomista",
+      "Koushil Sreenath",
+      "Paulo Tabuada"
+    ],
+    "year": 2019,
+    "venue": "European Control Conference",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/1903.11199",
+    "doi": ""
+  },
+  {
+    "id": "amodei2016safety",
+    "title": "Concrete Problems in AI Safety",
+    "authors": [
+      "Dario Amodei",
+      "Chris Olah",
+      "Jacob Steinhardt",
+      "Paul Christiano",
+      "John Schulman",
+      "Dan Mané"
+    ],
+    "year": 2016,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/1606.06565",
+    "doi": ""
+  },
+  {
+    "id": "anthony2017expert",
+    "title": "Thinking Fast and Slow with Deep Learning and Tree Search",
+    "authors": [
+      "Thomas Anthony",
+      "Zheng Tian",
+      "David Barber"
+    ],
+    "year": 2017,
+    "venue": "Advances in Neural Information Processing Systems",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "argall2009survey",
+    "title": "A Survey of Robot Learning from Demonstration",
+    "authors": [
+      "Brenna D. Argall",
+      "Sonia Chernova",
+      "Manuela Veloso",
+      "Brett Browning"
+    ],
+    "year": 2009,
+    "venue": "Robotics and Autonomous Systems",
+    "type": "journal",
+    "url": "https://doi.org/10.1016/j.robot.2008.10.024",
+    "doi": "10.1016/j.robot.2008.10.024"
+  },
+  {
+    "id": "arxiv170701495",
+    "title": "Hindsight Experience Replay",
+    "authors": [
+      "Marcin Andrychowicz",
+      "Filip Wolski",
+      "Alex Ray",
+      "Jonas Schneider",
+      "Rachel Fong",
+      "Peter Welinder",
+      "Bob McGrew",
+      "Josh Tobin",
+      "Pieter Abbeel",
+      "Wojciech Zaremba"
+    ],
+    "year": 2017,
+    "venue": "Advances in Neural Information Processing Systems",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/1707.01495v3",
+    "doi": ""
+  },
+  {
+    "id": "arxiv171106782",
+    "title": "Leave no Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning",
+    "authors": [
+      "Benjamin Eysenbach",
+      "Shixiang Gu",
+      "Julian Ibarz",
+      "Sergey Levine"
+    ],
+    "year": 2018,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/1711.06782v1",
+    "doi": ""
+  },
+  {
+    "id": "arxiv180311347",
+    "title": "Learning to Adapt in Dynamic, Real-World Environments Through Meta-Reinforcement Learning",
+    "authors": [
+      "Anusha Nagabandi",
+      "Ignasi Clavera",
+      "Simin Liu",
+      "Ronald S. Fearing",
+      "Pieter Abbeel",
+      "Sergey Levine",
+      "Chelsea Finn"
+    ],
+    "year": 2019,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/1803.11347v6",
+    "doi": ""
+  },
+  {
+    "id": "arxiv180512114",
+    "title": "Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models",
+    "authors": [
+      "Kurtland Chua",
+      "Roberto Calandra",
+      "Rowan McAllister",
+      "Sergey Levine"
+    ],
+    "year": 2018,
+    "venue": "Advances in Neural Information Processing Systems",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/1805.12114v2",
+    "doi": ""
+  },
+  {
+    "id": "arxiv190608253",
+    "title": "When to Trust Your Model: Model-Based Policy Optimization",
+    "authors": [
+      "Michael Janner",
+      "Justin Fu",
+      "Marvin Zhang",
+      "Sergey Levine"
+    ],
+    "year": 2019,
+    "venue": "Advances in Neural Information Processing Systems",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/1906.08253v3",
+    "doi": ""
+  },
+  {
+    "id": "arxiv210605091",
+    "title": "PEBBLE: Feedback-Efficient Interactive Reinforcement Learning via Relabeling Experience and Unsupervised Pre-training",
+    "authors": [
+      "Kimin Lee",
+      "Laura Smith",
+      "Pieter Abbeel"
+    ],
+    "year": 2021,
+    "venue": "International Conference on Machine Learning",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2106.05091v1",
+    "doi": ""
+  },
+  {
+    "id": "arxiv210704034",
+    "title": "RMA: Rapid Motor Adaptation for Legged Robots",
+    "authors": [
+      "Ashish Kumar",
+      "Zipeng Fu",
+      "Deepak Pathak",
+      "Jitendra Malik"
+    ],
+    "year": 2021,
+    "venue": "Robotics: Science and Systems",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2107.04034",
+    "doi": ""
+  },
+  {
+    "id": "arxiv220614349",
+    "title": "Fleet-DAgger: Interactive Robot Fleet Learning with Scalable Human Supervision",
+    "authors": [
+      "Ryan Hoque",
+      "Lawrence Yunliang Chen",
+      "Satvik Sharma",
+      "Karthik Dharmarajan",
+      "Brijen Thananjeyan",
+      "Pieter Abbeel",
+      "Ken Goldberg"
+    ],
+    "year": 2022,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2206.14349",
+    "doi": ""
+  },
+  {
+    "id": "arxiv221108416",
+    "title": "Robot Learning on the Job: Human-in-the-Loop Autonomy and Learning During Deployment",
+    "authors": [
+      "Huihan Liu",
+      "Soroush Nasiriany",
+      "Lance Zhang",
+      "Zhiyao Bao",
+      "Yuke Zhu"
+    ],
+    "year": 2023,
+    "venue": "Robotics: Science and Systems",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2211.08416",
+    "doi": ""
+  },
+  {
+    "id": "arxiv230206604",
+    "title": "ALAN: Autonomously Exploring Robotic Agents in the Real World",
+    "authors": [
+      "Russell Mendonca",
+      "Shikhar Bahl",
+      "Deepak Pathak"
+    ],
+    "year": 2023,
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2302.06604",
+    "doi": ""
+  },
+  {
+    "id": "arxiv230304137",
+    "title": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion",
+    "authors": [
+      "Cheng Chi",
+      "Siyuan Feng",
+      "Yilun Du",
+      "Zhenjia Xu",
+      "Eric Cousineau",
+      "Benjamin Burchfiel",
+      "Shuran Song"
+    ],
+    "year": 2023,
+    "venue": "Robotics: Science and Systems",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2303.04137v1",
+    "doi": ""
+  },
+  {
+    "id": "arxiv230311366",
+    "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+    "authors": [
+      "Noah Shinn",
+      "Federico Cassano",
+      "Ashwin Gopinath",
+      "Karthik Narasimhan",
+      "Shunyu Yao"
+    ],
+    "year": 2023,
+    "venue": "Advances in Neural Information Processing Systems",
+    "type": "conference",
+    "url": "https://doi.org/10.52202/075280-0377",
+    "doi": "10.52202/075280-0377"
+  },
+  {
+    "id": "arxiv230516291",
+    "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+    "authors": [
+      "Guanzhi Wang",
+      "Yuqi Xie",
+      "Yunfan Jiang",
+      "Ajay Mandlekar",
+      "Chaowei Xiao",
+      "Yuke Zhu",
+      "Linxi Fan",
+      "Anima Anandkumar"
+    ],
+    "year": 2024,
+    "venue": "Transactions on Machine Learning Research",
+    "type": "journal",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "arxiv230603310",
+    "title": "LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning",
+    "authors": [
+      "Bo Liu",
+      "Yifeng Zhu",
+      "Chongkai Gao",
+      "Yihao Feng",
+      "Qiang Liu",
+      "Yuke Zhu",
+      "Peter Stone"
+    ],
+    "year": 2023,
+    "venue": "Advances in Neural Information Processing Systems",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2306.03310v2",
+    "doi": ""
+  },
+  {
+    "id": "arxiv230611706",
+    "title": "RoboCat: A Self-Improving Generalist Agent for Robotic Manipulation",
+    "authors": [
+      "Konstantinos Bousmalis",
+      "Giulia Vezzani",
+      "Dushyant Rao",
+      "Coline Devin",
+      "Alex X. Lee",
+      "Maria Bauza",
+      "et al."
+    ],
+    "year": 2024,
+    "venue": "Transactions on Machine Learning Research",
+    "type": "journal",
+    "url": "https://arxiv.org/abs/2306.11706",
+    "doi": ""
+  },
+  {
+    "id": "arxiv230914321",
+    "title": "Lifelong Robot Learning with Human Assisted Language Planners",
+    "authors": [
+      "Meenal Parakh",
+      "Alisha Fong",
+      "Anthony Simeonov",
+      "Tao Chen",
+      "Abhishek Gupta",
+      "Pulkit Agrawal"
+    ],
+    "year": 2024,
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2309.14321",
+    "doi": ""
+  },
+  {
+    "id": "arxiv231008864",
+    "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+    "authors": [
+      "Open X-Embodiment Collaboration",
+      "et al."
+    ],
+    "year": 2024,
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "type": "conference",
+    "url": "https://doi.org/10.1109/ICRA57147.2024.10611477",
+    "doi": "10.1109/ICRA57147.2024.10611477"
+  },
+  {
+    "id": "arxiv231017552",
+    "title": "Model-Based Runtime Monitoring with Interactive Imitation Learning",
+    "authors": [
+      "Huihan Liu",
+      "Shivin Dass",
+      "Roberto Martín-Martín",
+      "Yuke Zhu"
+    ],
+    "year": 2024,
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2310.17552",
+    "doi": ""
+  },
+  {
+    "id": "arxiv231102058",
+    "title": "LOTUS: Continual Imitation Learning for Robot Manipulation Through Unsupervised Skill Discovery",
+    "authors": [
+      "Weikang Wan",
+      "Yifeng Zhu",
+      "Rutav Shah",
+      "Yuke Zhu"
+    ],
+    "year": 2024,
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2311.02058",
+    "doi": ""
+  },
+  {
+    "id": "arxiv240312945",
+    "title": "DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset",
+    "authors": [
+      "Alexander Khazatsky",
+      "Karl Pertsch",
+      "Suraj Nair",
+      "Ashwin Balakrishna",
+      "Sudeep Dasari",
+      "Siddharth Karamcheti",
+      "Soroush Nasiriany",
+      "Mohan Kumar Srirama",
+      "Lawrence Yunliang Chen",
+      "Kirsty Ellis",
+      "et al."
+    ],
+    "year": 2024,
+    "venue": "Robotics: Science and Systems",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2403.12945v2",
+    "doi": ""
+  },
+  {
+    "id": "arxiv240505941",
+    "title": "Evaluating Real-World Robot Manipulation Policies in Simulation",
+    "authors": [
+      "Xuanlin Li",
+      "Kyle Hsu",
+      "Jiayuan Gu",
+      "Karl Pertsch",
+      "Oier Mees",
+      "Homer Rich Walke",
+      "Chuyuan Fu",
+      "Ishikaa Lunawat",
+      "Isabel Sieh",
+      "Sean Kirmani",
+      "Sergey Levine",
+      "Jiajun Wu",
+      "Chelsea Finn",
+      "Hao Su",
+      "Quan Vuong",
+      "Ted Xiao"
+    ],
+    "year": 2024,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2405.05941v1",
+    "doi": ""
+  },
+  {
+    "id": "arxiv240507515",
+    "title": "OpenBot-Fleet: A System for Collective Learning with Real Robots",
+    "authors": [
+      "Matthias Müller",
+      "Samarth Brahmbhatt",
+      "Ankur Deka",
+      "Quentin Leboutet",
+      "David Hafner",
+      "Vladlen Koltun"
+    ],
+    "year": 2024,
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2405.07515",
+    "doi": ""
+  },
+  {
+    "id": "arxiv240602523",
+    "title": "RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots",
+    "authors": [
+      "Soroush Nasiriany",
+      "Abhiram Maddukuri",
+      "Lance Zhang",
+      "Adeet Parikh",
+      "Aaron Lo",
+      "Abhishek Joshi",
+      "Ajay Mandlekar",
+      "Yuke Zhu"
+    ],
+    "year": 2024,
+    "venue": "Robotics: Science and Systems",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2406.02523v1",
+    "doi": ""
+  },
+  {
+    "id": "arxiv240609246",
+    "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+    "authors": [
+      "Moo Jin Kim",
+      "Karl Pertsch",
+      "Siddharth Karamcheti",
+      "Ted Xiao",
+      "Ashwin Balakrishna",
+      "Suraj Nair",
+      "Rafael Rafailov",
+      "Ethan Foster",
+      "Pannag Sanketi",
+      "Quan Vuong",
+      "Thomas Kollar",
+      "Benjamin Burchfiel",
+      "Russ Tedrake",
+      "Dorsa Sadigh",
+      "Sergey Levine",
+      "Percy Liang",
+      "Chelsea Finn"
+    ],
+    "year": 2024,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2406.09246v3",
+    "doi": ""
+  },
+  {
+    "id": "arxiv240618746",
+    "title": "Lifelong Robot Library Learning: Bootstrapping Composable and Generalizable Skills for Embodied Control with Language Models",
+    "authors": [
+      "Georgios Tziafas",
+      "Hamidreza Kasaei"
+    ],
+    "year": 2024,
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2406.18746v2",
+    "doi": ""
+  },
+  {
+    "id": "arxiv240716677",
+    "title": "From Imitation to Refinement – Residual RL for Precise Assembly",
+    "authors": [
+      "Lars Ankile",
+      "Anthony Simeonov",
+      "Idan Shenfeld",
+      "Marcel Torne",
+      "Pulkit Agrawal"
+    ],
+    "year": 2025,
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "type": "conference",
+    "url": "https://doi.org/10.1109/ICRA55743.2025.11127442",
+    "doi": "10.1109/ICRA55743.2025.11127442"
+  },
+  {
+    "id": "arxiv240720635",
+    "title": "Autonomous Improvement of Instruction Following Skills via Foundation Models",
+    "authors": [
+      "Zhiyuan Zhou",
+      "Pranav Atreya",
+      "Abraham Lee",
+      "Homer Walke",
+      "Oier Mees",
+      "Sergey Levine"
+    ],
+    "year": 2025,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "arxiv240916578",
+    "title": "FLaRe: Achieving Masterful and Adaptive Robot Policies with Large-Scale Reinforcement Learning Fine-Tuning",
+    "authors": [
+      "Jiaheng Hu",
+      "Rose Hendrix",
+      "Ali Farhadi",
+      "Aniruddha Kembhavi",
+      "Roberto Martin-Martin",
+      "Peter Stone",
+      "Kuo-Hao Zeng",
+      "Kiana Ehsani"
+    ],
+    "year": 2025,
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "type": "conference",
+    "url": "https://doi.org/10.1109/ICRA55743.2025.11127934",
+    "doi": "10.1109/ICRA55743.2025.11127934"
+  },
+  {
+    "id": "arxiv241013816",
+    "title": "Steering Your Generalists: Improving Robotic Foundation Models via Value Guidance",
+    "authors": [
+      "Mitsuhiko Nakamoto",
+      "Oier Mees",
+      "Aviral Kumar",
+      "Sergey Levine"
+    ],
+    "year": 2024,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2410.13816v2",
+    "doi": ""
+  },
+  {
+    "id": "arxiv241021845",
+    "title": "Precise and Dexterous Robotic Manipulation via Human-in-the-Loop Reinforcement Learning",
+    "authors": [
+      "Jianlan Luo",
+      "Charles Xu",
+      "Jeffrey Wu",
+      "Sergey Levine"
+    ],
+    "year": 2025,
+    "venue": "Science Robotics",
+    "type": "journal",
+    "url": "https://doi.org/10.1126/scirobotics.ads5033",
+    "doi": "10.1126/scirobotics.ads5033"
+  },
+  {
+    "id": "arxiv241024164",
+    "title": "π₀: A Vision-Language-Action Flow Model for General Robot Control",
+    "authors": [
+      "Kevin Black",
+      "Noah Brown",
+      "Danny Driess",
+      "Adnan Esmail",
+      "Michael Equi",
+      "Chelsea Finn",
+      "Niccolo Fusai",
+      "Lachy Groom",
+      "Karol Hausman",
+      "Brian Ichter",
+      "et al."
+    ],
+    "year": 2025,
+    "venue": "Robotics: Science and Systems",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2410.24164v4",
+    "doi": ""
+  },
+  {
+    "id": "arxiv241101813",
+    "title": "So You Think You Can Scale Up Autonomous Robot Data Collection?",
+    "authors": [
+      "Suvir Mirchandani",
+      "Suneel Belkhale",
+      "Joey Hejna",
+      "Evelyn Choi",
+      "Md Sazzad Islam",
+      "Dorsa Sadigh"
+    ],
+    "year": 2025,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "arxiv241206685",
+    "title": "Policy Agnostic RL: Offline RL and Online RL Fine-Tuning of Any Class and Backbone",
+    "authors": [
+      "Max Sobol Mark",
+      "Tian Gao",
+      "Georgia Gabriela Sampaio",
+      "Mohan Kumar Srirama",
+      "Archit Sharma",
+      "Chelsea Finn",
+      "Aviral Kumar"
+    ],
+    "year": 2024,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2412.06685v1",
+    "doi": ""
+  },
+  {
+    "id": "arxiv250307087",
+    "title": "iManip: Skill-Incremental Learning for Robotic Manipulation",
+    "authors": [
+      "Zexin Zheng",
+      "Jia-Feng Cai",
+      "Xiao-Ming Wu",
+      "Yi-Lin Wei",
+      "Yu-Ming Tang",
+      "Ancong Wu",
+      "Wei-Shi Zheng"
+    ],
+    "year": 2025,
+    "venue": "IEEE/CVF International Conference on Computer Vision",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2503.07087",
+    "doi": ""
+  },
+  {
+    "id": "arxiv250308153",
+    "title": "WISA: World Simulator Assistant for Physics-Aware Text-to-Video Generation",
+    "authors": [
+      "Jing Wang",
+      "Ao Ma",
+      "Ke Cao",
+      "Jun Zheng",
+      "Jiasong Feng",
+      "Zhanjie Zhang",
+      "Wanyuan Pang",
+      "Xiaodan Liang"
+    ],
+    "year": 2025,
+    "venue": "Advances in Neural Information Processing Systems",
+    "type": "conference",
+    "url": "https://doi.org/10.52202/085713-0191",
+    "doi": "10.52202/085713-0191"
+  },
+  {
+    "id": "arxiv250309595",
+    "title": "PISA Experiments: Exploring Physics Post-Training for Video Diffusion Models by Watching Stuff Drop",
+    "authors": [
+      "Chenyu Li",
+      "Oscar Michel",
+      "Xichen Pan",
+      "Sainan Liu",
+      "Mike Roberts",
+      "Saining Xie"
+    ],
+    "year": 2025,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2503.09595",
+    "doi": ""
+  },
+  {
+    "id": "arxiv250421486",
+    "title": "Provably-Safe, Online System Identification",
+    "authors": [
+      "Bohao Zhang",
+      "Zichang Zhou",
+      "Ram Vasudevan"
+    ],
+    "year": 2025,
+    "venue": "Robotics: Science and Systems",
+    "type": "conference",
+    "url": "https://doi.org/10.15607/RSS.2025.XXI.121",
+    "doi": "10.15607/RSS.2025.XXI.121"
+  },
+  {
+    "id": "arxiv250510911",
+    "title": "ReWiND: Language-Guided Rewards Teach Robot Policies without New Demonstrations",
+    "authors": [
+      "Jiahui Zhang",
+      "Yusen Luo",
+      "Abrar Anwar",
+      "Sumedh Anand Sontakke",
+      "Joseph J Lim",
+      "Jesse Thomason",
+      "Erdem Biyik",
+      "Jesse Zhang"
+    ],
+    "year": 2025,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2505.10911v2",
+    "doi": ""
+  },
+  {
+    "id": "arxiv250518719",
+    "title": "VLA-RL: Towards Masterful and General Robotic Manipulation with Scalable Reinforcement Learning",
+    "authors": [
+      "Guanxing Lu",
+      "Wenkai Guo",
+      "Chubin Zhang",
+      "Yuheng Zhou",
+      "Haonan Jiang",
+      "Zifeng Gao",
+      "Yansong Tang",
+      "Ziwei Wang"
+    ],
+    "year": 2025,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2505.18719v1",
+    "doi": ""
+  },
+  {
+    "id": "arxiv250606658",
+    "title": "Self-Improving Loops for Visual Robotic Planning",
+    "authors": [
+      "Calvin Luo",
+      "Zilai Zeng",
+      "Mingxi Jia",
+      "Yilun Du",
+      "Chen Sun"
+    ],
+    "year": 2026,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2506.06658",
+    "doi": ""
+  },
+  {
+    "id": "arxiv250609985",
+    "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+    "authors": [
+      "Mido Assran",
+      "Adrien Bardes",
+      "David Fan",
+      "Quentin Garrido",
+      "Russell Howes",
+      "Mojtaba Komeili",
+      "Matthew Muckley",
+      "Ammar Rizvi",
+      "Claire Roberts",
+      "et al."
+    ],
+    "year": 2025,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2506.09985",
+    "doi": ""
+  },
+  {
+    "id": "arxiv250613131",
+    "title": "AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery",
+    "authors": [
+      "Alexander Novikov",
+      "Ngân Vũ",
+      "Marvin Eisenberger",
+      "Emilien Dupont",
+      "Po-Sen Huang",
+      "Adam Zsolt Wagner",
+      "Sergey Shirobokov",
+      "Borislav Kozlovskii",
+      "Francisco J. R. Ruiz",
+      "Abbas Mehrabian",
+      "M. Pawan Kumar",
+      "Abigail See",
+      "Swarat Chaudhuri",
+      "George Holland",
+      "Alex Davies",
+      "Sebastian Nowozin",
+      "Pushmeet Kohli",
+      "Matej Balog"
+    ],
+    "year": 2025,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2506.13131",
+    "doi": ""
+  },
+  {
+    "id": "arxiv250615799",
+    "title": "Steering Your Diffusion Policy with Latent Space Reinforcement Learning",
+    "authors": [
+      "Andrew Wagenmaker",
+      "Yunchu Zhang",
+      "Mitsuhiko Nakamoto",
+      "Seohong Park",
+      "Waleed Yagoub",
+      "Anusha Nagabandi",
+      "Abhishek Gupta",
+      "Sergey Levine"
+    ],
+    "year": 2025,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2506.15799v2",
+    "doi": ""
+  },
+  {
+    "id": "arxiv250801415",
+    "title": "RoboMemory: A Brain-inspired Multi-memory Agentic Framework for Interactive Environmental Learning in Physical Embodied Systems",
+    "authors": [
+      "Mingcong Lei",
+      "Honghao Cai",
+      "Yuyuan Yang",
+      "Yimou Wu",
+      "Jinke Ren",
+      "Zezhou Cui",
+      "Liangchen Tan",
+      "Junkun Hong",
+      "Gehan Hu",
+      "Shuangyu Zhu",
+      "Shaohan Jiang",
+      "Ge Wang",
+      "Junyuan Tan",
+      "Zhenglin Wan",
+      "Zheng Li",
+      "Zhen Li",
+      "Shuguang Cui",
+      "Yiming Zhao",
+      "Yatong Han"
+    ],
+    "year": 2025,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2508.01415",
+    "doi": ""
+  },
+  {
+    "id": "arxiv250909674",
+    "title": "SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning",
+    "authors": [
+      "Haozhan Li",
+      "Yuxin Zuo",
+      "Jiale Yu",
+      "Yuhao Zhang",
+      "Zhaohui Yang",
+      "Kaiyan Zhang",
+      "Xuekai Zhu",
+      "Yuchen Zhang",
+      "Tianxing Chen",
+      "Ganqu Cui",
+      "et al."
+    ],
+    "year": 2026,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2509.09674v1",
+    "doi": ""
+  },
+  {
+    "id": "arxiv250915155",
+    "title": "Self-Improving Embodied Foundation Models",
+    "authors": [
+      "Seyed Kamyar Seyed Ghasemipour",
+      "Ayzaan Wahid",
+      "Jonathan Tompson",
+      "Pannag Sanketi",
+      "Igor Mordatch"
+    ],
+    "year": 2025,
+    "venue": "Advances in Neural Information Processing Systems",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2509.15155",
+    "doi": ""
+  },
+  {
+    "id": "arxiv251003827",
+    "title": "LIBERO-PRO: Towards Robust and Fair Evaluation of Vision-Language-Action Models Beyond Memorization",
+    "authors": [
+      "Xueyang Zhou",
+      "Yangming Xu",
+      "Guiyao Tie",
+      "Yongchao Chen",
+      "Guowen Zhang",
+      "Duanfeng Chu",
+      "Pan Zhou",
+      "Lichao Sun"
+    ],
+    "year": 2025,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2510.03827v2",
+    "doi": ""
+  },
+  {
+    "id": "arxiv251004978",
+    "title": "Aligning Perception, Reasoning, Modeling and Interaction: A Survey on Physical AI",
+    "authors": [
+      "Kun Xiang",
+      "Terry Jingchen Zhang",
+      "Yinya Huang",
+      "Jixi He",
+      "Zirong Liu",
+      "Yueling Tang",
+      "Ruizhe Zhou",
+      "Lijing Luo",
+      "Youpeng Wen",
+      "Xiuwei Chen",
+      "Bingqian Lin",
+      "Jianhua Han",
+      "Hang Xu",
+      "Hanhui Li",
+      "Bin Dong",
+      "Xiaodan Liang"
+    ],
+    "year": 2025,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2510.04978",
+    "doi": ""
+  },
+  {
+    "id": "arxiv251100091",
+    "title": "Self-Improving Vision-Language-Action Models with Data Generation via Residual RL",
+    "authors": [
+      "Wenli Xiao",
+      "Haotian Lin",
+      "Andy Peng",
+      "Haoru Xue",
+      "Tairan He",
+      "Zhengyi Luo",
+      "Yuqi Xie",
+      "Fengyuan Hu",
+      "Linxi \"Jim\" Fan",
+      "Guanya Shi",
+      "Yuke Zhu"
+    ],
+    "year": 2026,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2511.00091v1",
+    "doi": ""
+  },
+  {
+    "id": "arxiv251101177",
+    "title": "Scaling Cross-Embodiment World Models for Dexterous Manipulation",
+    "authors": [
+      "Zihao He",
+      "Bo Ai",
+      "Tongzhou Mu",
+      "Yulin Liu",
+      "Weikang Wan",
+      "Jiawei Fu",
+      "Yilun Du",
+      "Henrik I. Christensen",
+      "Hao Su"
+    ],
+    "year": 2026,
+    "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2511.01177",
+    "doi": ""
+  },
+  {
+    "id": "arxiv251114759",
+    "title": "π*₀.₆: a VLA That Learns From Experience",
+    "authors": [
+      "Physical Intelligence",
+      "Ali Amin",
+      "Raichelle Aniceto",
+      "Ashwin Balakrishna",
+      "Kevin Black",
+      "Ken Conley",
+      "Grace Connors",
+      "James Darpinian",
+      "Karan Dhabalia",
+      "Jared DiCarlo",
+      "et al."
+    ],
+    "year": 2026,
+    "venue": "Robotics: Science and Systems",
+    "type": "conference",
+    "url": "https://doi.org/10.15607/RSS.2026.XXII.087",
+    "doi": "10.15607/RSS.2026.XXII.087"
+  },
+  {
+    "id": "arxiv260100675",
+    "title": "RoboReward: General-Purpose Vision-Language Reward Models for Robotics",
+    "authors": [
+      "Tony Lee",
+      "Andrew Wagenmaker",
+      "Karl Pertsch",
+      "Percy Liang",
+      "Sergey Levine",
+      "Chelsea Finn"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2601.00675v2",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260109512",
+    "title": "CLARE: Continual Learning for Vision-Language-Action Models via Autonomous Adapter Routing and Expansion",
+    "authors": [
+      "Ralf Römer",
+      "Yi Zhang",
+      "Yuming Li",
+      "Angela P. Schoellig"
+    ],
+    "year": 2026,
+    "venue": "IEEE Robotics and Automation Letters",
+    "type": "journal",
+    "url": "https://doi.org/10.1109/LRA.2026.3693992",
+    "doi": "10.1109/LRA.2026.3693992"
+  },
+  {
+    "id": "arxiv260115533",
+    "title": "From Generative Engines to Actionable Simulators: The Imperative of Physical Grounding in World Models",
+    "authors": [
+      "Zhikang Chen",
+      "Tingting Zhu"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2601.15533",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260204411",
+    "title": "Self-evolving Embodied AI",
+    "authors": [
+      "Tongtong Feng",
+      "Xin Wang",
+      "Wenwu Zhu"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2602.04411",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260210111",
+    "title": "Learning Agile Quadrotor Flight in the Real World",
+    "authors": [
+      "Yunfan Ren",
+      "Zhiyuan Zhu",
+      "Jiaxu Xing",
+      "Davide Scaramuzza"
+    ],
+    "year": 2026,
+    "venue": "Robotics: Science and Systems",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2602.10111",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260211075",
+    "title": "RISE: Self-Improving Robot Policy with Compositional World Model",
+    "authors": [
+      "Jiazhi Yang",
+      "Kunyang Lin",
+      "Jinwei Li",
+      "Wencong Zhang",
+      "Tianwei Lin",
+      "Longyan Wu",
+      "et al."
+    ],
+    "year": 2026,
+    "venue": "Robotics: Science and Systems",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2602.11075",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260212063",
+    "title": "VLAW: Iterative Co-Improvement of Vision-Language-Action Policy and World Model",
+    "authors": [
+      "Yanjiang Guo",
+      "Tony Lee",
+      "Lucy Xiaoyang Shi",
+      "Jianyu Chen",
+      "Percy Liang",
+      "Chelsea Finn"
+    ],
+    "year": 2026,
+    "venue": "International Conference on Machine Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260212099",
+    "title": "GigaBrain-0.5M*: a VLA That Learns From World Model-Based Reinforcement Learning",
+    "authors": [
+      "GigaBrain Team",
+      "Boyuan Wang",
+      "Bohan Li",
+      "Chaojun Ni",
+      "Guan Huang",
+      "Guosheng Zhao",
+      "Hao Li",
+      "Jie Li",
+      "Jindi Lv",
+      "Jingyu Liu",
+      "et al."
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2602.12099",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260302623",
+    "title": "Uni-Skill: Building Self-Evolving Skill Repository for Generalizable Robotic Manipulation",
+    "authors": [
+      "Senwei Xie",
+      "Yuntian Zhang",
+      "Ruiping Wang",
+      "Xilin Chen"
+    ],
+    "year": 2026,
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2603.02623",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260304029",
+    "title": "Self-adapting Robotic Agents through Online Continual Reinforcement Learning with World Model Feedback",
+    "authors": [
+      "Fabian Domberg",
+      "Georg Schildbach"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2603.04029",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260307648",
+    "title": "AtomicVLA: Unlocking the Potential of Atomic Skill Learning in Robots",
+    "authors": [
+      "Likui Zhang",
+      "Tao Tang",
+      "Zhihao Zhan",
+      "Xiuwei Chen",
+      "Zisheng Chen",
+      "Jianhua Han",
+      "Jiangtong Zhu",
+      "Pei Xu",
+      "Hang Xu",
+      "Hefeng Wu",
+      "Liang Lin",
+      "Xiaodan Liang"
+    ],
+    "year": 2026,
+    "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260308403",
+    "title": "SPIRAL: Self-Evolving Action-Conditioned Video Generation via Reflective Planning Agents",
+    "authors": [
+      "Yu Yang",
+      "Yue Liao",
+      "Jianbiao Mei",
+      "Baisen Wang",
+      "Xuemeng Yang",
+      "Licheng Wen",
+      "Jiangning Zhang",
+      "Xiangtai Li",
+      "Liang Lv",
+      "Hanlin Chen",
+      "Botian Shi",
+      "Yong Liu",
+      "Shuicheng Yan",
+      "Gim Hee Lee"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2603.08403",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260309030",
+    "title": "PlayWorld: Learning Robot World Models from Autonomous Play",
+    "authors": [
+      "Tenny Yin",
+      "Zhiting Mei",
+      "Zhonghe Zheng",
+      "Miyu Yamane",
+      "David Wang",
+      "Jade Sceats",
+      "Samuel M. Bateman",
+      "Lihan Zha",
+      "Apurva Badithela",
+      "Ola Shorinwa",
+      "Anirudha Majumdar"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2603.09030",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260500080",
+    "title": "World Model for Robot Learning: A Comprehensive Survey",
+    "authors": [
+      "Bohan Hou",
+      "Gen Li",
+      "Jindou Jia",
+      "Tuo An",
+      "Xinying Guo",
+      "Sicong Leng",
+      "Haoran Geng",
+      "Yanjie Ze",
+      "Tatsuya Harada",
+      "Philip Torr",
+      "Oier Mees",
+      "Marc Pollefeys",
+      "Zhuang Liu",
+      "Jiajun Wu",
+      "Pieter Abbeel",
+      "Jitendra Malik",
+      "Yilun Du",
+      "Jianfei Yang"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2605.00080",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260500416",
+    "title": "Learning While Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies",
+    "authors": [
+      "Yi Wang",
+      "Xinchen Li",
+      "Pengwei Xie",
+      "Pu Yang",
+      "Buqing Nie",
+      "Yunuo Cai",
+      "Qinglin Zhang",
+      "Chendi Qu",
+      "Jeffrey Wu",
+      "Jianheng Song",
+      "Xinlin Ren",
+      "Jingshun Huang",
+      "Mingjie Pan",
+      "Siyuan Feng",
+      "Zhi Chen",
+      "Jianlan Luo"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2605.00416",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260518729",
+    "title": "Robo-Cortex: A Self-Evolving Embodied Agent via Dual-Grain Cognitive Memory and Autonomous Knowledge Induction",
+    "authors": [
+      "Nga Teng Chan",
+      "Yi Zhang",
+      "Yechi Liu",
+      "Renwen Cui",
+      "Fanhu Zeng",
+      "Zeyuan Ding",
+      "Xiancong Ren",
+      "Zhang Zhang",
+      "Qifeng Chen",
+      "Jian Liu",
+      "Yong Dai",
+      "Xiaozhu Ju"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2605.18729",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260600113",
+    "title": "World Models for Robotic Manipulation: A Survey",
+    "authors": [
+      "Fangyuan Wang",
+      "Ziyuan Wang",
+      "Guorui Pei",
+      "Mengshi Zhang",
+      "Canxi Liang",
+      "Jun Hu",
+      "Zhongxuan Li",
+      "Jinsong Wu",
+      "Ning Han",
+      "Zeqing Zhang",
+      "Jiaming Qi",
+      "Hongmin Wu",
+      "Shiyao Zhang",
+      "Pai Zheng",
+      "Jia Pan",
+      "David Navarro-Alarcon",
+      "Sichao Liu",
+      "Peng Zhou"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2606.00113",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260605395",
+    "title": "VASO: Formally Verifiable Self-Evolving Skills for Physical AI Agents",
+    "authors": [
+      "Yunhao Yang",
+      "Neel P. Bhatt",
+      "Kevin Wang",
+      "Samuel Tetteh",
+      "Zhangyang Wang",
+      "Ufuk Topcu"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2606.05395",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260609337",
+    "title": "TORL-VLA: Tactile Guided Online Reinforcement Learning for Contact-Rich Manipulation",
+    "authors": [
+      "Huaihang Zheng",
+      "Yi Yang",
+      "Kai Ma",
+      "Shenglin Xu",
+      "Tian Xie",
+      "Guozheng Li",
+      "Xiangyu Wang",
+      "Yiren Ma",
+      "Si Liu",
+      "Yinian Mao",
+      "Baoxu Liu"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2606.09337v3",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260610305",
+    "title": "SARM2: Multi-Task Stage Aware Reward Modeling for Self Improving Robotic Manipulation",
+    "authors": [
+      "Qianzhong Chen",
+      "Hau Zheng",
+      "Justin Yu",
+      "Suning Huang",
+      "Jiankai Sun",
+      "Ken Goldberg",
+      "Chuan Wen",
+      "Pieter Abbeel",
+      "Yide Shentu",
+      "Philipp Wu",
+      "Mac Schwager"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2606.10305",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260610927",
+    "title": "AllDayNav: Lifelong Navigation via Real-World Reinforcement Learning",
+    "authors": [
+      "Hang Yin",
+      "Yinan Liang",
+      "Jiazhao Zhang",
+      "Jiahang Liu",
+      "Minghan Li",
+      "Zhizheng Zhang",
+      "He Wang"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2606.10927",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260618247",
+    "title": "Visual Verification Enables Inference-time Steering and Autonomous Policy Improvement",
+    "authors": [
+      "Mingtong Zhang",
+      "Dhruv Shah"
+    ],
+    "year": 2026,
+    "venue": "Robotics: Science and Systems",
+    "type": "conference",
+    "url": "https://doi.org/10.15607/RSS.2026.XXII.079",
+    "doi": "10.15607/RSS.2026.XXII.079"
+  },
+  {
+    "id": "arxiv260618328",
+    "title": "Recover, Discover, Plan: Learning Skills and Concepts from Robot Failures",
+    "authors": [
+      "Bowen Li",
+      "Mayank Mishra",
+      "Y. Isabel Liu",
+      "Stone Tao",
+      "Nishanth Kumar",
+      "Alexander G. Gray",
+      "Ruwan Wickramarachchi",
+      "Jonathan Francis",
+      "Sebastian Scherer",
+      "Tom Silver"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2606.18328",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260618960",
+    "title": "Mem-World: Memory-Augmented Action-Conditioned World Models for Persistent Robot Manipulation",
+    "authors": [
+      "Zirui Zheng",
+      "Jiaqian Yu",
+      "Xiongfeng Peng",
+      "jun shi",
+      "Mingyi Li",
+      "Chao Zhang",
+      "Weiming Li",
+      "Dong Wang",
+      "Huchuan Lu",
+      "Xu Jia"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2606.18960",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260619980",
+    "title": "ENPIRE: Agentic Robot Policy Self-Improvement in the Real World",
+    "authors": [
+      "Wenli Xiao",
+      "Jia Xie",
+      "Tonghe Zhang",
+      "Haotian Lin",
+      "Letian \"Max\" Fu",
+      "Haoru Xue",
+      "Jalen Lu",
+      "Yi Yang",
+      "Cunxi Dai",
+      "Zi Wang",
+      "Jimmy Wu",
+      "Guanzhi Wang",
+      "S. Shankar Sastry",
+      "Ken Goldberg",
+      "Linxi \"Jim\" Fan",
+      "Yuke Zhu",
+      "Guanya Shi"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2606.19980",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260627353",
+    "title": "Continual Robot Policy Learning via Variational Neural Dynamics",
+    "authors": [
+      "Jiaxu Xing",
+      "Zhiyuan Zhu",
+      "Yunfan Ren",
+      "Ismail Geles",
+      "Yifan Zhai",
+      "Rudolf Reiter",
+      "Davide Scaramuzza"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2606.27353",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260630988",
+    "title": "Multisensory Continual Learning: Adapting Pretrained Visuomotor Policies to Force",
+    "authors": [
+      "Jaden Clark",
+      "Changhao Wang",
+      "Yihuai Gao",
+      "Seongheon Hong",
+      "Hojung Choi",
+      "Mark Cutkosky",
+      "Yifan Hou",
+      "Shuran Song"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2606.30988v3",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260700272",
+    "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+    "authors": [
+      "Runyu Lu",
+      "Yubo Wu",
+      "Ethan Kou",
+      "Letian Fu",
+      "Wenli Xiao",
+      "Ajay Mandlekar",
+      "Yinzhen Xu",
+      "Guanya Shi",
+      "Ken Goldberg",
+      "Ang Chen",
+      "Mosharaf Chowdhury",
+      "Yuke Zhu",
+      "Linxi \"Jim\" Fan",
+      "Guanzhi Wang"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2607.00272v1",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260707663",
+    "title": "Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops",
+    "authors": [
+      "Mingguang Chen",
+      "Licheng Wang",
+      "Bo Qu"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2607.07663",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260714852",
+    "title": "Towards Human-like Physical Intelligence: Lifelong Vision-Language-Action Learning for Robotic Manipulation",
+    "authors": [
+      "Yao He",
+      "Gan Sun",
+      "Wenqi Liang",
+      "Fazeng Li",
+      "Yang Cong"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2607.14852",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260716636",
+    "title": "PhyAgentOS: A Self-Evolving Operating System for Embodied Agents with Decoupled Cognitive Planning and Physical Execution",
+    "authors": [
+      "Yang Liu",
+      "Weixing Chen",
+      "Xinshuai Song",
+      "Tao Pu",
+      "Siwen Mo",
+      "Yongjie Bai",
+      "Zihao Chen",
+      "Qianran Sun",
+      "Liruo Zhong",
+      "Ying Shen",
+      "Liang Lin"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2607.16636",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260727017",
+    "title": "What Can Latent World Models Know? Physical Information in Multimodal Predictive Representations",
+    "authors": [
+      "Kaizhen Tan",
+      "Sizhe Xu",
+      "Xin Xu",
+      "Siru Tao",
+      "Yixiao Li",
+      "Hanzhe Hong",
+      "Yang Feng",
+      "Heqing Du",
+      "Zhaonan Wang"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2607.27017",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260728251",
+    "title": "Self-Evolving Learning for Embodied AI with Criticality Model",
+    "authors": [
+      "Linxuan He",
+      "Yuying Tian",
+      "Lingxiang Fan",
+      "Jiaqi Pi",
+      "Yinqiao Lu",
+      "Shang Su",
+      "Mengkai Shi",
+      "Shuo Feng"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2607.28251",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260801851",
+    "title": "Weights or Skills? A Survey of Robot-Learning Techniques: from Action-Predicting Weights to Robots that Write their Own Skills",
+    "authors": [
+      "Gaytri Jena",
+      "Kapil Wanaskar",
+      "Vinija Jain",
+      "Aman Chadha",
+      "Vasu Sharma",
+      "Amitava Das"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2608.01851v1",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260805799",
+    "title": "XEWorld: Can Action-Conditioned World Models Generalize to Unseen Robot Embodiments?",
+    "authors": [
+      "Yixiang Chen",
+      "Jiabing Yang",
+      "Yuan Xu",
+      "Qisen Ma",
+      "Keji He",
+      "Peiyan Li",
+      "Kai Wang",
+      "Ziheng He",
+      "Xiangnan Wu",
+      "Jing Liu",
+      "Nianfeng Liu",
+      "Yan Huang",
+      "Liang Wang"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2608.05799",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260806799",
+    "title": "Is Forward Prediction Enough? Physical State Grounding for JEPA World Models",
+    "authors": [
+      "Haodong Yan",
+      "Jiaguan Zhu",
+      "Mingyuan Jia",
+      "Ruiqing Yin",
+      "Junjie He",
+      "Zhide Zhong",
+      "Junfeng Li",
+      "Jinxuan Lu",
+      "Hengtao Li",
+      "Tianran Zhang",
+      "Jiayi Chen",
+      "Wenxuan Song",
+      "Wen Chen",
+      "Yuxiang Gao",
+      "Haoang Li"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2608.06799",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260811350",
+    "title": "Self-Evolving Embodied Agents via Skill-Harness Evolution",
+    "authors": [
+      "Peidong Wang",
+      "Zhiming Ma",
+      "Ying Chang",
+      "Xufang Luo",
+      "Yiqun Zhang",
+      "Zihan Wang",
+      "Xiaocui Yang",
+      "Shi Feng",
+      "Yuqing Yang",
+      "Dongsheng Li"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2608.11350",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260816590",
+    "title": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
+    "authors": [
+      "Xin Ding",
+      "Liang Mi",
+      "Mingzhe Huang",
+      "Zixuan Wang",
+      "Chao Zhang",
+      "Zixu Hao",
+      "Fu Chen",
+      "Xiangyu Li",
+      "Yikai Zheng",
+      "Yaoyu Guo",
+      "Weijun Wang",
+      "Kun Li",
+      "Hao Wu",
+      "Yunxin Liu",
+      "Ting Cao"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2608.16590",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260816829",
+    "title": "CaliBench: Are the Stochastic Dynamics of Video World Models Physically Calibrated?",
+    "authors": [
+      "Jonathan Sadeghi",
+      "Jenny Seidenschwarz",
+      "Jesse Allardice",
+      "Sirish Srinivasan",
+      "Benjamin Graham",
+      "Jeffrey Hawke"
+    ],
+    "year": 2026,
+    "venue": "Transactions on Machine Learning Research",
+    "type": "journal",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260821204",
+    "title": "Beyond Imitation: Self-Improving Robot Policies via Off-Policy Q-Planning",
+    "authors": [
+      "Varun Giridhar",
+      "Anant Khandelwal",
+      "Jeremy A. Collins",
+      "Ignat Georgiev",
+      "Animesh Garg"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2608.21204",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260821899",
+    "title": "CIDER: Continual Interactive Distillation for Embodied Reinforcement Learning",
+    "authors": [
+      "Houlin Li",
+      "Minghui Xu",
+      "Guo Xu",
+      "Xuan Du",
+      "Xiaohan Yan",
+      "Chun Wang",
+      "Yuxiang Yan",
+      "Shukai Yang",
+      "Yongcheng Liu",
+      "Wei Shan",
+      "Maoqing Yao"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2608.21899",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260824885",
+    "title": "Do Robotic World Models Really Follow Actions? Diagnosing and Aligning Action-Conditioned Generation for Policy Learning",
+    "authors": [
+      "Sixiang Chen",
+      "Jiaming Liu",
+      "Jixian Wu",
+      "Yichen Guo",
+      "Tinghao Wang",
+      "Siyuan Qian",
+      "Hao Chen",
+      "Jiajun Cao",
+      "Jian Tang",
+      "Shanghang Zhang"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2608.24885",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260825572",
+    "title": "ConfAL-WM: Confidence-Guided Active Learning for Action-Conditioned World Models",
+    "authors": [
+      "Xiang Liu",
+      "Kunwei Wu",
+      "Miao Liu",
+      "Sen Cui",
+      "Changshui Zhang"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2608.25572",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260826545",
+    "title": "Memory Anchors for Continual Robot Learning",
+    "authors": [
+      "Maximilian Du",
+      "Zhanyi Sun",
+      "Chen Xu",
+      "Paarth Shah",
+      "Masha Itkina",
+      "Shuran Song"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2608.26545",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260829772",
+    "title": "Self-Aware Active Learning Enables Continual Improvement in Autonomous Driving",
+    "authors": [
+      "Dong Hu",
+      "Chao Huang",
+      "Carman K. M. Lee",
+      "Dimitrios Kanoulas"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2608.29772",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260830237",
+    "title": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
+    "authors": [
+      "Hongzhe Bi",
+      "Zihao Zhou",
+      "Yihang Tang",
+      "Jingrui Pang",
+      "Shuhe Huang",
+      "Haitian Liu",
+      "Runqing Wang",
+      "Shuai Huang",
+      "Yichen Wang",
+      "Yiming Cheng",
+      "Ruowen Zhao",
+      "Zhenghua Li",
+      "Hengkai Tan",
+      "Xiaolong Liu",
+      "Jinhui Wan",
+      "Jiabao Liu",
+      "Min Zhao",
+      "Fan Bao",
+      "Jun Zhu"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2608.30237",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260830760",
+    "title": "PRACTICE: From Experience to Expertise in Self-Evolving Embodied Agents",
+    "authors": [
+      "Ziyi Bai",
+      "Siqi Li",
+      "Tinglei Huang",
+      "Börje F. Karlsson"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2608.30760",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260830880",
+    "title": "Zeva: In-Context Causal Learning for Generalizable Embodied Manipulation",
+    "authors": [
+      "Fu Chen",
+      "Xin Ding",
+      "Bingjia Huang",
+      "Xiangyu Li",
+      "Mingju Wang",
+      "Jiawei He",
+      "Kun Li",
+      "Wei Sun",
+      "Yunxin Liu",
+      "Hao Wu",
+      "Ting Cao"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2608.30880",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260902811",
+    "title": "Do Better Imagined Rollouts Mean Better Robot Control? A Controlled Study of World-Model Evaluation Under Feedback",
+    "authors": [
+      "Dharini Raghavan",
+      "Amritpal Singh"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2609.02811",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260903681",
+    "title": "WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models",
+    "authors": [
+      "Chenhao Zhang",
+      "Hanyu Zhao",
+      "Hang Cheng",
+      "Tengfei Pan",
+      "Long Zeng"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2609.03681",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260909941",
+    "title": "HaWMPO: Hallucination-Aware World Model-based Policy Optimization for Generalist Robot Policy",
+    "authors": [
+      "Zengjue Chen",
+      "Peidong Liu",
+      "Jiawei Li",
+      "Qi Wang"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2609.09941",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260910873",
+    "title": "When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents",
+    "authors": [
+      "Qinzhen Ma",
+      "Ruihai Wu"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2609.10873",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260913236",
+    "title": "Self-Evolving AI for Humanoids: Mechanisms, Safety, and Evaluation of Post-Deployment Self-Improvement",
+    "authors": [
+      "Loc X. Nguyen",
+      "Avi Deb Raha",
+      "Huy Q. Le",
+      "Eui-Nam Huh",
+      "Dusit Niyato",
+      "Choong Seon Hong"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2609.13236",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260914633",
+    "title": "REVOLVE: An Automated Closed-Loop Framework for Evolving Robot Manipulation with Minimal Human Intervention",
+    "authors": [
+      "Hanyu Liu",
+      "Qian Li",
+      "Yizhu Ding",
+      "Jiayi Wen",
+      "Keqiang Ren",
+      "Yunsheng Ma",
+      "Tao Jian",
+      "Zhihua Wang",
+      "Zhuofan Yu",
+      "Xinran Li",
+      "Zhigong Song"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2609.14633",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260916074",
+    "title": "World-Action Models for Robot Learning and Control: A Survey",
+    "authors": [
+      "Zuxing Lu",
+      "Hongjia Zhai",
+      "Guanzhi Wang",
+      "Huajian Zeng",
+      "Jiaqi Yang",
+      "Jingyu Liu",
+      "Lei Cheng",
+      "Yuantai Zhang",
+      "Yuheng Qiu",
+      "Zezhou Cheng",
+      "Ivan Laptev",
+      "Danfei Xu",
+      "Benjamin Riviere",
+      "Giuseppe Loianno",
+      "Eric Xing",
+      "Xingxing Zuo"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2609.16074",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260917372",
+    "title": "XPACE: Joint World and Action Modeling from Heterogeneous Experience",
+    "authors": [
+      "Jiacheng Wei",
+      "Jerry Bai",
+      "Xiaoyu Yue",
+      "Zidong Wang",
+      "Xiaoyang Guo",
+      "Cheng Chen",
+      "Fanqi Pu",
+      "Fan Wu",
+      "Zhixu Yue",
+      "Yizhuo Li",
+      "Feng Qiu",
+      "Bo Liu",
+      "Yuying Ge",
+      "Hui Zhou",
+      "Chenyi Chen",
+      "Yixiao Ge"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2609.17372",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260918207",
+    "title": "Reinforcement Learning for Real-Time Vision-Language-Action Policies",
+    "authors": [
+      "Perry Dong",
+      "Kuo-Han Hung",
+      "Dorsa Sadigh",
+      "Chelsea Finn"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2609.18207v1",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260918651",
+    "title": "FIERCE: From Generalist Robot Policies to Fast Specialists via Progress-Failure Feedback",
+    "authors": [
+      "Runjia Tan",
+      "Yuang Tu",
+      "Yujie Yan",
+      "Lan Yu",
+      "Xuesong Tian",
+      "Chen Lv"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2609.18651v1",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260919906",
+    "title": "Learning and Transferring Closed-Loop Robot Software",
+    "authors": [
+      "So Kuroki",
+      "Yujin Tang"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2609.19906v1",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260920649",
+    "title": "DexTouch-WM: Learning Action-Conditioned Tactile World Models from Human Touch for Dexterous Robot Manipulation",
+    "authors": [
+      "Yan Qin",
+      "Yue Chen",
+      "Wenwei Lin",
+      "Shujia Liu",
+      "Chuqiao Lyu",
+      "Kailun Su",
+      "Weiyang Jin",
+      "Chenze Yu",
+      "Ping Luo",
+      "Wenbo Ding",
+      "Tianxing Chen",
+      "Renjing Xu"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2609.20649v2",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260920659",
+    "title": "HIL-UMI: Bringing Human-in-the-Loop Post-Training of Vision-Language-Action Models to Universal Manipulation Interface",
+    "authors": [
+      "Zimu Han",
+      "Yiming Zeng",
+      "Jiyao Zhang",
+      "Zihao Zhao",
+      "Yuanfei Wang",
+      "Yixiang Jin",
+      "Shiqi Li",
+      "Shuangben Chen",
+      "Wei Huang",
+      "Ruodai Li",
+      "Hui Shen",
+      "Hao Dong"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2609.20659v1",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260921358",
+    "title": "FAN: Foresight Action Normalization for Continual Adaptation of Vision-Language-Action Models",
+    "authors": [
+      "Yijun Hong",
+      "Jiarun Zhu",
+      "Xiaoquan Sun",
+      "Le Xu",
+      "Qijun He",
+      "Xin Jin",
+      "Mingqi Yuan",
+      "Wenjun Zeng",
+      "Jiayu Chen"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2609.21358v1",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260922888",
+    "title": "Stable and Efficient Real-World Online VLA Post-Training via Asynchronous Replay-Anchored Policy Improvement",
+    "authors": [
+      "Jiarui Yang",
+      "Jiajin Zhang",
+      "Bin Zhu",
+      "Jingjing Chen",
+      "Yu-Gang Jiang"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2609.22888v1",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260924749",
+    "title": "D-JEPA: A Decision-Aligned Latent World Model",
+    "authors": [
+      "Shuaijun Liu",
+      "Chengyu Wu",
+      "Qifu Wen",
+      "Feiyang You",
+      "Chenglong Zhang",
+      "Shuyang Hao",
+      "Xi Lin",
+      "Ningxin Su"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2609.24749v1",
+    "doi": ""
+  },
+  {
+    "id": "arxiv260924996",
+    "title": "Learning Beyond What Humans Can Demonstrate",
+    "authors": [
+      "Yuchen Song",
+      "Aditya Mittal",
+      "Unnat Jain"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2609.24996v1",
+    "doi": ""
+  },
+  {
+    "id": "ball2023rlpd",
+    "title": "Efficient Online Reinforcement Learning with Offline Data",
+    "authors": [
+      "Philip J. Ball",
+      "Laura Smith",
+      "Ilya Kostrikov",
+      "Sergey Levine"
+    ],
+    "year": 2023,
+    "venue": "International Conference on Machine Learning",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2302.02948",
+    "doi": ""
+  },
+  {
+    "id": "baranes2013goals",
+    "title": "Active Learning of Inverse Models with Intrinsically Motivated Goal Exploration in Robots",
+    "authors": [
+      "Adrien Baranes",
+      "Pierre-Yves Oudeyer"
+    ],
+    "year": 2013,
+    "venue": "Robotics and Autonomous Systems",
+    "type": "journal",
+    "url": "https://doi.org/10.1016/j.robot.2012.05.008",
+    "doi": "10.1016/j.robot.2012.05.008"
+  },
+  {
+    "id": "belkhale2023quality",
+    "title": "Data Quality in Imitation Learning",
+    "authors": [
+      "Suneel Belkhale",
+      "Yuchen Cui",
+      "Dorsa Sadigh"
+    ],
+    "year": 2023,
+    "venue": "Advances in Neural Information Processing Systems",
+    "type": "conference",
+    "url": "https://doi.org/10.52202/075280-3524",
+    "doi": "10.52202/075280-3524"
+  },
+  {
+    "id": "black2025pi05",
+    "title": "π₀.₅: a Vision-Language-Action Model with Open-World Generalization",
+    "authors": [
+      "Physical Intelligence",
+      "Kevin Black",
+      "Noah Brown",
+      "James Darpinian",
+      "Karan Dhabalia",
+      "et al."
+    ],
+    "year": 2025,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2504.16054",
+    "doi": ""
+  },
+  {
+    "id": "boiko2023coscientist",
+    "title": "Autonomous chemical research with large language models",
+    "authors": [
+      "Daniil A. Boiko",
+      "Robert MacKnight",
+      "Ben Kline",
+      "Gabe Gomes"
+    ],
+    "year": 2023,
+    "venue": "Nature",
+    "type": "journal",
+    "url": "https://doi.org/10.1038/s41586-023-06792-0",
+    "doi": "10.1038/s41586-023-06792-0"
+  },
+  {
+    "id": "bongard2006selfmodel",
+    "title": "Resilient Machines Through Continuous Self-Modeling",
+    "authors": [
+      "Josh Bongard",
+      "Victor Zykov",
+      "Hod Lipson"
+    ],
+    "year": 2006,
+    "venue": "Science",
+    "type": "journal",
+    "url": "https://doi.org/10.1126/science.1133687",
+    "doi": "10.1126/science.1133687"
+  },
+  {
+    "id": "brohan2023rt1",
+    "title": "RT-1: Robotics Transformer for Real-World Control at Scale",
+    "authors": [
+      "Anthony Brohan",
+      "Noah Brown",
+      "Justice Carbajal",
+      "Yevgen Chebotar",
+      "Joseph Dabis",
+      "et al."
+    ],
+    "year": 2023,
+    "venue": "Robotics: Science and Systems",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2212.06817",
+    "doi": ""
+  },
+  {
+    "id": "brohan2023rt2",
+    "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+    "authors": [
+      "Anthony Brohan",
+      "Noah Brown",
+      "Justice Carbajal",
+      "Yevgen Chebotar",
+      "Xi Chen",
+      "et al."
+    ],
+    "year": 2023,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2307.15818",
+    "doi": ""
+  },
+  {
+    "id": "bruce2024genie",
+    "title": "Genie: Generative Interactive Environments",
+    "authors": [
+      "Jake Bruce",
+      "Michael Dennis",
+      "Ashley Edwards",
+      "Jack Parker-Holder",
+      "Yuge Shi",
+      "Edward Hughes",
+      "Matthew Lai",
+      "Aditi Mavalankar",
+      "Richie Steigerwald",
+      "Chris Apps",
+      "et al."
+    ],
+    "year": 2024,
+    "venue": "International Conference on Machine Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "brunke2022safe",
+    "title": "Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning",
+    "authors": [
+      "Lukas Brunke",
+      "Melissa Greeff",
+      "Adam W. Hall",
+      "Zhaocong Yuan",
+      "Siqi Zhou",
+      "Jacopo Panerati",
+      "Angela P. Schoellig"
+    ],
+    "year": 2022,
+    "venue": "Annual Review of Control, Robotics, and Autonomous Systems",
+    "type": "journal",
+    "url": "https://doi.org/10.1146/annurev-control-042920-020211",
+    "doi": "10.1146/annurev-control-042920-020211"
+  },
+  {
+    "id": "burger2020chemist",
+    "title": "A mobile robotic chemist",
+    "authors": [
+      "Benjamin Burger",
+      "Phillip M. Maffettone",
+      "Vladimir V. Gusev",
+      "Catherine M. Aitchison",
+      "Yang Bai",
+      "Xiaoyan Wang",
+      "Xiaobo Li",
+      "Ben M. Alston",
+      "Buyi Li",
+      "Rob Clowes",
+      "Nicola Rankin",
+      "Brandon Harris",
+      "Reiner Sebastian Sprick",
+      "Andrew I. Cooper"
+    ],
+    "year": 2020,
+    "venue": "Nature",
+    "type": "journal",
+    "url": "https://doi.org/10.1038/s41586-020-2442-2",
+    "doi": "10.1038/s41586-020-2442-2"
+  },
+  {
+    "id": "chen2025robotwin2",
+    "title": "RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation",
+    "authors": [
+      "Tianxing Chen",
+      "Zanxin Chen",
+      "Baijun Chen",
+      "Zijian Cai",
+      "Yibin Liu",
+      "et al."
+    ],
+    "year": 2025,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2506.18088",
+    "doi": ""
+  },
+  {
+    "id": "chi2024umi",
+    "title": "Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots",
+    "authors": [
+      "Cheng Chi",
+      "Zhenjia Xu",
+      "Chuer Pan",
+      "Eric Cousineau",
+      "Benjamin Burchfiel",
+      "Siyuan Feng",
+      "Russ Tedrake",
+      "Shuran Song"
+    ],
+    "year": 2024,
+    "venue": "Robotics: Science and Systems",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2402.10329",
+    "doi": ""
+  },
+  {
+    "id": "cohn1996active",
+    "title": "Active Learning with Statistical Models",
+    "authors": [
+      "David A. Cohn",
+      "Zoubin Ghahramani",
+      "Michael I. Jordan"
+    ],
+    "year": 1996,
+    "venue": "Journal of Artificial Intelligence Research",
+    "type": "journal",
+    "url": "https://doi.org/10.1613/jair.295",
+    "doi": "10.1613/jair.295"
+  },
+  {
+    "id": "colas2022autotelic",
+    "title": "Autotelic Agents with Intrinsically Motivated Goal-Conditioned Reinforcement Learning: A Short Survey",
+    "authors": [
+      "Cédric Colas",
+      "Tristan Karch",
+      "Olivier Sigaud",
+      "Pierre-Yves Oudeyer"
+    ],
+    "year": 2022,
+    "venue": "Journal of Artificial Intelligence Research",
+    "type": "journal",
+    "url": "https://doi.org/10.1613/jair.1.13554",
+    "doi": "10.1613/jair.1.13554"
+  },
+  {
+    "id": "cully2015adaptation",
+    "title": "Robots That Can Adapt Like Animals",
+    "authors": [
+      "Antoine Cully",
+      "Jeff Clune",
+      "Danesh Tarapore",
+      "Jean-Baptiste Mouret"
+    ],
+    "year": 2015,
+    "venue": "Nature",
+    "type": "journal",
+    "url": "https://doi.org/10.1038/nature14422",
+    "doi": "10.1038/nature14422"
+  },
+  {
+    "id": "dasari2020robonet",
+    "title": "RoboNet: Large-Scale Multi-Robot Learning",
+    "authors": [
+      "Sudeep Dasari",
+      "Frederik Ebert",
+      "Stephen Tian",
+      "Suraj Nair",
+      "Bernadette Bucher",
+      "Karl Schmeckpeper",
+      "Siddharth Singh",
+      "Sergey Levine",
+      "Chelsea Finn"
+    ],
+    "year": 2020,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "deisenroth2011pilco",
+    "title": "PILCO: A Model-Based and Data-Efficient Approach to Policy Search",
+    "authors": [
+      "Marc Peter Deisenroth",
+      "Carl Edward Rasmussen"
+    ],
+    "year": 2011,
+    "venue": "International Conference on Machine Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "du2023unipi",
+    "title": "Learning Universal Policies via Text-Guided Video Generation",
+    "authors": [
+      "Yilun Du",
+      "Mengjiao Yang",
+      "Bo Dai",
+      "Hanjun Dai",
+      "Ofir Nachum",
+      "Joshua B. Tenenbaum",
+      "Dale Schuurmans",
+      "Pieter Abbeel"
+    ],
+    "year": 2023,
+    "venue": "Advances in Neural Information Processing Systems",
+    "type": "conference",
+    "url": "https://doi.org/10.52202/075280-0403",
+    "doi": "10.52202/075280-0403"
+  },
+  {
+    "id": "duan2016rl2",
+    "title": "RL²: Fast Reinforcement Learning via Slow Reinforcement Learning",
+    "authors": [
+      "Yan Duan",
+      "John Schulman",
+      "Xi Chen",
+      "Peter L. Bartlett",
+      "Ilya Sutskever",
+      "Pieter Abbeel"
+    ],
+    "year": 2016,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/1611.02779",
+    "doi": ""
+  },
+  {
+    "id": "duan2025aha",
+    "title": "AHA: A Vision-Language-Model for Detecting and Reasoning Over Failures in Robotic Manipulation",
+    "authors": [
+      "Jiafei Duan",
+      "Wilbert Pumacay",
+      "Nishanth Kumar",
+      "Yi Ru Wang",
+      "Shulin Tian",
+      "Wentao Yuan",
+      "Ranjay Krishna",
+      "Dieter Fox",
+      "Ajay Mandlekar",
+      "Yijie Guo"
+    ],
+    "year": 2025,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2410.00371",
+    "doi": ""
+  },
+  {
+    "id": "ebert2017visualplanning",
+    "title": "Self-Supervised Visual Planning with Temporal Skip Connections",
+    "authors": [
+      "Frederik Ebert",
+      "Chelsea Finn",
+      "Alex X. Lee",
+      "Sergey Levine"
+    ],
+    "year": 2017,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "everitt2021tampering",
+    "title": "Reward tampering problems and solutions in reinforcement learning: a causal influence diagram perspective",
+    "authors": [
+      "Tom Everitt",
+      "Marcus Hutter",
+      "Ramana Kumar",
+      "Victoria Krakovna"
+    ],
+    "year": 2021,
+    "venue": "Synthese",
+    "type": "journal",
+    "url": "https://doi.org/10.1007/s11229-021-03141-4",
+    "doi": "10.1007/s11229-021-03141-4"
+  },
+  {
+    "id": "farahmand2017value",
+    "title": "Value-Aware Loss Function for Model-based Reinforcement Learning",
+    "authors": [
+      "Amir-Massoud Farahmand",
+      "Andre Barreto",
+      "Daniel Nikovski"
+    ],
+    "year": 2017,
+    "venue": "International Conference on Artificial Intelligence and Statistics",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "fernando2024promptbreeder",
+    "title": "Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution",
+    "authors": [
+      "Chrisantha Fernando",
+      "Dylan Banarse",
+      "Henryk Michalewski",
+      "Simon Osindero",
+      "Tim Rocktäschel"
+    ],
+    "year": 2024,
+    "venue": "International Conference on Machine Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "finn2017maml",
+    "title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+    "authors": [
+      "Chelsea Finn",
+      "Pieter Abbeel",
+      "Sergey Levine"
+    ],
+    "year": 2017,
+    "venue": "International Conference on Machine Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "garcia2015safe",
+    "title": "A Comprehensive Survey on Safe Reinforcement Learning",
+    "authors": [
+      "Javier García",
+      "Fernando Fernández"
+    ],
+    "year": 2015,
+    "venue": "Journal of Machine Learning Research",
+    "type": "journal",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "good1966speculations",
+    "title": "Speculations Concerning the First Ultraintelligent Machine",
+    "authors": [
+      "Irving John Good"
+    ],
+    "year": 1966,
+    "venue": "Advances in Computers",
+    "type": "book",
+    "url": "https://doi.org/10.1016/s0065-2458(08)60418-0",
+    "doi": "10.1016/s0065-2458(08)60418-0"
+  },
+  {
+    "id": "grimm2020equivalence",
+    "title": "The Value Equivalence Principle for Model-Based Reinforcement Learning",
+    "authors": [
+      "Christopher Grimm",
+      "André Barreto",
+      "Satinder Singh",
+      "David Silver"
+    ],
+    "year": 2020,
+    "venue": "Advances in Neural Information Processing Systems",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "ha2018worldmodels",
+    "title": "Recurrent World Models Facilitate Policy Evolution",
+    "authors": [
+      "David Ha",
+      "Jürgen Schmidhuber"
+    ],
+    "year": 2018,
+    "venue": "Advances in Neural Information Processing Systems",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "hafner2020dreamer",
+    "title": "Dream to Control: Learning Behaviors by Latent Imagination",
+    "authors": [
+      "Danijar Hafner",
+      "Timothy Lillicrap",
+      "Jimmy Ba",
+      "Mohammad Norouzi"
+    ],
+    "year": 2020,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "hafner2025dreamerv3",
+    "title": "Mastering Diverse Control Tasks Through World Models",
+    "authors": [
+      "Danijar Hafner",
+      "Jurgis Pasukonis",
+      "Jimmy Ba",
+      "Timothy Lillicrap"
+    ],
+    "year": 2025,
+    "venue": "Nature",
+    "type": "journal",
+    "url": "https://doi.org/10.1038/s41586-025-08744-2",
+    "doi": "10.1038/s41586-025-08744-2"
+  },
+  {
+    "id": "hansen2024tdmpc2",
+    "title": "TD-MPC2: Scalable, Robust World Models for Continuous Control",
+    "authors": [
+      "Nicklas Hansen",
+      "Hao Su",
+      "Xiaolong Wang"
+    ],
+    "year": 2024,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "hoque2021thriftydagger",
+    "title": "ThriftyDAgger: Budget-Aware Novelty and Risk Gating for Interactive Imitation Learning",
+    "authors": [
+      "Ryan Hoque",
+      "Ashwin Balakrishna",
+      "Ellen Novoseller",
+      "Albert Wilcox",
+      "Daniel S. Brown",
+      "Ken Goldberg"
+    ],
+    "year": 2021,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2109.08273",
+    "doi": ""
+  },
+  {
+    "id": "houthooft2018epg",
+    "title": "Evolved Policy Gradients",
+    "authors": [
+      "Rein Houthooft",
+      "Richard Y. Chen",
+      "Phillip Isola",
+      "Bradly C. Stadie",
+      "Filip Wolski",
+      "Jonathan Ho",
+      "Pieter Abbeel"
+    ],
+    "year": 2018,
+    "venue": "Advances in Neural Information Processing Systems",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "hu2025adas",
+    "title": "Automated Design of Agentic Systems",
+    "authors": [
+      "Shengran Hu",
+      "Cong Lu",
+      "Jeff Clune"
+    ],
+    "year": 2025,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "huang2023inner",
+    "title": "Inner Monologue: Embodied Reasoning through Planning with Language Models",
+    "authors": [
+      "Wenlong Huang",
+      "Fei Xia",
+      "Ted Xiao",
+      "Harris Chan",
+      "Jacky Liang",
+      "Pete Florence",
+      "Andy Zeng",
+      "Jonathan Tompson",
+      "Igor Mordatch",
+      "Yevgen Chebotar",
+      "Pierre Sermanet",
+      "Tomas Jackson",
+      "Noah Brown",
+      "Linda Luu",
+      "Sergey Levine",
+      "Karol Hausman",
+      "Brian Ichter"
+    ],
+    "year": 2023,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2207.05608",
+    "doi": ""
+  },
+  {
+    "id": "jang2025dreamgen",
+    "title": "DreamGen: Unlocking Generalization in Robot Learning through Video World Models",
+    "authors": [
+      "Joel Jang",
+      "Seonghyeon Ye",
+      "Zongyu Lin",
+      "Jiannan Xiang",
+      "Johan Bjorck",
+      "Yu Fang",
+      "Fengyuan Hu",
+      "Spencer Huang",
+      "Kaushil Kundalia",
+      "Yen-Chen Lin",
+      "et al."
+    ],
+    "year": 2025,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "kalashnikov2018qtopt",
+    "title": "Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation",
+    "authors": [
+      "Dmitry Kalashnikov",
+      "Alex Irpan",
+      "Peter Pastor",
+      "Julian Ibarz",
+      "Alexander Herzog",
+      "Eric Jang",
+      "Deirdre Quillen",
+      "Ethan Holly",
+      "Mrinal Kalakrishnan",
+      "Vincent Vanhoucke",
+      "Sergey Levine"
+    ],
+    "year": 2018,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "kalashnikov2022mtopt",
+    "title": "Scaling Up Multi-Task Robotic Reinforcement Learning",
+    "authors": [
+      "Dmitry Kalashnikov",
+      "Jake Varley",
+      "Yevgen Chebotar",
+      "Benjamin Swanson",
+      "Rico Jonschkowski",
+      "Chelsea Finn",
+      "Sergey Levine",
+      "Karol Hausman"
+    ],
+    "year": 2022,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "kelly2019hgdagger",
+    "title": "HG-DAgger: Interactive Imitation Learning with Human Experts",
+    "authors": [
+      "Michael Kelly",
+      "Chelsea Sidrane",
+      "Katherine Driggs-Campbell",
+      "Mykel J. Kochenderfer"
+    ],
+    "year": 2019,
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "type": "conference",
+    "url": "https://doi.org/10.1109/ICRA.2019.8793698",
+    "doi": "10.1109/ICRA.2019.8793698"
+  },
+  {
+    "id": "kober2013rl",
+    "title": "Reinforcement Learning in Robotics: A Survey",
+    "authors": [
+      "Jens Kober",
+      "J. Andrew Bagnell",
+      "Jan Peters"
+    ],
+    "year": 2013,
+    "venue": "The International Journal of Robotics Research",
+    "type": "journal",
+    "url": "https://doi.org/10.1177/0278364913495721",
+    "doi": "10.1177/0278364913495721"
+  },
+  {
+    "id": "kwon2023reward",
+    "title": "Reward Design with Language Models",
+    "authors": [
+      "Minae Kwon",
+      "Sang Michael Xie",
+      "Kalesha Bullard",
+      "Dorsa Sadigh"
+    ],
+    "year": 2023,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2303.00001",
+    "doi": ""
+  },
+  {
+    "id": "lambert2020mismatch",
+    "title": "Objective Mismatch in Model-based Reinforcement Learning",
+    "authors": [
+      "Nathan Lambert",
+      "Brandon Amos",
+      "Omry Yadan",
+      "Roberto Calandra"
+    ],
+    "year": 2020,
+    "venue": "Conference on Learning for Dynamics and Control",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "liang2023code",
+    "title": "Code as Policies: Language Model Programs for Embodied Control",
+    "authors": [
+      "Jacky Liang",
+      "Wenlong Huang",
+      "Fei Xia",
+      "Peng Xu",
+      "Karol Hausman",
+      "Brian Ichter",
+      "Pete Florence",
+      "Andy Zeng"
+    ],
+    "year": 2023,
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "type": "conference",
+    "url": "https://doi.org/10.1109/ICRA48891.2023.10160591",
+    "doi": "10.1109/ICRA48891.2023.10160591"
+  },
+  {
+    "id": "liang2025eurekaverse",
+    "title": "Environment Curriculum Generation via Large Language Models",
+    "authors": [
+      "William Liang",
+      "Sam Wang",
+      "Hung-Ju Wang",
+      "Osbert Bastani",
+      "Dinesh Jayaraman",
+      "Yecheng Jason Ma"
+    ],
+    "year": 2025,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "liu2023reflect",
+    "title": "REFLECT: Summarizing Robot Experiences for Failure Explanation and Correction",
+    "authors": [
+      "Zeyi Liu",
+      "Arpit Bahety",
+      "Shuran Song"
+    ],
+    "year": 2023,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2306.15724",
+    "doi": ""
+  },
+  {
+    "id": "lopezpaz2017gem",
+    "title": "Gradient Episodic Memory for Continual Learning",
+    "authors": [
+      "David Lopez-Paz",
+      "Marc'Aurelio Ranzato"
+    ],
+    "year": 2017,
+    "venue": "Advances in Neural Information Processing Systems",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "lu2024aiscientist",
+    "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+    "authors": [
+      "Chris Lu",
+      "Cong Lu",
+      "Robert Tjarko Lange",
+      "Jakob Foerster",
+      "Jeff Clune",
+      "David Ha"
+    ],
+    "year": 2024,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2408.06292",
+    "doi": ""
+  },
+  {
+    "id": "luo2024serl",
+    "title": "SERL: A Software Suite for Sample-Efficient Robotic Reinforcement Learning",
+    "authors": [
+      "Jianlan Luo",
+      "Zheyuan Hu",
+      "Charles Xu",
+      "You Liang Tan",
+      "Jacob Berg",
+      "Archit Sharma",
+      "Stefan Schaal",
+      "Chelsea Finn",
+      "Abhishek Gupta",
+      "Sergey Levine"
+    ],
+    "year": 2024,
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2401.16013",
+    "doi": ""
+  },
+  {
+    "id": "ma2023liv",
+    "title": "LIV: Language-Image Representations and Rewards for Robotic Control",
+    "authors": [
+      "Yecheng Jason Ma",
+      "Vikash Kumar",
+      "Amy Zhang",
+      "Osbert Bastani",
+      "Dinesh Jayaraman"
+    ],
+    "year": 2023,
+    "venue": "International Conference on Machine Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "ma2023vip",
+    "title": "VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training",
+    "authors": [
+      "Yecheng Jason Ma",
+      "Shagun Sodhani",
+      "Dinesh Jayaraman",
+      "Osbert Bastani",
+      "Vikash Kumar",
+      "Amy Zhang"
+    ],
+    "year": 2023,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2210.00030",
+    "doi": ""
+  },
+  {
+    "id": "ma2024dreureka",
+    "title": "DrEureka: Language Model Guided Sim-To-Real Transfer",
+    "authors": [
+      "Yecheng Jason Ma",
+      "William Liang",
+      "Hung-Ju Wang",
+      "Yuke Zhu",
+      "Linxi Fan",
+      "Osbert Bastani",
+      "Dinesh Jayaraman"
+    ],
+    "year": 2024,
+    "venue": "Robotics: Science and Systems",
+    "type": "conference",
+    "url": "https://doi.org/10.15607/RSS.2024.XX.094",
+    "doi": "10.15607/RSS.2024.XX.094"
+  },
+  {
+    "id": "ma2024eureka",
+    "title": "Eureka: Human-Level Reward Design via Coding Large Language Models",
+    "authors": [
+      "Yecheng Jason Ma",
+      "William Liang",
+      "Guanzhi Wang",
+      "De-An Huang",
+      "Osbert Bastani",
+      "Dinesh Jayaraman",
+      "Yuke Zhu",
+      "Linxi Fan",
+      "Anima Anandkumar"
+    ],
+    "year": 2024,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "moldovan2012safe",
+    "title": "Safe Exploration in Markov Decision Processes",
+    "authors": [
+      "Teodor Mihai Moldovan",
+      "Pieter Abbeel"
+    ],
+    "year": 2012,
+    "venue": "International Conference on Machine Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "nakamoto2023calql",
+    "title": "Cal-QL: Calibrated Offline RL Pre-Training for Efficient Online Fine-Tuning",
+    "authors": [
+      "Mitsuhiko Nakamoto",
+      "Simon Zhai",
+      "Anikait Singh",
+      "Max Sobol Mark",
+      "Yi Ma",
+      "Chelsea Finn",
+      "Aviral Kumar",
+      "Sergey Levine"
+    ],
+    "year": 2023,
+    "venue": "Advances in Neural Information Processing Systems",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2303.05479",
+    "doi": ""
+  },
+  {
+    "id": "nvidia2025cosmos",
+    "title": "Cosmos World Foundation Model Platform for Physical AI",
+    "authors": [
+      "NVIDIA",
+      "Niket Agarwal",
+      "Arslan Ali",
+      "Maciej Bala",
+      "Yogesh Balaji",
+      "Erik Barker",
+      "Tiffany Cai",
+      "Prithvijit Chattopadhyay",
+      "Yongxin Chen",
+      "Yin Cui",
+      "et al."
+    ],
+    "year": 2025,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2501.03575",
+    "doi": ""
+  },
+  {
+    "id": "octo2024",
+    "title": "Octo: An Open-Source Generalist Robot Policy",
+    "authors": [
+      "Octo Model Team",
+      "Dibya Ghosh",
+      "Homer Walke",
+      "Karl Pertsch",
+      "Kevin Black",
+      "et al."
+    ],
+    "year": 2024,
+    "venue": "Robotics: Science and Systems",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2405.12213",
+    "doi": ""
+  },
+  {
+    "id": "oh2020lpg",
+    "title": "Discovering Reinforcement Learning Algorithms",
+    "authors": [
+      "Junhyuk Oh",
+      "Matteo Hessel",
+      "Wojciech M. Czarnecki",
+      "Zhongwen Xu",
+      "Hado van Hasselt",
+      "Satinder Singh",
+      "David Silver"
+    ],
+    "year": 2020,
+    "venue": "Advances in Neural Information Processing Systems",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "openai2019rubik",
+    "title": "Solving Rubik's Cube with a Robot Hand",
+    "authors": [
+      "OpenAI",
+      "Ilge Akkaya",
+      "Marcin Andrychowicz",
+      "Maciek Chociej",
+      "Mateusz Litwin",
+      "Bob McGrew",
+      "Arthur Petron",
+      "Alex Paino",
+      "Matthias Plappert",
+      "Glenn Powell",
+      "Raphael Ribas",
+      "Jonas Schneider",
+      "Nikolas Tezak",
+      "Jerry Tworek",
+      "Peter Welinder",
+      "Lilian Weng",
+      "Qiming Yuan",
+      "Wojciech Zaremba",
+      "Lei Zhang"
+    ],
+    "year": 2019,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/1910.07113",
+    "doi": ""
+  },
+  {
+    "id": "oudeyer2007intrinsic",
+    "title": "Intrinsic Motivation Systems for Autonomous Mental Development",
+    "authors": [
+      "Pierre-Yves Oudeyer",
+      "Frédéric Kaplan",
+      "Verena V. Hafner"
+    ],
+    "year": 2007,
+    "venue": "IEEE Transactions on Evolutionary Computation",
+    "type": "journal",
+    "url": "https://doi.org/10.1109/tevc.2006.890271",
+    "doi": "10.1109/tevc.2006.890271"
+  },
+  {
+    "id": "parisi2019continual",
+    "title": "Continual Lifelong Learning with Neural Networks: A Review",
+    "authors": [
+      "German I. Parisi",
+      "Ronald Kemker",
+      "Jose L. Part",
+      "Christopher Kanan",
+      "Stefan Wermter"
+    ],
+    "year": 2019,
+    "venue": "Neural Networks",
+    "type": "journal",
+    "url": "https://doi.org/10.1016/j.neunet.2019.01.012",
+    "doi": "10.1016/j.neunet.2019.01.012"
+  },
+  {
+    "id": "pinto2016supersizing",
+    "title": "Supersizing Self-Supervision: Learning to Grasp from 50K Tries and 700 Robot Hours",
+    "authors": [
+      "Lerrel Pinto",
+      "Abhinav Gupta"
+    ],
+    "year": 2016,
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "type": "conference",
+    "url": "https://doi.org/10.1109/ICRA.2016.7487517",
+    "doi": "10.1109/ICRA.2016.7487517"
+  },
+  {
+    "id": "portelas2020curriculum",
+    "title": "Automatic Curriculum Learning For Deep RL: A Short Survey",
+    "authors": [
+      "Rémy Portelas",
+      "Cédric Colas",
+      "Lilian Weng",
+      "Katja Hofmann",
+      "Pierre-Yves Oudeyer"
+    ],
+    "year": 2020,
+    "venue": "International Joint Conference on Artificial Intelligence",
+    "type": "conference",
+    "url": "https://doi.org/10.24963/ijcai.2020/671",
+    "doi": "10.24963/ijcai.2020/671"
+  },
+  {
+    "id": "real2020automlzero",
+    "title": "AutoML-Zero: Evolving Machine Learning Algorithms From Scratch",
+    "authors": [
+      "Esteban Real",
+      "Chen Liang",
+      "David R. So",
+      "Quoc V. Le"
+    ],
+    "year": 2020,
+    "venue": "International Conference on Machine Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "ren2025dppo",
+    "title": "Diffusion Policy Policy Optimization",
+    "authors": [
+      "Allen Z. Ren",
+      "Justin Lidard",
+      "Lars L. Ankile",
+      "Anthony Simeonov",
+      "Pulkit Agrawal",
+      "Anirudha Majumdar",
+      "Benjamin Burchfiel",
+      "Hongkai Dai",
+      "Max Simchowitz"
+    ],
+    "year": 2025,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2409.00588",
+    "doi": ""
+  },
+  {
+    "id": "riedmiller2018sacx",
+    "title": "Learning by Playing—Solving Sparse Reward Tasks from Scratch",
+    "authors": [
+      "Martin Riedmiller",
+      "Roland Hafner",
+      "Thomas Lampe",
+      "Michael Neunert",
+      "Jonas Degrave",
+      "Tom Van de Wiele",
+      "Volodymyr Mnih",
+      "Nicolas Heess",
+      "Jost Tobias Springenberg"
+    ],
+    "year": 2018,
+    "venue": "International Conference on Machine Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "rocamonde2024vlmrm",
+    "title": "Vision-Language Models are Zero-Shot Reward Models for Reinforcement Learning",
+    "authors": [
+      "Juan Rocamonde",
+      "Victoriano Montesinos",
+      "Elvis Nava",
+      "Ethan Perez",
+      "David Lindner"
+    ],
+    "year": 2024,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2310.12921",
+    "doi": ""
+  },
+  {
+    "id": "ross2011dagger",
+    "title": "A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning",
+    "authors": [
+      "Stephane Ross",
+      "Geoffrey Gordon",
+      "Drew Bagnell"
+    ],
+    "year": 2011,
+    "venue": "International Conference on Artificial Intelligence and Statistics",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "savva2019habitat",
+    "title": "Habitat: A Platform for Embodied AI Research",
+    "authors": [
+      "Manolis Savva",
+      "Abhishek Kadian",
+      "Oleksandr Maksymets",
+      "Yili Zhao",
+      "Erik Wijmans",
+      "Bhavana Jain",
+      "Julian Straub",
+      "Jia Liu",
+      "Vladlen Koltun",
+      "Jitendra Malik",
+      "Devi Parikh",
+      "Dhruv Batra"
+    ],
+    "year": 2019,
+    "venue": "IEEE/CVF International Conference on Computer Vision",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/1904.01201",
+    "doi": ""
+  },
+  {
+    "id": "schmidhuber2003godel",
+    "title": "Goedel Machines: Self-Referential Universal Problem Solvers Making Provably Optimal Self-Improvements",
+    "authors": [
+      "Juergen Schmidhuber"
+    ],
+    "year": 2003,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/cs/0309048",
+    "doi": ""
+  },
+  {
+    "id": "sharma2023selfimproving",
+    "title": "Self-Improving Robots: End-to-End Autonomous Visuomotor Reinforcement Learning",
+    "authors": [
+      "Archit Sharma",
+      "Ahmed M. Ahmed",
+      "Rehaan Ahmad",
+      "Chelsea Finn"
+    ],
+    "year": 2023,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2303.01488",
+    "doi": ""
+  },
+  {
+    "id": "shumailov2024collapse",
+    "title": "AI models collapse when trained on recursively generated data",
+    "authors": [
+      "Ilia Shumailov",
+      "Zakhar Shumaylov",
+      "Yiren Zhao",
+      "Nicolas Papernot",
+      "Ross Anderson",
+      "Yarin Gal"
+    ],
+    "year": 2024,
+    "venue": "Nature",
+    "type": "journal",
+    "url": "https://doi.org/10.1038/s41586-024-07566-y",
+    "doi": "10.1038/s41586-024-07566-y"
+  },
+  {
+    "id": "sontakke2023roboclip",
+    "title": "RoboCLIP: One Demonstration is Enough to Learn Robot Policies",
+    "authors": [
+      "Sumedh Sontakke",
+      "Jesse Zhang",
+      "Sébastien Arnold",
+      "Karl Pertsch",
+      "Erdem Bıyık",
+      "Dorsa Sadigh",
+      "Chelsea Finn",
+      "Laurent Itti"
+    ],
+    "year": 2023,
+    "venue": "Advances in Neural Information Processing Systems",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2310.07899",
+    "doi": ""
+  },
+  {
+    "id": "sun2022relmm",
+    "title": "Fully Autonomous Real-World Reinforcement Learning with Applications to Mobile Manipulation",
+    "authors": [
+      "Charles Sun",
+      "Jędrzej Orbik",
+      "Coline Manon Devin",
+      "Brian H. Yang",
+      "Abhishek Gupta",
+      "Glen Berseth",
+      "Sergey Levine"
+    ],
+    "year": 2022,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "sutton1990dyna",
+    "title": "Integrated Architectures for Learning, Planning, and Reacting Based on Approximating Dynamic Programming",
+    "authors": [
+      "Richard S. Sutton"
+    ],
+    "year": 1990,
+    "venue": "International Conference on Machine Learning",
+    "type": "conference",
+    "url": "https://doi.org/10.1016/B978-1-55860-141-3.50030-4",
+    "doi": "10.1016/B978-1-55860-141-3.50030-4"
+  },
+  {
+    "id": "sutton1999options",
+    "title": "Between MDPs and Semi-MDPs: A Framework for Temporal Abstraction in Reinforcement Learning",
+    "authors": [
+      "Richard S. Sutton",
+      "Doina Precup",
+      "Satinder Singh"
+    ],
+    "year": 1999,
+    "venue": "Artificial Intelligence",
+    "type": "journal",
+    "url": "https://doi.org/10.1016/S0004-3702(99)00052-1",
+    "doi": "10.1016/S0004-3702(99)00052-1"
+  },
+  {
+    "id": "sutton2011horde",
+    "title": "Horde: A Scalable Real-Time Architecture for Learning Knowledge from Unsupervised Sensorimotor Interaction",
+    "authors": [
+      "Richard S. Sutton",
+      "Joseph Modayil",
+      "Michael Delp",
+      "Thomas Degris",
+      "Patrick M. Pilarski",
+      "Adam White",
+      "Doina Precup"
+    ],
+    "year": 2011,
+    "venue": "International Conference on Autonomous Agents and Multiagent Systems",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "sutton2018rl",
+    "title": "Reinforcement Learning: An Introduction",
+    "authors": [
+      "Richard S. Sutton",
+      "Andrew G. Barto"
+    ],
+    "year": 2018,
+    "venue": "MIT Press",
+    "type": "book",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "szymanski2023alab",
+    "title": "An autonomous laboratory for the accelerated synthesis of inorganic materials",
+    "authors": [
+      "Nathan J. Szymanski",
+      "Bernardus Rendy",
+      "Yuxing Fei",
+      "Rishi E. Kumar",
+      "Tanjin He",
+      "David Milsted",
+      "Matthew J. McDermott",
+      "Max Gallant",
+      "Ekin Dogus Cubuk",
+      "Amil Merchant",
+      "Haegyeom Kim",
+      "Anubhav Jain",
+      "Christopher J. Bartel",
+      "Kristin Persson",
+      "Yan Zeng",
+      "Gerbrand Ceder"
+    ],
+    "year": 2023,
+    "venue": "Nature",
+    "type": "journal",
+    "url": "https://doi.org/10.1038/s41586-023-06734-w",
+    "doi": "10.1038/s41586-023-06734-w"
+  },
+  {
+    "id": "thananjeyan2021recovery",
+    "title": "Recovery RL: Safe Reinforcement Learning With Learned Recovery Zones",
+    "authors": [
+      "Brijen Thananjeyan",
+      "Ashwin Balakrishna",
+      "Suraj Nair",
+      "Michael Luo",
+      "Krishnan Srinivasan",
+      "Minho Hwang",
+      "Joseph E. Gonzalez",
+      "Julian Ibarz",
+      "Chelsea Finn",
+      "Ken Goldberg"
+    ],
+    "year": 2021,
+    "venue": "IEEE Robotics and Automation Letters",
+    "type": "journal",
+    "url": "https://arxiv.org/abs/2010.15920",
+    "doi": ""
+  },
+  {
+    "id": "thrun1995lifelong",
+    "title": "Lifelong Robot Learning",
+    "authors": [
+      "Sebastian Thrun",
+      "Tom M. Mitchell"
+    ],
+    "year": 1995,
+    "venue": "Robotics and Autonomous Systems",
+    "type": "journal",
+    "url": "https://doi.org/10.1016/0921-8890(95)00004-Y",
+    "doi": "10.1016/0921-8890(95)00004-Y"
+  },
+  {
+    "id": "thrun1998learning",
+    "title": "Learning to Learn",
+    "authors": [],
+    "year": 1998,
+    "venue": "Springer US",
+    "type": "book",
+    "url": "https://doi.org/10.1007/978-1-4615-5529-2",
+    "doi": "10.1007/978-1-4615-5529-2"
+  },
+  {
+    "id": "waibel2011roboearth",
+    "title": "RoboEarth—A World Wide Web for Robots",
+    "authors": [
+      "Markus Waibel",
+      "Michael Beetz",
+      "Javier Civera",
+      "Raffaello D'Andrea",
+      "Jos Elfring",
+      "Dorian Gálvez-López",
+      "Kai Häussermann",
+      "Rob Janssen",
+      "J. M. M. Montiel",
+      "Alexander Perzylo",
+      "Björn Schiessle",
+      "Moritz Tenorth",
+      "Oliver Zweigle",
+      "M. J. G. René Van de Molengraft"
+    ],
+    "year": 2011,
+    "venue": "IEEE Robotics & Automation Magazine",
+    "type": "journal",
+    "url": "https://doi.org/10.1109/MRA.2011.941632",
+    "doi": "10.1109/MRA.2011.941632"
+  },
+  {
+    "id": "wang2016learningrl",
+    "title": "Learning to reinforcement learn",
+    "authors": [
+      "Jane X Wang",
+      "Zeb Kurth-Nelson",
+      "Dhruva Tirumala",
+      "Hubert Soyer",
+      "Joel Z Leibo",
+      "Remi Munos",
+      "Charles Blundell",
+      "Dharshan Kumaran",
+      "Matt Botvinick"
+    ],
+    "year": 2016,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/1611.05763",
+    "doi": ""
+  },
+  {
+    "id": "wang2020poet",
+    "title": "Enhanced POET: Open-Ended Reinforcement Learning through Unbounded Invention of Learning Challenges and Their Solutions",
+    "authors": [
+      "Rui Wang",
+      "Joel Lehman",
+      "Aditya Rawal",
+      "Jiale Zhi",
+      "Yulun Li",
+      "Jeff Clune",
+      "Kenneth O. Stanley"
+    ],
+    "year": 2020,
+    "venue": "International Conference on Machine Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "wang2024gensim",
+    "title": "GenSim: Generating Robotic Simulation Tasks via Large Language Models",
+    "authors": [
+      "Lirui Wang",
+      "Yiyang Ling",
+      "Zhecheng Yuan",
+      "Mohit Shridhar",
+      "Chen Bao",
+      "Yuzhe Qin",
+      "Bailin Wang",
+      "Huazhe Xu",
+      "Xiaolong Wang"
+    ],
+    "year": 2024,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "wang2024rlvlmf",
+    "title": "RL-VLM-F: Reinforcement Learning from Vision Language Foundation Model Feedback",
+    "authors": [
+      "Yufei Wang",
+      "Zhanyi Sun",
+      "Jesse Zhang",
+      "Zhou Xian",
+      "Erdem Bıyık",
+      "David Held",
+      "Zackory Erickson"
+    ],
+    "year": 2024,
+    "venue": "International Conference on Machine Learning",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2402.03681",
+    "doi": ""
+  },
+  {
+    "id": "wang2024robogen",
+    "title": "RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation",
+    "authors": [
+      "Yufei Wang",
+      "Zhou Xian",
+      "Feng Chen",
+      "Tsun-Hsuan Wang",
+      "Yian Wang",
+      "Katerina Fragkiadaki",
+      "Zackory Erickson",
+      "David Held",
+      "Chuang Gan"
+    ],
+    "year": 2024,
+    "venue": "International Conference on Machine Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "wu2023daydreamer",
+    "title": "DayDreamer: World Models for Physical Robot Learning",
+    "authors": [
+      "Philipp Wu",
+      "Alejandro Escontrela",
+      "Danijar Hafner",
+      "Pieter Abbeel",
+      "Ken Goldberg"
+    ],
+    "year": 2023,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "xie2022lifelong",
+    "title": "Lifelong Robotic Reinforcement Learning by Retaining Experiences",
+    "authors": [
+      "Annie Xie",
+      "Chelsea Finn"
+    ],
+    "year": 2022,
+    "venue": "Conference on Lifelong Learning Agents",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "xie2024text2reward",
+    "title": "Text2Reward: Reward Shaping with Language Models for Reinforcement Learning",
+    "authors": [
+      "Tianbao Xie",
+      "Siheng Zhao",
+      "Chen Henry Wu",
+      "Yitao Liu",
+      "Qian Luo",
+      "Victor Zhong",
+      "Yanchao Yang",
+      "Tao Yu"
+    ],
+    "year": 2024,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "xu2018metagradient",
+    "title": "Meta-Gradient Reinforcement Learning",
+    "authors": [
+      "Zhongwen Xu",
+      "Hado van Hasselt",
+      "David Silver"
+    ],
+    "year": 2018,
+    "venue": "Advances in Neural Information Processing Systems",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "yang2023robofume",
+    "title": "Robot Fine-Tuning Made Easy: Pre-Training Rewards and Policies for Autonomous Real-World Reinforcement Learning",
+    "authors": [
+      "Jingyun Yang",
+      "Max Sobol Mark",
+      "Brandon Vu",
+      "Archit Sharma",
+      "Jeannette Bohg",
+      "Chelsea Finn"
+    ],
+    "year": 2023,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2310.15145",
+    "doi": ""
+  },
+  {
+    "id": "yang2024unisim",
+    "title": "Learning Interactive Real-World Simulators",
+    "authors": [
+      "Sherry Yang",
+      "Yilun Du",
+      "Kamyar Ghasemipour",
+      "Jonathan Tompson",
+      "Leslie Kaelbling",
+      "Dale Schuurmans",
+      "Pieter Abbeel"
+    ],
+    "year": 2024,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "yang2025embodiedbench",
+    "title": "EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents",
+    "authors": [
+      "Rui Yang",
+      "Hanyang Chen",
+      "Junyu Zhang",
+      "Mark Zhao",
+      "Cheng Qian",
+      "et al."
+    ],
+    "year": 2025,
+    "venue": "International Conference on Machine Learning",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2502.09560",
+    "doi": ""
+  },
+  {
+    "id": "yu2019metaworld",
+    "title": "Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning",
+    "authors": [
+      "Tianhe Yu",
+      "Deirdre Quillen",
+      "Zhanpeng He",
+      "Ryan Julian",
+      "et al."
+    ],
+    "year": 2019,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/1910.10897",
+    "doi": ""
+  },
+  {
+    "id": "yu2023l2r",
+    "title": "Language to Rewards for Robotic Skill Synthesis",
+    "authors": [
+      "Wenhao Yu",
+      "Nimrod Gileadi",
+      "Chuyuan Fu",
+      "Sean Kirmani",
+      "Kuang-Huei Lee",
+      "Montserrat Gonzalez Arenas",
+      "Hao-Tien Lewis Chiang",
+      "Tom Erez",
+      "Leonard Hasenclever",
+      "Jan Humplik",
+      "Brian Ichter",
+      "Ted Xiao",
+      "Peng Xu",
+      "Andy Zeng",
+      "Tingnan Zhang",
+      "Nicolas Heess",
+      "Dorsa Sadigh",
+      "Jie Tan",
+      "Yuval Tassa",
+      "Fei Xia"
+    ],
+    "year": 2023,
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2306.08647",
+    "doi": ""
+  },
+  {
+    "id": "zelikman2022star",
+    "title": "STaR: Bootstrapping Reasoning With Reasoning",
+    "authors": [
+      "Eric Zelikman",
+      "Yuhuai Wu",
+      "Jesse Mu",
+      "Noah D. Goodman"
+    ],
+    "year": 2022,
+    "venue": "Advances in Neural Information Processing Systems",
+    "type": "conference",
+    "url": "https://doi.org/10.52202/068431-1126",
+    "doi": "10.52202/068431-1126"
+  },
+  {
+    "id": "zelikman2024stop",
+    "title": "Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation",
+    "authors": [
+      "Eric Zelikman",
+      "Eliana Lorch",
+      "Lester Mackey",
+      "Adam Tauman Kalai"
+    ],
+    "year": 2024,
+    "venue": "Conference on Language Modeling",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "zhang2024omni",
+    "title": "OMNI: Open-endedness via Models of human Notions of Interestingness",
+    "authors": [
+      "Jenny Zhang",
+      "Joel Lehman",
+      "Kenneth Stanley",
+      "Jeff Clune"
+    ],
+    "year": 2024,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "zhang2024vlabench",
+    "title": "VLABench: A Large-Scale Benchmark for Language-Conditioned Robotics Manipulation with Long-Horizon Reasoning Tasks",
+    "authors": [
+      "Shiduo Zhang",
+      "Zhe Xu",
+      "Peiju Liu",
+      "Xiaopeng Yu",
+      "Yuan Li",
+      "et al."
+    ],
+    "year": 2024,
+    "venue": "arXiv",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2412.18194",
+    "doi": ""
+  },
+  {
+    "id": "zhang2025dgm",
+    "title": "Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents",
+    "authors": [
+      "Jenny Zhang",
+      "Shengran Hu",
+      "Cong Lu",
+      "Robert Lange",
+      "Jeff Clune"
+    ],
+    "year": 2026,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2505.22954",
+    "doi": ""
+  },
+  {
+    "id": "zhou2025dinowm",
+    "title": "DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning",
+    "authors": [
+      "Gaoyue Zhou",
+      "Hengkai Pan",
+      "Yann LeCun",
+      "Lerrel Pinto"
+    ],
+    "year": 2025,
+    "venue": "International Conference on Machine Learning",
+    "type": "conference",
+    "url": "https://arxiv.org/abs/2411.04983",
+    "doi": ""
+  }
+]
