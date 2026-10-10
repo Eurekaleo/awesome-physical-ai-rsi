@@ -44,13 +44,12 @@ function showToast(message) {
   }, 3500);
 }
 
-async function copyCitation(reference) {
-  const text = referenceCitation(reference);
+async function copyText(text, copiedMessage, failedMessage) {
   try {
     if (!navigator.clipboard?.writeText)
       throw new Error("Clipboard unavailable");
     await navigator.clipboard.writeText(text);
-    showToast("Reference citation copied");
+    showToast(copiedMessage);
   } catch {
     const field = element("textarea");
     field.value = text;
@@ -61,12 +60,16 @@ async function copyCitation(reference) {
     const copied = document.execCommand("copy");
     field.remove();
     focused?.focus({ preventScroll: true });
-    showToast(
-      copied
-        ? "Reference citation copied"
-        : "Copy unavailable. Download the bibliography instead.",
-    );
+    showToast(copied ? copiedMessage : failedMessage);
   }
+}
+
+function copyCitation(reference) {
+  return copyText(
+    referenceCitation(reference),
+    "Reference citation copied",
+    "Copy unavailable. Download the bibliography instead.",
+  );
 }
 
 function renderReference(reference) {
@@ -396,6 +399,13 @@ $("clear-search").addEventListener("click", () => {
 $("reset-filters").addEventListener("click", reset);
 $("empty-reset").addEventListener("click", reset);
 $("retry").addEventListener("click", loadReferences);
+$("copy-bibtex")?.addEventListener("click", () =>
+  copyText(
+    $("survey-bibtex").textContent,
+    "BibTeX copied",
+    "Copy unavailable. Select the BibTeX text instead.",
+  ),
+);
 $("previous-page").addEventListener("click", () => changePage(state.page - 1));
 $("next-page").addEventListener("click", () => changePage(state.page + 1));
 window.addEventListener("popstate", () => {

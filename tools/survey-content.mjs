@@ -105,3 +105,25 @@ export const PROGRAMS = [
 
 export const CLOSING =
   "The first robot that becomes measurably better at rewriting its own recipe, even for a single family of failures, will mark the moment when physical experience begins to compound.";
+
+// BibTeX entry shared by the README and the website
+export function surveyBibtex(url) {
+  const authors = SURVEY.authors
+    .map(([name]) => {
+      const parts = name.split(" ");
+      return `${parts.at(-1)}, ${parts.slice(0, -1).join(" ")}`;
+    })
+    .join(" and ");
+  return [
+    `@misc{${SURVEY.bibtexKey},`,
+    `  title        = {${SURVEY.title}: ${SURVEY.subtitle}},`,
+    `  author       = {${authors}},`,
+    `  year         = {${SURVEY.year}},`,
+    `  howpublished = {\\url{${url}}},`,
+    "  note         = {Manuscript}",
+    "}",
+  ].join("\n");
+}
+
+export const TEASER_ALT =
+  "A small robot practises grasping a mug, files the change it kept, rewrites its own learning recipe, and climbs a step holding the improved recipe; a dashed path loops back to the start.";

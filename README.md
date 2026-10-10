@@ -22,6 +22,8 @@
 > [!NOTE]
 > The manuscript is not yet public. This page summarizes it with the authors' approval; a link to the paper will follow its release.
 
+<p align="center"><img src="assets/teaser.webp" width="900" alt="A small robot practises grasping a mug, files the change it kept, rewrites its own learning recipe, and climbs a step holding the improved recipe; a dashed path loops back to the start."></p>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/icons/about-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/icons/about-light.svg"><img src="assets/readme/icons/about-light.svg" alt="" width="36" align="left"></picture>
 
 ## About the survey

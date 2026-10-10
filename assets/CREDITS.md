@@ -17,6 +17,10 @@ The image is cropped, resized, and composited onto a light background for the we
 
 `readme/figures/figure-1.png`, `figure-2.png`, `figure-3.png` and `figure-6.png` are Figures 1, 2, 3 and 6 of the survey *From Physical Experience to Recursive Self-Improvement*, rendered from the manuscript. They are © 2026 the authors and appear in the README with the authors' approval. They are not covered by this repository's code license.
 
+## Teaser illustration
+
+`teaser.webp`, shown at the top of the README and the website's survey section, was generated with ChatGPT image generation for this project, in the style of the survey's robot illustrations. It depicts the survey's idea, not reported results.
+
 ## README icons and cards
 
 The section icons and cards in `readme/` were created for this repository by `tools/draw-readme-art.mjs`, in the website's colours.

@@ -5,7 +5,8 @@
   "description": "Physical AI & Recursive Self-Improvement: a survey and public reference library.",
   "type": "module",
   "scripts": {
-    "readme": "node tools/render-readme.mjs",
+    "readme": "node tools/render-readme.mjs && node tools/render-survey.mjs",
+    "art": "node tools/draw-readme-art.mjs",
     "test": "node --test tools/catalog.test.mjs",
     "check": "npm run test && node tools/check.mjs",
     "build": "npm run check && node tools/build.mjs",

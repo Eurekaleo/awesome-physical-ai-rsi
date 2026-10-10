@@ -22,7 +22,9 @@ import {
   QUESTIONS,
   RECURSION,
   SURVEY,
+  TEASER_ALT,
   USES,
+  surveyBibtex,
 } from "./survey-content.mjs";
 
 const COLORS = {
@@ -174,6 +176,8 @@ export function renderReadme(references) {
     "",
     "> [!NOTE]",
     "> The manuscript is not yet public. This page summarizes it with the authors' approval; a link to the paper will follow its release.",
+    "",
+    `<p align="center"><img src="assets/teaser.webp" width="900" alt="${html(TEASER_ALT)}"></p>`,
     "",
   );
 
@@ -332,23 +336,11 @@ export function renderReadme(references) {
     "",
   );
   heading("Citation");
-  const bibAuthors = SURVEY.authors
-    .map(([name]) => {
-      const parts = name.split(" ");
-      return `${parts.at(-1)}, ${parts.slice(0, -1).join(" ")}`;
-    })
-    .join(" and ");
   add(
     "If you find the survey or the reference library useful, please cite:",
     "",
     "```bibtex",
-    `@misc{${SURVEY.bibtexKey},`,
-    `  title        = {${SURVEY.title}: ${SURVEY.subtitle}},`,
-    `  author       = {${bibAuthors}},`,
-    `  year         = {${SURVEY.year}},`,
-    `  howpublished = {\\url{${REPO_URL}}},`,
-    "  note         = {Manuscript}",
-    "}",
+    surveyBibtex(REPO_URL),
     "```",
     "",
   );

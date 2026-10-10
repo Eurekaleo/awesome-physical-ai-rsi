@@ -15,6 +15,7 @@ import {
   walkFiles,
 } from "./public-files.mjs";
 import { renderReadme } from "./render-readme.mjs";
+import { applySurveySection } from "./render-survey.mjs";
 
 const run = promisify(execFile);
 const references = JSON.parse(
@@ -266,22 +267,17 @@ assert(
   idsByFile.get("index.html").has("publication"),
   "Publication section is missing",
 );
-const placeholders = [
-  ...homepage.matchAll(
-    /<template\b[^>]*data-survey-content=["']([^"']+)["'][^>]*>([\s\S]*?)<\/template>/g,
-  ),
-];
-assert.deepEqual(
-  placeholders.map((match) => match[1]).sort(),
-  ["abstract", "citation", "framework", "overview"],
-  "Reserved survey placeholders are missing or duplicated",
+// The survey summary is generated from tools/survey-content.mjs; the paper itself is not public yet, so the
+// scholarly-metadata checks above still apply.
+assert(
+  idsByFile.get("index.html").has("survey"),
+  "Survey section is missing",
 );
-for (const [, name, content] of placeholders)
-  assert.equal(
-    content.trim(),
-    "",
-    `Survey placeholder must remain empty: ${name}`,
-  );
+assert.equal(
+  homepage,
+  applySurveySection(homepage),
+  "Survey section is out of date. Run npm run readme.",
+);
 const robots = await readFile(path.join(ROOT, "robots.txt"), "utf8");
 const sitemap = await readFile(path.join(ROOT, "sitemap.xml"), "utf8");
 assert(
@@ -321,5 +317,5 @@ repositoryFiles ??= await walkFiles("", {
 });
 for (const file of repositoryFiles) assertPublicPath(file);
 console.log(
-  `Checks passed: ${references.length} metadata-only references; README synchronized; ${files.length} public files; local links resolved; survey placeholders empty.`,
+  `Checks passed: ${references.length} metadata-only references; README synchronized; ${files.length} public files; local links resolved; survey section synchronized.`,
 );

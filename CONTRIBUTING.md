@@ -4,7 +4,7 @@ Contributions to **Physical AI & Recursive Self-Improvement** currently cover pu
 
 ## Public scope
 
-This project is in its prepublication stage. The README carries a summary of the survey that the authors approved and maintain. Public contributions are limited to bibliography metadata and website infrastructure. Do not attach, paste, or commit unpublished manuscript text, abstracts, taxonomies, analysis, figures, tables, PDFs, Overleaf projects, or source archives. The full survey content will be added after publication.
+This project is in its prepublication stage. The README and the website carry a summary of the survey that the authors approved and maintain. Public contributions are limited to bibliography metadata and website infrastructure. Do not attach, paste, or commit unpublished manuscript text, abstracts, taxonomies, analysis, figures, tables, PDFs, Overleaf projects, or source archives. The full survey content will be added after publication.
 
 ## Reference corrections
 
@@ -42,4 +42,4 @@ README content is generated. Edit `tools/render-readme.mjs` for presentation cha
 
 Describe the problem, the visible result, and the checks you ran. Keep each request focused. Metadata corrections should link to public evidence. For interface changes, describe the viewports and interactions you checked.
 
-The automated checks verify catalog behavior, data shape, generated README consistency, project naming, local site links, empty survey placeholders, and the public build boundary. They do not establish the scientific accuracy of a reference or approve unpublished material for release.
+The automated checks verify catalog behavior, data shape, generated README consistency, project naming, local site links, the generated survey section, the absence of unpublished scholarly metadata, and the public build boundary. They do not establish the scientific accuracy of a reference or approve unpublished material for release.
