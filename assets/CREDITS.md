@@ -13,6 +13,14 @@ The photograph shows an Astrobee robot capturing a cube with experimental adhesi
 
 The image is cropped, resized, and composited onto a light background for the website, repository banner, and sharing image. This public photograph is an independent visual asset, not a survey figure or a depiction of this project's results. NASA permits factual educational and informational use under its published guidelines. NASA is credited as the source; no individual photographer is identified in the image metadata. NASA does not endorse this project. NASA media remains subject to its published usage guidelines and is not covered by this repository's code license.
 
+## Survey figures
+
+`readme/figures/figure-1.png`, `figure-2.png`, `figure-3.png` and `figure-6.png` are Figures 1, 2, 3 and 6 of the survey *From Physical Experience to Recursive Self-Improvement*, rendered from the manuscript. They are © 2026 the authors and appear in the README with the authors' approval. They are not covered by this repository's code license.
+
+## README icons and cards
+
+The section icons and cards in `readme/` were created for this repository by `tools/draw-readme-art.mjs`, in the website's colours.
+
 ## Typography
 
 **Manrope** by Mikhail Sharanda and collaborators, from [Google Fonts](https://github.com/google/fonts/tree/main/ofl/manrope). The locally hosted variable font is subset for Latin text. Licensed under the [SIL Open Font License 1.1](fonts/OFL.txt).

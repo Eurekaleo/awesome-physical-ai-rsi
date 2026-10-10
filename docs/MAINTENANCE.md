@@ -12,7 +12,7 @@ docs/          Maintenance and release documentation
 site/          Website styles and browser modules
 tools/         Reference rendering, validation, build, and preview scripts
 index.html     Project homepage
-README.md      Generated project overview and reference list
+README.md      Generated survey summary and reference list
 dist/          Generated deployment output, ignored by Git
 ```
 
@@ -53,7 +53,7 @@ Use **Physical AI & Recursive Self-Improvement** for the complete public project
 
 ## Visual assets and licensing
 
-Record each public asset's origin and usage terms in `assets/CREDITS.md`. Do not copy figures from the unpublished survey. The MIT license applies to this repository's original software and accompanying technical documentation. Third-party images, fonts, publication text, and linked works retain their own licenses and rights.
+Record each public asset's origin and usage terms in `assets/CREDITS.md`. Figures 1, 2, 3 and 6 of the survey appear in the README with the authors' approval (`assets/readme/figures/`); do not add other manuscript figures without the same approval. The README's section icons and cards are drawn by `node tools/draw-readme-art.mjs`; run it after changing their text or colours and commit the SVGs. The MIT license applies to this repository's original software and accompanying technical documentation. Third-party images, fonts, publication text, and linked works retain their own licenses and rights.
 
 ## Publication
 

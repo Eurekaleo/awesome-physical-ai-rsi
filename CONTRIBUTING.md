@@ -4,7 +4,7 @@ Contributions to **Physical AI & Recursive Self-Improvement** currently cover pu
 
 ## Public scope
 
-This project is in its prepublication stage. Public contributions are limited to bibliography metadata and website infrastructure. Do not attach, paste, or commit unpublished manuscript text, abstracts, taxonomies, analysis, figures, tables, PDFs, Overleaf projects, or source archives. The survey content will be added after publication.
+This project is in its prepublication stage. The README carries a summary of the survey that the authors approved and maintain. Public contributions are limited to bibliography metadata and website infrastructure. Do not attach, paste, or commit unpublished manuscript text, abstracts, taxonomies, analysis, figures, tables, PDFs, Overleaf projects, or source archives. The full survey content will be added after publication.
 
 ## Reference corrections
 
@@ -36,7 +36,7 @@ npm run preview
 
 The preview server prints its local URL. It serves the built website from `dist/` at the same project path used by GitHub Pages. Check a desktop viewport and a narrow mobile viewport when changing the interface. Confirm that search, filters, collection charts, pagination, links, and keyboard focus still work. `npm run test` runs the focused catalog tests independently.
 
-README bibliography content is generated. Edit `tools/render-readme.mjs` for presentation changes, then run `npm run readme`. Include the generated README in the same pull request as a metadata change.
+README content is generated. Edit `tools/render-readme.mjs` for presentation changes (the survey summary lives in `tools/survey-content.mjs`), then run `npm run readme`. Include the generated README in the same pull request as a metadata change.
 
 ## Pull requests
 
