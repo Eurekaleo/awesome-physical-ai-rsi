@@ -1,10 +1,11 @@
 // Draw the README banner (assets/readme-banner.png) and the social preview (assets/social-preview.png) from the
-// teaser illustration, the project mark and the site's font, with a headless Chrome, Chromium or Edge.
+// teaser painting (assets/teaser.webp), the project mark and the site's font, with a headless Chrome, Chromium or
+// Edge. The website hero shows the painting itself, laid out by site/styles.css.
 //
 //   node tools/draw-banners.mjs
 //
-// Run by hand after changing the wording or the teaser, then commit the PNGs. The banners carry no counts or
-// dates, so they do not go stale when the bibliography changes.
+// Run by hand after changing the wording or the teaser, then commit the images. They carry no counts or dates,
+// so they do not go stale when the bibliography changes.
 import { execFileSync } from "node:child_process";
 import { existsSync } from "node:fs";
 import { mkdtemp, rm, writeFile } from "node:fs/promises";
@@ -42,7 +43,7 @@ function page(width, height, titleSize, teaserWidth) {
 @font-face { font-family: Manrope; src: url("${asset("assets/fonts/manrope-latin.woff2")}") format("woff2"); font-weight: 200 800; }
 html, body { margin: 0; }
 body { width: ${width}px; height: ${height}px; overflow: hidden; font-family: Manrope, sans-serif; color: #172b28;
-  background: linear-gradient(90deg, #f4f7f5 0%, #f4f7f5 34%, #ffffff 58%); position: relative; }
+  background: #f2f6f2; position: relative; }
 .copy { position: absolute; left: ${Math.round(width * 0.045)}px; top: 50%; transform: translateY(-50%); width: ${Math.round(width - teaserWidth - width * 0.06)}px; }
 .brand { display: flex; align-items: center; gap: 14px; font-size: ${Math.round(titleSize * 0.42)}px; font-weight: 800; color: #125b50; margin-bottom: ${Math.round(titleSize * 0.75)}px; }
 .brand img { width: ${Math.round(titleSize * 0.72)}px; height: ${Math.round(titleSize * 0.72)}px; border-radius: 7px; }
@@ -54,7 +55,7 @@ h1 em { font-style: normal; color: #125b50; }
 .status { display: flex; align-items: center; gap: 14px; font-size: ${Math.round(titleSize * 0.35)}px; color: #566760; }
 .status strong { color: #125b50; font-weight: 700; }
 .status i { width: 6px; height: 6px; background: #914252; display: inline-block; }
-.teaser { mix-blend-mode: multiply; position: absolute; right: ${Math.round(width * 0.025)}px; top: 50%; transform: translateY(-50%); width: ${teaserWidth}px; }
+.teaser { border-radius: 14px; box-shadow: 0 16px 38px rgba(23, 43, 40, 0.22), 0 0 0 2px rgba(255, 255, 255, 0.6); position: absolute; right: ${Math.round(width * 0.025)}px; top: 50%; transform: translateY(-50%); width: ${teaserWidth}px; }
 </style></head><body>
 <div class="copy">
   <div class="brand"><img src="${asset("assets/mark.png")}" alt=""><div>Physical AI <span>+ RSI</span></div></div>
@@ -69,15 +70,14 @@ h1 em { font-style: normal; color: #125b50; }
 
 const browser = findBrowser();
 const temp = await mkdtemp(path.join(os.tmpdir(), "banners-"));
+const run = (args) =>
+  execFileSync(browser, ["--headless=new", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1",
+    "--allow-file-access-from-files", `--user-data-dir=${path.join(temp, "profile")}`, "--virtual-time-budget=5000", ...args], { stdio: "ignore" });
 try {
   for (const [file, width, height, titleSize, teaserWidth] of BANNERS) {
     const html = path.join(temp, "banner.html");
     await writeFile(html, page(width, height, titleSize, teaserWidth));
-    execFileSync(browser, [
-      "--headless=new", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1", "--allow-file-access-from-files",
-      `--window-size=${width},${height}`, `--user-data-dir=${path.join(temp, "profile")}`, "--virtual-time-budget=3000",
-      `--screenshot=${path.join(ROOT, file)}`, pathToFileURL(html).href,
-    ], { stdio: "ignore" });
+    run([`--window-size=${width},${height}`, `--screenshot=${path.join(ROOT, file)}`, pathToFileURL(html).href]);
     console.log(`Wrote ${file} (${width}x${height})`);
   }
 } finally {

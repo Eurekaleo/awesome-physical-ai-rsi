@@ -126,4 +126,4 @@ export function surveyBibtex(url) {
 }
 
 export const TEASER_ALT =
-  "A small robot practises grasping a mug, files the change it kept, rewrites its own learning recipe, and climbs a step holding the improved recipe; a dashed path loops back to the start.";
+  "A painting in the style of Van Gogh: under a swirling starry sky, a small robot practises grasping a mug, files the change it kept, rewrites its own learning recipe, and climbs a step holding the improved recipe, while a golden trail loops back to the start.";

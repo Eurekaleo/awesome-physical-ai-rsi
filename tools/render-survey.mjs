@@ -20,7 +20,6 @@ import {
   QUESTIONS,
   RECURSION,
   SURVEY,
-  TEASER_ALT,
   USES,
   surveyBibtex,
 } from "./survey-content.mjs";
@@ -68,9 +67,6 @@ export function renderSurveySection() {
     `      <p class="survey-affiliations">${SURVEY.affiliations.map((name, i) => `<span><sup>${i + 1}</sup>${html(name)}</span>`).join("")}</p>`,
     '      <p class="survey-note"><span class="status-dot"></span>The manuscript is not yet public. This summary is shared with the authors&#39; approval.</p>',
     "    </header>",
-    '    <figure class="survey-teaser">',
-    `      <img src="assets/teaser.webp" width="1774" height="887" decoding="async" alt="${html(TEASER_ALT)}" />`,
-    "    </figure>",
     '    <div class="survey-intro">',
     '      <div class="survey-abstract">',
     ...ABOUT.map((paragraph) => `        <p>${inline(paragraph)}</p>`),
