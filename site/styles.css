@@ -63,6 +63,7 @@ button:disabled {
 }
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 button img,
@@ -972,6 +973,10 @@ h2 {
   font-size: 12px;
   line-height: 1.7;
   color: var(--muted);
+}
+.survey-figure img {
+  width: 100%;
+  height: auto;
 }
 .survey-figure {
   max-width: 1000px;
