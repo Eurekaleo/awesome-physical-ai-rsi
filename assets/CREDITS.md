@@ -11,7 +11,7 @@ The project cover uses **Astronaut Suni Williams monitors an Astrobee robotic fr
 
 The photograph shows an Astrobee robot capturing a cube with experimental adhesive grippers. NASA describes the experiment as a demonstration of autonomous detection and capture techniques. Its use here illustrates a real robotics experiment; it does not claim that the pictured system performs recursive self-improvement.
 
-The image is cropped, resized, and composited onto a light background for the website, repository banner, and sharing image. This public photograph is an independent visual asset, not a survey figure or a depiction of this project's results. NASA permits factual educational and informational use under its published guidelines. NASA is credited as the source; no individual photographer is identified in the image metadata. NASA does not endorse this project. NASA media remains subject to its published usage guidelines and is not covered by this repository's code license.
+The image is cropped, resized, and composited onto a light background for the website's hero. This public photograph is an independent visual asset, not a survey figure or a depiction of this project's results. NASA permits factual educational and informational use under its published guidelines. NASA is credited as the source; no individual photographer is identified in the image metadata. NASA does not endorse this project. NASA media remains subject to its published usage guidelines and is not covered by this repository's code license.
 
 ## Survey figures
 
@@ -19,7 +19,7 @@ The image is cropped, resized, and composited onto a light background for the we
 
 ## Teaser illustration
 
-`teaser.webp`, shown at the top of the README and the website's survey section, was generated with ChatGPT image generation for this project, in the style of the survey's robot illustrations. It depicts the survey's idea, not reported results.
+`teaser.webp`, shown in the website's survey section and composed into the README banner (`readme-banner.png`) and the sharing image (`social-preview.png`) by `tools/draw-banners.mjs`, was generated with ChatGPT image generation for this project, in the style of the survey's robot illustrations. It depicts the survey's idea, not reported results.
 
 ## README icons and cards
 
