@@ -205,36 +205,155 @@ button {
 .hero {
   position: relative;
   isolation: isolate;
-  height: 416px;
   overflow: hidden;
-  background: #f2f6f2;
+  background: #0c1a45;
+  color: #f4ecd2;
+}
+.hero-sky {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+/* a calm band behind the title keeps the text readable over the painted sky */
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(8, 16, 44, 0.8) 0%, rgba(8, 16, 44, 0.55) 40%, rgba(8, 16, 44, 0) 72%);
 }
 .hero-inner {
   position: relative;
-  height: 100%;
+  min-height: 580px;
   width: min(1280px, calc(100% - 96px));
   margin-inline: auto;
+  padding: 56px 0 110px;
   display: flex;
   align-items: center;
-  gap: 48px;
+  gap: 56px;
 }
 .hero-copy {
-  flex: 0 0 auto;
-  padding: 26px 0 34px;
+  flex: 1 1 520px;
+  max-width: 600px;
 }
-/* the teaser painting, framed like a canvas beside the title */
 .hero-art {
-  flex: 0 1 640px;
+  flex: 0 1 600px;
   min-width: 0;
   margin: 0 0 0 auto;
 }
 .hero-art img {
   width: 100%;
   height: auto;
-  border-radius: 14px;
+  border-radius: 12px;
+  transform: rotate(-1.2deg);
   box-shadow:
-    0 16px 38px rgba(23, 43, 40, 0.22),
-    0 0 0 2px rgba(255, 255, 255, 0.6);
+    0 26px 60px rgba(0, 0, 0, 0.5),
+    0 0 0 3px rgba(242, 193, 78, 0.6);
+  transition: transform 0.5s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.hero-art img:hover {
+  transform: rotate(0) scale(1.015);
+}
+.hero-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0 0 18px;
+  color: #f2c14e;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.hero-eyebrow .status-dot {
+  background: #f2c14e;
+  box-shadow: 0 0 10px #f2c14e;
+}
+.hero h1 {
+  margin: 0 0 14px;
+  color: #f7f1dc;
+  font-size: 50px;
+  line-height: 1.1;
+  font-weight: 700;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.35);
+}
+.hero h1 span {
+  color: #f2c14e;
+}
+.hero-subtitle {
+  margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #c9d6f0;
+}
+.hero-authors,
+.hero-affiliations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 12px;
+}
+.hero-authors {
+  margin: 0 0 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #eef2fb;
+}
+.hero-affiliations {
+  margin: 0 0 26px;
+  font-size: 11px;
+  color: #aebde0;
+}
+.hero-authors sup,
+.hero-affiliations sup {
+  margin-left: 1px;
+  color: #f2c14e;
+  font-size: 9px;
+}
+.hero-affiliations sup {
+  margin: 0 3px 0 0;
+}
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.hero .button {
+  gap: 9px;
+  transition:
+    transform 0.16s,
+    background-color 0.16s,
+    filter 0.16s;
+}
+.hero .button:hover {
+  transform: translateY(-1px);
+}
+.button-gold {
+  background: linear-gradient(135deg, #f6d77a, #e8a93a);
+  color: #1b2a4f;
+  box-shadow: 0 8px 22px rgba(232, 169, 58, 0.35);
+}
+.button-gold:hover {
+  filter: brightness(1.06);
+}
+.button-glass {
+  border-color: rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.1);
+  color: #f4ecd2;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+.button-glass:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+.hero-note {
+  margin: 18px 0 0;
+  font-size: 11px;
+  color: #9fb0d6;
 }
 .eyebrow {
   margin: 0;
@@ -243,13 +362,6 @@ button {
   text-transform: uppercase;
   line-height: 1.8;
 }
-.hero-eyebrow {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  color: var(--green);
-  margin-bottom: 17px;
-}
 .status-dot {
   display: inline-block;
   width: 6px;
@@ -257,26 +369,6 @@ button {
   flex: 0 0 6px;
   border-radius: 50%;
   background: #278773;
-}
-.hero h1 {
-  font-size: 52px;
-  line-height: 1.11;
-  font-weight: 700;
-  margin: 0 0 16px;
-}
-.hero h1 span {
-  color: var(--green);
-}
-.hero-description {
-  margin: 0 0 23px;
-  font-size: 14px;
-  line-height: 1.7;
-  color: #425a51;
-}
-.hero-actions {
-  display: flex;
-  align-items: center;
-  gap: 23px;
 }
 .button {
   display: inline-flex;
@@ -308,19 +400,6 @@ button {
 }
 .button-outline:hover {
   background: var(--green-light);
-}
-.hero-status {
-  display: flex;
-  align-items: center;
-  min-height: 44px;
-  gap: 9px;
-  font-size: 11px;
-  color: #4c6057;
-}
-.status-line {
-  height: 1px;
-  width: 17px;
-  background: #768a7d;
 }
 .library-section {
   padding-top: 34px;
@@ -821,56 +900,6 @@ h2 {
   font-size: 36px;
   line-height: 1.2;
 }
-.survey-header h2 > span:first-child {
-  color: var(--green);
-  white-space: nowrap;
-}
-.survey-subtitle {
-  margin: 10px 0 18px;
-  font-size: 15px;
-  color: var(--muted);
-}
-.survey-authors,
-.survey-affiliations {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 4px 16px;
-  margin: 0 0 8px;
-}
-.survey-authors {
-  font-size: 13px;
-  font-weight: 700;
-}
-.survey-authors sup,
-.survey-affiliations sup {
-  margin-left: 1px;
-  font-size: 9px;
-  color: var(--rose);
-}
-.survey-affiliations {
-  font-size: 11px;
-  color: var(--muted);
-}
-.survey-affiliations sup {
-  margin: 0 3px 0 0;
-}
-.survey-note {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  margin: 14px 0 0;
-  padding: 6px 13px;
-  border-radius: 999px;
-  background: var(--green-light);
-  color: var(--green);
-  font-size: 11px;
-  font-weight: 600;
-}
-.survey-figure img {
-  width: 100%;
-  height: auto;
-}
 .survey-intro {
   display: grid;
   grid-template-columns: 1.25fr 1fr;
@@ -964,19 +993,107 @@ h2 {
 .survey-block {
   margin-top: 52px;
 }
-.survey-block > h3 {
+/* numbered survey blocks */
+.block-eyebrow {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin: 0 0 18px;
-  font-size: 22px;
-  line-height: 1.3;
+  gap: 10px;
+  margin: 0 0 8px;
+  color: var(--rose);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
-.survey-block > h3::before {
-  content: "";
-  width: 18px;
-  height: 2px;
-  background: var(--rose);
+.block-eyebrow span {
+  display: inline-grid;
+  place-items: center;
+  min-width: 30px;
+  height: 22px;
+  padding: 0 7px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #f6d77a, #e8a93a);
+  color: #1b2a4f;
+  letter-spacing: 0;
+}
+.block-title {
+  margin: 0 0 20px;
+  font-size: 26px;
+  line-height: 1.25;
+}
+.question-grid li,
+.use-card,
+.problem-card {
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+.question-grid li:hover,
+.use-card:hover,
+.problem-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px -16px rgba(23, 43, 40, 0.4);
+}
+/* scroll reveal (only once effects.js has run, and never with reduced motion) */
+.reveal-ready [data-reveal] {
+  opacity: 0;
+  transform: translateY(26px);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.reveal-ready [data-reveal].is-revealed {
+  opacity: 1;
+  transform: none;
+}
+/* chapter pager */
+.pager {
+  position: fixed;
+  top: 50%;
+  right: 18px;
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  transform: translateY(-50%);
+}
+.pager a {
+  position: relative;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 1.5px solid #9caf9f;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.85);
+  transition:
+    transform 0.2s,
+    background-color 0.2s,
+    border-color 0.2s;
+}
+.pager a[aria-current] {
+  border-color: #e8a93a;
+  background: #e8a93a;
+  transform: scale(1.3);
+}
+.pager a span {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  padding: 4px 9px;
+  border-radius: 6px;
+  background: var(--ink);
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: opacity 0.15s;
+}
+.pager a:hover span,
+.pager a:focus-visible span {
+  opacity: 1;
 }
 .question-grid,
 .use-grid,
@@ -1248,17 +1365,14 @@ h2 {
   margin-bottom: 26px;
 }
 @media (min-width: 1700px) {
-  .hero {
-    height: 450px;
-  }
   .hero h1 {
-    font-size: 58px;
-  }
-  .hero-copy {
-    padding-bottom: 25px;
+    font-size: 56px;
   }
 }
 @media (max-width: 1199px) {
+  .pager {
+    display: none;
+  }
   .container,
   .hero-inner {
     width: calc(100% - 64px);
@@ -1266,11 +1380,8 @@ h2 {
   .header-inner {
     width: calc(100% - 56px);
   }
-  .hero {
-    height: 402px;
-  }
   .hero h1 {
-    font-size: 48px;
+    font-size: 44px;
   }
   .library-body {
     gap: 26px;
@@ -1296,18 +1407,28 @@ h2 {
   }
 }
 @media (max-width: 999px) {
-  .hero {
-    height: 380px;
+  .hero::after {
+    background: linear-gradient(180deg, rgba(8, 16, 44, 0.78) 0%, rgba(8, 16, 44, 0.5) 55%, rgba(8, 16, 44, 0.1) 100%);
+  }
+  .hero-inner {
+    min-height: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 34px;
+    padding: 48px 0 104px;
+  }
+  .hero-copy {
+    flex: none;
+    width: 100%;
+    min-width: 0;
+  }
+  .hero-art {
+    flex: none;
+    width: min(640px, 100%);
+    margin: 0;
   }
   .hero h1 {
-    font-size: 44px;
-  }
-  .hero-status {
-    display: none;
-  }
-  .hero-description {
-    max-width: 335px;
-    font-size: 13px;
+    font-size: 40px;
   }
   .filters {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1451,21 +1572,13 @@ h2 {
     min-height: 44px;
     padding: 13px 0;
   }
-  .hero {
-    height: auto;
-    padding-bottom: 28px;
-  }
   .hero-inner {
-    flex-direction: column;
     align-items: stretch;
     gap: 26px;
-  }
-  .hero-copy {
-    padding: 27px 0 0;
+    padding: 34px 0 84px;
   }
   .hero-art {
-    flex: none;
-    margin: 0;
+    width: 100%;
   }
   .hero-eyebrow {
     font-size: 9px;
@@ -1477,16 +1590,16 @@ h2 {
     line-height: 1.15;
     margin-bottom: 14px;
   }
-  .hero-description {
+  .hero-subtitle {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  .hero-authors {
     font-size: 12px;
-    line-height: 1.7;
-    max-width: 180px;
-    margin-bottom: 20px;
   }
   .hero-actions .button {
     font-size: 11px;
-    padding: 11px 15px;
-    gap: 14px;
+    padding: 10px 13px;
   }
   .library-section {
     padding-top: 26px;
@@ -1717,9 +1830,6 @@ h2 {
   .hero h1 {
     font-size: 31px;
   }
-  .hero-description {
-    max-width: 160px;
-  }
   h2 {
     font-size: 21px;
   }
@@ -1764,14 +1874,14 @@ h2 {
   .survey-header h2 {
     font-size: 26px;
   }
-  .survey-header h2 > span:first-child {
-    white-space: normal;
-  }
   .survey-block {
     margin-top: 40px;
   }
-  .survey-block > h3 {
-    font-size: 19px;
+  .block-title {
+    font-size: 21px;
+  }
+  .pager {
+    display: none;
   }
   .question-grid,
   .use-grid,

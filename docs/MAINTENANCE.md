@@ -12,7 +12,7 @@ docs/          Maintenance and release documentation
 site/          Website styles and browser modules
 tools/         Reference rendering, validation, build, and preview scripts
 index.html     Project homepage
-README.md      Generated survey summary and reference list (the website's survey section is generated from the same content)
+README.md      Generated survey summary and reference list (the website's hero and survey section are generated from the same content)
 dist/          Generated deployment output, ignored by Git
 ```
 
@@ -28,7 +28,7 @@ Bibliographic fields are deliberately limited. Records must not carry unpublishe
 
 ## Validation and deployment
 
-`npm run check` runs the catalog tests, then validates the data schema, IDs, generated README and website survey section, project naming and URLs, site links, the absence of unpublished scholarly metadata, repository file extensions, and public-file selection. Run `npm run readme` after editing `tools/survey-content.mjs` or the references. External paper URLs are checked for safe syntax, not fetched during every build.
+`npm run check` runs the catalog tests, then validates the data schema, IDs, generated README and website survey section, project naming and URLs, site links, the absence of unpublished scholarly metadata, repository file extensions, and public-file selection. Run `npm run readme` after editing `tools/survey-content.mjs` or the references. `site/effects.js` paints the hero's night sky and runs the scroll reveals and chapter pager; with `prefers-reduced-motion` the sky is painted once and nothing moves, and without JavaScript the page shows as a static document. External paper URLs are checked for safe syntax, not fetched during every build.
 
 The catalog tests cover combined filtering, URL state, page-size bounds, venue normalization, reference summaries, publication links, and citation formatting. The site's year, publication-type, and venue views are calculated from public metadata; they do not encode the unpublished survey's research taxonomy.
 

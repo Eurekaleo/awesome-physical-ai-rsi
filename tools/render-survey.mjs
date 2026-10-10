@@ -1,4 +1,5 @@
-// Render the website's survey section from tools/survey-content.mjs into index.html, between the survey markers.
+// Render the website's hero (the paper's title, authors and links over the night sky) and its survey section from
+// tools/survey-content.mjs into index.html, between the survey markers.
 //
 //   node tools/render-survey.mjs          # rewrite the section in index.html
 //   node tools/render-survey.mjs --check  # fail if index.html is out of date
@@ -20,6 +21,7 @@ import {
   QUESTIONS,
   RECURSION,
   SURVEY,
+  TEASER_ALT,
   USES,
   surveyBibtex,
 } from "./survey-content.mjs";
@@ -52,107 +54,151 @@ function figure(number) {
   ];
 }
 
-export function renderSurveySection() {
+const ICON = (d) =>
+  `<svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
+const GITHUB_ICON =
+  '<svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>';
+
+// The hero: the paper's title, authors and links over the night sky, with the teaser painting framed beside them.
+export function renderHero() {
   const authors = SURVEY.authors
     .map(([name, affiliations]) => `<span>${html(name)}<sup>${affiliations.join(",")}</sup></span>`)
     .join("");
+  const affiliations = SURVEY.affiliations.map((name, i) => `<span><sup>${i + 1}</sup>${html(name)}</span>`).join("");
+  return [
+    '<section id="top" class="hero" aria-labelledby="project-title" data-chapter="Title">',
+    '  <canvas class="hero-sky" aria-hidden="true"></canvas>',
+    '  <div class="hero-inner">',
+    '    <div class="hero-copy">',
+    '      <p class="hero-eyebrow"><span class="status-dot"></span>Physical AI + RSI · A survey &amp; reference library</p>',
+    `      <h1 id="project-title">From Physical Experience to <span>Recursive Self&#8209;Improvement</span></h1>`,
+    `      <p class="hero-subtitle">${html(SURVEY.subtitle)}</p>`,
+    `      <p class="hero-authors">${authors}</p>`,
+    `      <p class="hero-affiliations">${affiliations}</p>`,
+    '      <div class="hero-actions">',
+    `        <a href="#survey" class="button button-gold">Read the survey${ICON('<path d="M8 2.5v10M3.5 8.5 8 13l4.5-4.5"/>')}</a>`,
+    `        <a href="#references" class="button button-glass">${ICON('<path d="M2.5 3.5h4l1.5 1.5v8l-1.5-1H2.5zM13.5 3.5h-4L8 5v8l1.5-1h4z"/>')}Reference library</a>`,
+    `        <a href="#survey-citation" class="button button-glass">${ICON('<path d="M3.5 2.5h9v11l-4.5-3-4.5 3z"/>')}BibTeX</a>`,
+    `        <a href="${REPO_URL}" class="button button-glass" target="_blank" rel="noopener noreferrer">${GITHUB_ICON}GitHub</a>`,
+    "      </div>",
+    '      <p class="hero-note">Paper coming soon · this page summarizes the manuscript with the authors&#39; approval</p>',
+    "    </div>",
+    '    <figure class="hero-art">',
+    `      <img src="assets/teaser.webp" width="1774" height="887" fetchpriority="high" alt="${html(TEASER_ALT)}" />`,
+    "    </figure>",
+    "  </div>",
+    "</section>",
+  ];
+}
+
+// A numbered survey block: eyebrow with its number, heading, then the body lines.
+function block(number, id, title, body, extraClass = "") {
+  return [
+    `<div class="survey-block${extraClass}" id="${id}" data-reveal data-chapter="${html(title)}">`,
+    `  <p class="block-eyebrow"><span>${String(number).padStart(2, "0")}</span>${html(title)}</p>`,
+    ...body.map((line) => `  ${line}`),
+    "</div>",
+  ];
+}
+
+export function renderSurveySection() {
+  const intro = [
+    '<div class="survey-intro">',
+    '  <div class="survey-abstract">',
+    ...ABOUT.map((paragraph) => `    <p>${inline(paragraph)}</p>`),
+    "  </div>",
+    '  <aside class="condition-panel" aria-labelledby="survey-conditions-title">',
+    '    <h3 id="survey-conditions-title">Four recurring conditions</h3>',
+    '    <ol class="condition-list">',
+    ...CONDITIONS.map(([name, text]) => `      <li><strong>${html(name)}</strong><span>${html(text[0].toUpperCase() + text.slice(1))}</span></li>`),
+    "    </ol>",
+    `    <p>${html(CONDITIONS_NOTE)}</p>`,
+    "  </aside>",
+    "</div>",
+    ...figure(1),
+  ];
+  const questions = [
+    '<h3 class="block-title">What the survey asks</h3>',
+    '<ol class="question-grid">',
+    ...QUESTIONS.map(([id, question, detail]) => `  <li><span class="question-id">${id}</span><strong>${html(question)}</strong><p>${html(detail)}</p></li>`),
+    "</ol>",
+  ];
+  const framework = [
+    '<h3 class="block-title">Four uses, four conditions, four claims</h3>',
+    ...figure(2),
+    `<p class="evidence-note"><strong>What current evidence shows.</strong> ${html(EVIDENCE)}</p>`,
+  ];
+  const uses = ['<h3 class="block-title">Where an acquired change goes next</h3>', '<div class="use-grid">'];
+  for (const [use, change, next, claim, chapter] of USES)
+    uses.push(
+      '  <article class="use-card">',
+      `    <p class="use-chapter">${html(chapter)}</p>`,
+      `    <h4>${html(use)}</h4>`,
+      `    <dl><div><dt>Retained change</dt><dd>${html(change)}</dd></div><div><dt>Immediate use</dt><dd>${html(next)}</dd></div><div><dt>Principal claim</dt><dd>${html(claim)}</dd></div></dl>`,
+      "  </article>",
+    );
+  uses.push("</div>", ...figure(3));
+  const recursion = [
+    '<h3 class="block-title">Testing the two links of recursion</h3>',
+    ...figure(6),
+    '<ul class="recursion-list">',
+    ...RECURSION.map(([lead, text]) => `  <li><strong>${html(lead)}</strong> ${html(text)}</li>`),
+    "</ul>",
+  ];
+  const problems = ['<h3 class="block-title">Six directions to start from</h3>', '<div class="problem-grid">'];
+  for (const [direction, serves, question, benchmark] of PROBLEMS)
+    problems.push(
+      '  <article class="problem-card">',
+      `    <h4>${html(direction)}</h4>`,
+      `    <p class="problem-tags">${serves.map((name) => `<span>${html(name)}</span>`).join("")}</p>`,
+      `    <p class="problem-question">${html(question)}</p>`,
+      `    <p class="problem-benchmark"><span>Starting benchmark</span>${html(benchmark)}</p>`,
+      "  </article>",
+    );
+  problems.push(
+    "</div>",
+    '<h4 class="program-title">Three near-term programs</h4>',
+    '<ol class="program-list">',
+    ...PROGRAMS.map((program) => `  <li>${html(program)}</li>`),
+    "</ol>",
+    `<blockquote class="survey-closing">${html(CLOSING)}</blockquote>`,
+  );
+  const cite = [
+    '<h3 class="block-title">Cite the survey</h3>',
+    `<pre id="survey-bibtex"><code>${html(surveyBibtex(REPO_URL))}</code></pre>`,
+    '<button type="button" class="button button-outline" id="copy-bibtex">Copy BibTeX<img class="icon" src="assets/icons/copy.svg" alt="" width="16" height="16" /></button>',
+  ];
   const lines = [
     '<section id="survey" class="survey-section" aria-labelledby="survey-title">',
     '  <div class="container">',
-    '    <header class="survey-header">',
+    '    <header class="survey-header" data-reveal>',
     '      <p class="eyebrow section-eyebrow">The survey</p>',
-    `      <h2 id="survey-title">From Physical Experience to <span>Recursive Self&#8209;Improvement</span><span class="heading-dot">.</span></h2>`,
-    `      <p class="survey-subtitle">${html(SURVEY.subtitle)}</p>`,
-    `      <p class="survey-authors">${authors}</p>`,
-    `      <p class="survey-affiliations">${SURVEY.affiliations.map((name, i) => `<span><sup>${i + 1}</sup>${html(name)}</span>`).join("")}</p>`,
-    '      <p class="survey-note"><span class="status-dot"></span>The manuscript is not yet public. This summary is shared with the authors&#39; approval.</p>',
+    '      <h2 id="survey-title">What turns physical experience into better learning<span class="heading-dot">?</span></h2>',
     "    </header>",
-    '    <div class="survey-intro">',
-    '      <div class="survey-abstract">',
-    ...ABOUT.map((paragraph) => `        <p>${inline(paragraph)}</p>`),
-    "      </div>",
-    '      <aside class="condition-panel" aria-labelledby="survey-conditions-title">',
-    '        <h3 id="survey-conditions-title">Four recurring conditions</h3>',
-    '        <ol class="condition-list">',
-    ...CONDITIONS.map(([name, text]) => `          <li><strong>${html(name)}</strong><span>${html(text[0].toUpperCase() + text.slice(1))}</span></li>`),
-    "        </ol>",
-    `        <p>${html(CONDITIONS_NOTE)}</p>`,
-    "      </aside>",
-    "    </div>",
-    ...figure(1).map((line) => `    ${line}`),
-    '    <div class="survey-block">',
-    '      <h3 id="survey-questions">Research questions</h3>',
-    '      <ol class="question-grid">',
-    ...QUESTIONS.map(([id, question, detail]) => `        <li><span class="question-id">${id}</span><strong>${html(question)}</strong><p>${html(detail)}</p></li>`),
-    "      </ol>",
-    "    </div>",
-    '    <div class="survey-block">',
-    '      <h3 id="survey-framework">The review at a glance</h3>',
-    ...figure(2).map((line) => `      ${line}`),
-    `      <p class="evidence-note"><strong>What current evidence shows.</strong> ${html(EVIDENCE)}</p>`,
-    "    </div>",
-    '    <div class="survey-block">',
-    '      <h3 id="survey-uses">Four uses of acquired change</h3>',
-    '      <div class="use-grid">',
-  ];
-  for (const [use, change, next, claim, chapter] of USES)
-    lines.push(
-      '        <article class="use-card">',
-      `          <p class="use-chapter">${html(chapter)}</p>`,
-      `          <h4>${html(use)}</h4>`,
-      `          <dl><div><dt>Retained change</dt><dd>${html(change)}</dd></div><div><dt>Immediate use</dt><dd>${html(next)}</dd></div><div><dt>Principal claim</dt><dd>${html(claim)}</dd></div></dl>`,
-      "        </article>",
-    );
-  lines.push(
-    "      </div>",
-    ...figure(3).map((line) => `      ${line}`),
-    "    </div>",
-    '    <div class="survey-block">',
-    '      <h3 id="survey-recursion">Toward recursive self-improvement</h3>',
-    ...figure(6).map((line) => `      ${line}`),
-    '      <ul class="recursion-list">',
-    ...RECURSION.map(([lead, text]) => `        <li><strong>${html(lead)}</strong> ${html(text)}</li>`),
-    "      </ul>",
-    "    </div>",
-    '    <div class="survey-block">',
-    '      <h3 id="survey-problems">Open problems</h3>',
-    '      <div class="problem-grid">',
-  );
-  for (const [direction, serves, question, benchmark] of PROBLEMS)
-    lines.push(
-      '        <article class="problem-card">',
-      `          <h4>${html(direction)}</h4>`,
-      `          <p class="problem-tags">${serves.map((name) => `<span>${html(name)}</span>`).join("")}</p>`,
-      `          <p class="problem-question">${html(question)}</p>`,
-      `          <p class="problem-benchmark"><span>Starting benchmark</span>${html(benchmark)}</p>`,
-      "        </article>",
-    );
-  lines.push(
-    "      </div>",
-    '      <h4 class="program-title">Three near-term programs</h4>',
-    '      <ol class="program-list">',
-    ...PROGRAMS.map((program) => `        <li>${html(program)}</li>`),
-    "      </ol>",
-    `      <blockquote class="survey-closing">${html(CLOSING)}</blockquote>`,
-    "    </div>",
-    '    <div class="survey-block survey-cite">',
-    '      <h3 id="survey-citation">Cite the survey</h3>',
-    `      <pre id="survey-bibtex"><code>${html(surveyBibtex(REPO_URL))}</code></pre>`,
-    '      <button type="button" class="button button-outline" id="copy-bibtex">Copy BibTeX<img class="icon" src="assets/icons/copy.svg" alt="" width="16" height="16" /></button>',
-    "    </div>",
+    ...[
+      block(1, "survey-overview", "Overview", intro),
+      block(2, "survey-questions", "Research questions", questions),
+      block(3, "survey-framework", "The review at a glance", framework),
+      block(4, "survey-uses", "Four uses of acquired change", uses),
+      block(5, "survey-recursion", "Toward recursive self-improvement", recursion),
+      block(6, "survey-problems", "Open problems", problems),
+      block(7, "survey-citation", "Citation", cite, " survey-cite"),
+    ]
+      .flat()
+      .map((line) => `    ${line}`),
     "  </div>",
     "</section>",
-  );
-  return lines.map((line) => (line ? `      ${line}` : line)).join("\n");
+  ];
+  return lines;
 }
 
 export function applySurveySection(page) {
   const start = page.indexOf(START);
   const end = page.indexOf(END);
   if (start < 0 || end < start) throw new Error("index.html is missing the survey markers");
-  return `${page.slice(0, start + START.length)}\n${renderSurveySection()}\n      ${page.slice(end)}`;
+  const body = [...renderHero(), ...renderSurveySection()].map((line) => (line ? `      ${line}` : line)).join("\n");
+  return `${page.slice(0, start + START.length)}\n${body}\n      ${page.slice(end)}`;
 }
-
 if (process.argv[1] && pathToFileURL(path.resolve(process.argv[1])).href === import.meta.url) {
   const file = path.join(ROOT, "index.html");
   const page = await readFile(file, "utf8");

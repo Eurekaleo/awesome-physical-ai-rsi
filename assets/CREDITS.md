@@ -8,6 +8,10 @@
 
 `teaser.webp` is a painting in the style of Vincent van Gogh, made with ChatGPT image generation for this project from the survey's robot illustrations. It is the website's hero image, and `tools/draw-banners.mjs` frames it in the README banner (`readme-banner.png`) and the sharing image (`social-preview.png`). It depicts the survey's idea, not reported results, and is not covered by this repository's code license.
 
+## Night-sky background
+
+The painted sky behind the website hero is drawn in the browser by `site/effects.js`: original code that lays short brushstrokes along a flow field in the manner of *The Starry Night*. It uses no image files.
+
 ## README icons and cards
 
 The section icons and cards in `readme/` were created for this repository by `tools/draw-readme-art.mjs`, in the website's colours.
