@@ -91,11 +91,31 @@ export function renderHero() {
   ];
 }
 
-// A numbered survey block: eyebrow with its number, heading, then the body lines.
-function block(number, id, title, body, extraClass = "") {
+// The survey's own robot illustrations (assets/art, from the manuscript's figures), keyed by their figure role.
+const ART_SIZE = {
+  act: [360, 327], continuation: [249, 360], knowledge: [308, 360], outcome: [299, 338], practice: [360, 296],
+  procedure: [360, 359], recipient: [360, 309], repair: [286, 344], retain: [334, 360], reuse: [360, 351],
+  revise: [353, 360], shift: [336, 360], signal: [356, 360],
+};
+const CONDITION_ART = ["signal", "recipient", "shift", "continuation"];
+const USE_ART = ["act", "practice", "reuse", "procedure"];
+
+function art(name, className) {
+  const [width, height] = ART_SIZE[name];
+  return `<img class="${className}" src="assets/art/${name}.webp" width="${width}" height="${height}" loading="lazy" decoding="async" alt="" />`;
+}
+
+// A numbered survey block: eyebrow with its number and the heading, a robot beside them, then the body lines.
+function block(number, id, title, heading, robot, body, extraClass = "") {
   return [
     `<div class="survey-block${extraClass}" id="${id}" data-reveal data-chapter="${html(title)}">`,
-    `  <p class="block-eyebrow"><span>${String(number).padStart(2, "0")}</span>${html(title)}</p>`,
+    '  <div class="block-head">',
+    "    <div>",
+    `      <p class="block-eyebrow"><span>${String(number).padStart(2, "0")}</span>${html(title)}</p>`,
+    `      <h3 class="block-title">${html(heading)}</h3>`,
+    "    </div>",
+    `    ${art(robot, "block-art")}`,
+    "  </div>",
     ...body.map((line) => `  ${line}`),
     "</div>",
   ];
@@ -110,7 +130,7 @@ export function renderSurveySection() {
     '  <aside class="condition-panel" aria-labelledby="survey-conditions-title">',
     '    <h3 id="survey-conditions-title">Four recurring conditions</h3>',
     '    <ol class="condition-list">',
-    ...CONDITIONS.map(([name, text]) => `      <li><strong>${html(name)}</strong><span>${html(text[0].toUpperCase() + text.slice(1))}</span></li>`),
+    ...CONDITIONS.map(([name, text], i) => `      <li>${art(CONDITION_ART[i], "condition-art")}<div><strong>${html(name)}</strong><span>${html(text[0].toUpperCase() + text.slice(1))}</span></div></li>`),
     "    </ol>",
     `    <p>${html(CONDITIONS_NOTE)}</p>`,
     "  </aside>",
@@ -118,20 +138,19 @@ export function renderSurveySection() {
     ...figure(1),
   ];
   const questions = [
-    '<h3 class="block-title">What the survey asks</h3>',
     '<ol class="question-grid">',
     ...QUESTIONS.map(([id, question, detail]) => `  <li><span class="question-id">${id}</span><strong>${html(question)}</strong><p>${html(detail)}</p></li>`),
     "</ol>",
   ];
   const framework = [
-    '<h3 class="block-title">Four uses, four conditions, four claims</h3>',
     ...figure(2),
     `<p class="evidence-note"><strong>What current evidence shows.</strong> ${html(EVIDENCE)}</p>`,
   ];
-  const uses = ['<h3 class="block-title">Where an acquired change goes next</h3>', '<div class="use-grid">'];
-  for (const [use, change, next, claim, chapter] of USES)
+  const uses = ['<div class="use-grid">'];
+  for (const [i, [use, change, next, claim, chapter]] of USES.entries())
     uses.push(
       '  <article class="use-card">',
+      `    ${art(USE_ART[i], "use-art")}`,
       `    <p class="use-chapter">${html(chapter)}</p>`,
       `    <h4>${html(use)}</h4>`,
       `    <dl><div><dt>Retained change</dt><dd>${html(change)}</dd></div><div><dt>Immediate use</dt><dd>${html(next)}</dd></div><div><dt>Principal claim</dt><dd>${html(claim)}</dd></div></dl>`,
@@ -139,13 +158,12 @@ export function renderSurveySection() {
     );
   uses.push("</div>", ...figure(3));
   const recursion = [
-    '<h3 class="block-title">Testing the two links of recursion</h3>',
     ...figure(6),
     '<ul class="recursion-list">',
     ...RECURSION.map(([lead, text]) => `  <li><strong>${html(lead)}</strong> ${html(text)}</li>`),
     "</ul>",
   ];
-  const problems = ['<h3 class="block-title">Six directions to start from</h3>', '<div class="problem-grid">'];
+  const problems = ['<div class="problem-grid">'];
   for (const [direction, serves, question, benchmark] of PROBLEMS)
     problems.push(
       '  <article class="problem-card">',
@@ -164,7 +182,6 @@ export function renderSurveySection() {
     `<blockquote class="survey-closing">${html(CLOSING)}</blockquote>`,
   );
   const cite = [
-    '<h3 class="block-title">Cite the survey</h3>',
     `<pre id="survey-bibtex"><code>${html(surveyBibtex(REPO_URL))}</code></pre>`,
     '<button type="button" class="button button-outline" id="copy-bibtex">Copy BibTeX<img class="icon" src="assets/icons/copy.svg" alt="" width="16" height="16" /></button>',
   ];
@@ -176,13 +193,13 @@ export function renderSurveySection() {
     '      <h2 id="survey-title">What turns physical experience into better learning<span class="heading-dot">?</span></h2>',
     "    </header>",
     ...[
-      block(1, "survey-overview", "Overview", intro),
-      block(2, "survey-questions", "Research questions", questions),
-      block(3, "survey-framework", "The review at a glance", framework),
-      block(4, "survey-uses", "Four uses of acquired change", uses),
-      block(5, "survey-recursion", "Toward recursive self-improvement", recursion),
-      block(6, "survey-problems", "Open problems", problems),
-      block(7, "survey-citation", "Citation", cite, " survey-cite"),
+      block(1, "survey-overview", "Overview", "From better behavior to better learning", "knowledge", intro),
+      block(2, "survey-questions", "Research questions", "What the survey asks", "shift", questions),
+      block(3, "survey-framework", "The review at a glance", "Four uses, four conditions, four claims", "outcome", framework),
+      block(4, "survey-uses", "Four uses of acquired change", "Where an acquired change goes next", "retain", uses),
+      block(5, "survey-recursion", "Toward recursive self-improvement", "Testing the two links of recursion", "revise", recursion),
+      block(6, "survey-problems", "Open problems", "Six directions to start from", "repair", problems),
+      block(7, "survey-citation", "Citation", "Cite the survey", "act", cite, " survey-cite"),
     ]
       .flat()
       .map((line) => `    ${line}`),

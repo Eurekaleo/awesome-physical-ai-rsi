@@ -1095,6 +1095,54 @@ h2 {
 .pager a:focus-visible span {
   opacity: 1;
 }
+/* the survey's robot illustrations */
+.block-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+.block-head .block-title {
+  margin-bottom: 0;
+}
+.block-art {
+  flex: 0 0 auto;
+  width: auto;
+  height: 104px;
+  margin-bottom: -6px;
+  filter: drop-shadow(0 8px 10px rgba(23, 43, 40, 0.12));
+  transition: transform 0.35s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.survey-block:hover .block-art {
+  transform: translateY(-4px) rotate(-3deg);
+}
+.condition-list li {
+  grid-template-columns: 54px 1fr;
+  column-gap: 12px;
+  align-items: center;
+}
+.condition-list li::before {
+  content: none;
+}
+.condition-art {
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
+}
+.condition-list li > div {
+  display: grid;
+}
+.use-art {
+  display: block;
+  height: 86px;
+  width: auto;
+  margin: 0 0 12px;
+  transition: transform 0.3s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.use-card:hover .use-art {
+  transform: scale(1.06) rotate(-2deg);
+}
 .question-grid,
 .use-grid,
 .problem-grid {
@@ -1879,6 +1927,12 @@ h2 {
   }
   .block-title {
     font-size: 21px;
+  }
+  .block-art {
+    height: 74px;
+  }
+  .block-head {
+    gap: 12px;
   }
   .pager {
     display: none;

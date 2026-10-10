@@ -4,6 +4,10 @@
 
 `readme/figures/figure-1.png`, `figure-2.png`, `figure-3.png` and `figure-6.png` are Figures 1, 2, 3 and 6 of the survey *From Physical Experience to Recursive Self-Improvement*, rendered from the manuscript. They are © 2026 the authors and appear in the README with the authors' approval. They are not covered by this repository's code license.
 
+## Survey robot illustrations
+
+`art/*.webp` are the robot illustrations from the survey's figures (`figures/art_*.png` in the manuscript source), made transparent and resized for the website, where they accompany its chapters, conditions and uses. They are © 2026 the authors, appear with their approval, and are not covered by this repository's code license.
+
 ## Teaser illustration
 
 `teaser.webp` is a painting in the style of Vincent van Gogh, made with ChatGPT image generation for this project from the survey's robot illustrations. It is the website's hero image, and `tools/draw-banners.mjs` frames it in the README banner (`readme-banner.png`) and the sharing image (`social-preview.png`). It depicts the survey's idea, not reported results, and is not covered by this repository's code license.
