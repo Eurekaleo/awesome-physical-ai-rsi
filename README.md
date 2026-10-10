@@ -26,7 +26,7 @@ The project covers Physical AI and recursive self-improvement (RSI). The collect
 | [`assets/`](assets/) | Public artwork and asset credits |
 | [`tools/`](tools/) | README generation, validation, build, and preview |
 
-[Maintenance](docs/MAINTENANCE.md) | [Deployment](docs/DEPLOYMENT.md) | [Publication checklist](docs/PUBLICATION.md) | [Asset credits](assets/CREDITS.md)
+[Bibliography updates](data/README.md) | [Maintenance](docs/MAINTENANCE.md) | [Deployment](docs/DEPLOYMENT.md) | [Publication checklist](docs/PUBLICATION.md) | [Asset credits](assets/CREDITS.md)
 
 ## References
 
@@ -34,7 +34,7 @@ The project covers Physical AI and recursive self-improvement (RSI). The collect
 
 | Conference | Journal | Preprint | Book | Other |
 | ---: | ---: | ---: | ---: | ---: |
-| 122 | 26 | 78 | 3 | 0 |
+| 127 | 26 | 73 | 3 | 0 |
 
 <img src="https://img.shields.io/static/v1?label=&amp;message=Conference&amp;color=416cb3&amp;style=flat-square" alt="Conference" height="18"> <img src="https://img.shields.io/static/v1?label=&amp;message=Journal&amp;color=087f80&amp;style=flat-square" alt="Journal" height="18"> <img src="https://img.shields.io/static/v1?label=&amp;message=Preprint&amp;color=a04865&amp;style=flat-square" alt="Preprint" height="18"> <img src="https://img.shields.io/static/v1?label=&amp;message=Book&amp;color=99700c&amp;style=flat-square" alt="Book" height="18"> <img src="https://img.shields.io/static/v1?label=&amp;message=Other&amp;color=65716e&amp;style=flat-square" alt="Other" height="18">
 
@@ -64,7 +64,7 @@ The project covers Physical AI and recursive self-improvement (RSI). The collect
 - From Generative Engines to Actionable Simulators: The Imperative of Physical Grounding in World Models. [[paper](<https://arxiv.org/abs/2601.15533>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
 - GigaBrain-0.5M\*: a VLA That Learns From World Model-Based Reinforcement Learning. [[paper](<https://arxiv.org/abs/2602.12099>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
 - HaWMPO: Hallucination-Aware World Model-based Policy Optimization for Generalist Robot Policy. [[paper](<https://arxiv.org/abs/2609.09941>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
-- HIL-UMI: Bringing Human-in-the-Loop Post-Training of Vision-Language-Action Models to Universal Manipulation Interface. [[paper](<https://arxiv.org/abs/2609.20659v1>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
+- HIL-UMI: Bringing Human-in-the-Loop Post-Training of Vision-Language-Action Models to Universal Manipulation Interface. [[paper](<https://arxiv.org/abs/2609.20659v2>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
 - Is Forward Prediction Enough? Physical State Grounding for JEPA World Models. [[paper](<https://arxiv.org/abs/2608.06799>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
 - Learning Agile Quadrotor Flight in the Real World. [[paper](<https://arxiv.org/abs/2602.10111>)] <img src="https://img.shields.io/static/v1?label=&amp;message=RSS&amp;color=416cb3&amp;style=flat-square" alt="Robotics: Science and Systems" height="18">
 - Learning and Transferring Closed-Loop Robot Software. [[paper](<https://arxiv.org/abs/2609.19906v1>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
@@ -73,9 +73,10 @@ The project covers Physical AI and recursive self-improvement (RSI). The collect
 - Mem-World: Memory-Augmented Action-Conditioned World Models for Persistent Robot Manipulation. [[paper](<https://arxiv.org/abs/2606.18960>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
 - Memory Anchors for Continual Robot Learning. [[paper](<https://arxiv.org/abs/2608.26545>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
 - Motus2: A Self-Evolving General World Model for Dexterous Manipulation. [[paper](<https://arxiv.org/abs/2608.30237>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
-- Multisensory Continual Learning: Adapting Pretrained Visuomotor Policies to Force. [[paper](<https://arxiv.org/abs/2606.30988v3>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
+- Multisensory Continual Learning: Adapting Pretrained Visuomotor Policies to Force. [[paper](<https://arxiv.org/abs/2606.30988v4>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
 - PhyAgentOS: A Self-Evolving Operating System for Embodied Agents with Decoupled Cognitive Planning and Physical Execution. [[paper](<https://arxiv.org/abs/2607.16636>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
 - PlayWorld: Learning Robot World Models from Autonomous Play. [[paper](<https://arxiv.org/abs/2603.09030>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
+- Policy-Level Recursive Self-Improvement for Embodied AI with a Criticality World Model. [[paper](<https://arxiv.org/abs/2607.28251>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
 - PRACTICE: From Experience to Expertise in Self-Evolving Embodied Agents. [[paper](<https://arxiv.org/abs/2608.30760>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
 - Recover, Discover, Plan: Learning Skills and Concepts from Robot Failures. [[paper](<https://arxiv.org/abs/2606.18328>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
 - Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops. [[paper](<https://arxiv.org/abs/2607.07663>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
@@ -91,7 +92,6 @@ The project covers Physical AI and recursive self-improvement (RSI). The collect
 - Self-Evolving AI for Humanoids: Mechanisms, Safety, and Evaluation of Post-Deployment Self-Improvement. [[paper](<https://arxiv.org/abs/2609.13236>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
 - Self-Evolving Embodied Agents via Skill-Harness Evolution. [[paper](<https://arxiv.org/abs/2608.11350>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
 - Self-evolving Embodied AI. [[paper](<https://arxiv.org/abs/2602.04411>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
-- Self-Evolving Learning for Embodied AI with Criticality Model. [[paper](<https://arxiv.org/abs/2607.28251>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
 - Self-Improving Loops for Visual Robotic Planning. [[paper](<https://arxiv.org/abs/2506.06658>)] <img src="https://img.shields.io/static/v1?label=&amp;message=ICLR&amp;color=416cb3&amp;style=flat-square" alt="International Conference on Learning Representations" height="18">
 - Self-Improving Vision-Language-Action Models with Data Generation via Residual RL. [[paper](<https://arxiv.org/abs/2511.00091v1>)] <img src="https://img.shields.io/static/v1?label=&amp;message=ICLR&amp;color=416cb3&amp;style=flat-square" alt="International Conference on Learning Representations" height="18">
 - SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning. [[paper](<https://arxiv.org/abs/2509.09674v1>)] <img src="https://img.shields.io/static/v1?label=&amp;message=ICLR&amp;color=416cb3&amp;style=flat-square" alt="International Conference on Learning Representations" height="18">
@@ -119,7 +119,7 @@ The project covers Physical AI and recursive self-improvement (RSI). The collect
 <a id="year-2025"></a>
 
 <details>
-<summary><strong>2025</strong> &middot; 30 references</summary>
+<summary><strong>2025</strong> &middot; 31 references</summary>
 
 - AHA: A Vision-Language-Model for Detecting and Reasoning Over Failures in Robotic Manipulation. [[paper](<https://arxiv.org/abs/2410.00371>)] <img src="https://img.shields.io/static/v1?label=&amp;message=ICLR&amp;color=416cb3&amp;style=flat-square" alt="International Conference on Learning Representations" height="18">
 - Aligning Perception, Reasoning, Modeling and Interaction: A Survey on Physical AI. [[paper](<https://arxiv.org/abs/2510.04978>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
@@ -137,7 +137,7 @@ The project covers Physical AI and recursive self-improvement (RSI). The collect
 - iManip: Skill-Incremental Learning for Robotic Manipulation. [[paper](<https://arxiv.org/abs/2503.07087>)] <img src="https://img.shields.io/static/v1?label=&amp;message=ICCV&amp;color=416cb3&amp;style=flat-square" alt="IEEE/CVF International Conference on Computer Vision" height="18">
 - LIBERO-PRO: Towards Robust and Fair Evaluation of Vision-Language-Action Models Beyond Memorization. [[paper](<https://arxiv.org/abs/2510.03827v2>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
 - Mastering Diverse Control Tasks Through World Models. [[paper](<https://doi.org/10.1038/s41586-025-08744-2>)] <img src="https://img.shields.io/static/v1?label=&amp;message=Nature&amp;color=087f80&amp;style=flat-square" alt="Nature" height="18">
-- PISA Experiments: Exploring Physics Post-Training for Video Diffusion Models by Watching Stuff Drop. [[paper](<https://arxiv.org/abs/2503.09595>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
+- PISA Experiments: Exploring Physics Post-Training for Video Diffusion Models by Watching Stuff Drop. [[paper](<https://arxiv.org/abs/2503.09595>)] <img src="https://img.shields.io/static/v1?label=&amp;message=ICML&amp;color=416cb3&amp;style=flat-square" alt="International Conference on Machine Learning" height="18">
 - Precise and Dexterous Robotic Manipulation via Human-in-the-Loop Reinforcement Learning. [[paper](<https://doi.org/10.1126/scirobotics.ads5033>)] <img src="https://img.shields.io/static/v1?label=&amp;message=Science+Robotics&amp;color=087f80&amp;style=flat-square" alt="Science Robotics" height="18">
 - Provably-Safe, Online System Identification. [[paper](<https://doi.org/10.15607/RSS.2025.XXI.121>)] <img src="https://img.shields.io/static/v1?label=&amp;message=RSS&amp;color=416cb3&amp;style=flat-square" alt="Robotics: Science and Systems" height="18">
 - ReWiND: Language-Guided Rewards Teach Robot Policies without New Demonstrations. [[paper](<https://arxiv.org/abs/2505.10911v2>)] <img src="https://img.shields.io/static/v1?label=&amp;message=CoRL&amp;color=416cb3&amp;style=flat-square" alt="Conference on Robot Learning" height="18">
@@ -148,9 +148,10 @@ The project covers Physical AI and recursive self-improvement (RSI). The collect
 - Steering Your Diffusion Policy with Latent Space Reinforcement Learning. [[paper](<https://arxiv.org/abs/2506.15799v2>)] <img src="https://img.shields.io/static/v1?label=&amp;message=CoRL&amp;color=416cb3&amp;style=flat-square" alt="Conference on Robot Learning" height="18">
 - V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning. [[paper](<https://arxiv.org/abs/2506.09985>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
 - VLA-RL: Towards Masterful and General Robotic Manipulation with Scalable Reinforcement Learning. [[paper](<https://arxiv.org/abs/2505.18719v1>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
+- VLABench: A Large-Scale Benchmark for Language-Conditioned Robotics Manipulation with Long-Horizon Reasoning Tasks. [[paper](<https://doi.org/10.1109/ICCV51701.2025.01037>)] <img src="https://img.shields.io/static/v1?label=&amp;message=ICCV&amp;color=416cb3&amp;style=flat-square" alt="IEEE/CVF International Conference on Computer Vision" height="18">
 - WISA: World Simulator Assistant for Physics-Aware Text-to-Video Generation. [[paper](<https://doi.org/10.52202/085713-0191>)] <img src="https://img.shields.io/static/v1?label=&amp;message=NeurIPS&amp;color=416cb3&amp;style=flat-square" alt="Advances in Neural Information Processing Systems" height="18">
 - π₀: A Vision-Language-Action Flow Model for General Robot Control. [[paper](<https://arxiv.org/abs/2410.24164v4>)] <img src="https://img.shields.io/static/v1?label=&amp;message=RSS&amp;color=416cb3&amp;style=flat-square" alt="Robotics: Science and Systems" height="18">
-- π₀.₅: a Vision-Language-Action Model with Open-World Generalization. [[paper](<https://arxiv.org/abs/2504.16054>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
+- π₀.₅: a Vision-Language-Action Model with Open-World Generalization. [[paper](<https://arxiv.org/abs/2504.16054>)] <img src="https://img.shields.io/static/v1?label=&amp;message=CoRL&amp;color=416cb3&amp;style=flat-square" alt="Conference on Robot Learning" height="18">
 
 </details>
 
@@ -183,6 +184,7 @@ The project covers Physical AI and recursive self-improvement (RSI). The collect
 - RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots. [[paper](<https://arxiv.org/abs/2406.02523v1>)] <img src="https://img.shields.io/static/v1?label=&amp;message=RSS&amp;color=416cb3&amp;style=flat-square" alt="Robotics: Science and Systems" height="18">
 - RoboCat: A Self-Improving Generalist Agent for Robotic Manipulation. [[paper](<https://arxiv.org/abs/2306.11706>)] <img src="https://img.shields.io/static/v1?label=&amp;message=TMLR&amp;color=087f80&amp;style=flat-square" alt="Transactions on Machine Learning Research" height="18">
 - RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation. <img src="https://img.shields.io/static/v1?label=&amp;message=ICML&amp;color=416cb3&amp;style=flat-square" alt="International Conference on Machine Learning" height="18">
+- Robot Fine-Tuning Made Easy: Pre-Training Rewards and Policies for Autonomous Real-World Reinforcement Learning. [[paper](<https://doi.org/10.1109/ICRA57147.2024.10610421>)] <img src="https://img.shields.io/static/v1?label=&amp;message=ICRA&amp;color=416cb3&amp;style=flat-square" alt="IEEE International Conference on Robotics and Automation" height="18">
 - Self-Consuming Generative Models Go MAD. <img src="https://img.shields.io/static/v1?label=&amp;message=ICLR&amp;color=416cb3&amp;style=flat-square" alt="International Conference on Learning Representations" height="18">
 - Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation. <img src="https://img.shields.io/static/v1?label=&amp;message=Conference+on+Language+Modeling&amp;color=416cb3&amp;style=flat-square" alt="Conference on Language Modeling" height="18">
 - SERL: A Software Suite for Sample-Efficient Robotic Reinforcement Learning. [[paper](<https://arxiv.org/abs/2401.16013>)] <img src="https://img.shields.io/static/v1?label=&amp;message=ICRA&amp;color=416cb3&amp;style=flat-square" alt="IEEE International Conference on Robotics and Automation" height="18">
@@ -192,7 +194,6 @@ The project covers Physical AI and recursive self-improvement (RSI). The collect
 - The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery. [[paper](<https://arxiv.org/abs/2408.06292>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
 - Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots. [[paper](<https://arxiv.org/abs/2402.10329>)] <img src="https://img.shields.io/static/v1?label=&amp;message=RSS&amp;color=416cb3&amp;style=flat-square" alt="Robotics: Science and Systems" height="18">
 - Vision-Language Models are Zero-Shot Reward Models for Reinforcement Learning. [[paper](<https://arxiv.org/abs/2310.12921>)] <img src="https://img.shields.io/static/v1?label=&amp;message=ICLR&amp;color=416cb3&amp;style=flat-square" alt="International Conference on Learning Representations" height="18">
-- VLABench: A Large-Scale Benchmark for Language-Conditioned Robotics Manipulation with Long-Horizon Reasoning Tasks. [[paper](<https://arxiv.org/abs/2412.18194>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
 - Voyager: An Open-Ended Embodied Agent with Large Language Models. <img src="https://img.shields.io/static/v1?label=&amp;message=TMLR&amp;color=087f80&amp;style=flat-square" alt="Transactions on Machine Learning Research" height="18">
 
 </details>
@@ -200,7 +201,7 @@ The project covers Physical AI and recursive self-improvement (RSI). The collect
 <a id="year-2023"></a>
 
 <details>
-<summary><strong>2023</strong> &middot; 25 references</summary>
+<summary><strong>2023</strong> &middot; 24 references</summary>
 
 - ALAN: Autonomously Exploring Robotic Agents in the Real World. [[paper](<https://arxiv.org/abs/2302.06604>)] <img src="https://img.shields.io/static/v1?label=&amp;message=ICRA&amp;color=416cb3&amp;style=flat-square" alt="IEEE International Conference on Robotics and Automation" height="18">
 - An autonomous laboratory for the accelerated synthesis of inorganic materials. [[paper](<https://doi.org/10.1038/s41586-023-06734-w>)] <img src="https://img.shields.io/static/v1?label=&amp;message=Nature&amp;color=087f80&amp;style=flat-square" alt="Nature" height="18">
@@ -221,11 +222,10 @@ The project covers Physical AI and recursive self-improvement (RSI). The collect
 - Reflexion: Language Agents with Verbal Reinforcement Learning. [[paper](<https://doi.org/10.52202/075280-0377>)] <img src="https://img.shields.io/static/v1?label=&amp;message=NeurIPS&amp;color=416cb3&amp;style=flat-square" alt="Advances in Neural Information Processing Systems" height="18">
 - Reward Design with Language Models. [[paper](<https://arxiv.org/abs/2303.00001>)] <img src="https://img.shields.io/static/v1?label=&amp;message=ICLR&amp;color=416cb3&amp;style=flat-square" alt="International Conference on Learning Representations" height="18">
 - RoboCLIP: One Demonstration is Enough to Learn Robot Policies. [[paper](<https://arxiv.org/abs/2310.07899>)] <img src="https://img.shields.io/static/v1?label=&amp;message=NeurIPS&amp;color=416cb3&amp;style=flat-square" alt="Advances in Neural Information Processing Systems" height="18">
-- Robot Fine-Tuning Made Easy: Pre-Training Rewards and Policies for Autonomous Real-World Reinforcement Learning. [[paper](<https://arxiv.org/abs/2310.15145>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
 - Robot Learning on the Job: Human-in-the-Loop Autonomy and Learning During Deployment. [[paper](<https://arxiv.org/abs/2211.08416>)] <img src="https://img.shields.io/static/v1?label=&amp;message=RSS&amp;color=416cb3&amp;style=flat-square" alt="Robotics: Science and Systems" height="18">
 - RT-1: Robotics Transformer for Real-World Control at Scale. [[paper](<https://arxiv.org/abs/2212.06817>)] <img src="https://img.shields.io/static/v1?label=&amp;message=RSS&amp;color=416cb3&amp;style=flat-square" alt="Robotics: Science and Systems" height="18">
 - RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control. [[paper](<https://arxiv.org/abs/2307.15818>)] <img src="https://img.shields.io/static/v1?label=&amp;message=CoRL&amp;color=416cb3&amp;style=flat-square" alt="Conference on Robot Learning" height="18">
-- Self-Improving Robots: End-to-End Autonomous Visuomotor Reinforcement Learning. [[paper](<https://arxiv.org/abs/2303.01488>)] <img src="https://img.shields.io/static/v1?label=&amp;message=arXiv&amp;color=a04865&amp;style=flat-square" alt="arXiv" height="18">
+- Self-Improving Robots: End-to-End Autonomous Visuomotor Reinforcement Learning. [[paper](<https://arxiv.org/abs/2303.01488>)] <img src="https://img.shields.io/static/v1?label=&amp;message=CoRL&amp;color=416cb3&amp;style=flat-square" alt="Conference on Robot Learning" height="18">
 - VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training. [[paper](<https://arxiv.org/abs/2210.00030>)] <img src="https://img.shields.io/static/v1?label=&amp;message=ICLR&amp;color=416cb3&amp;style=flat-square" alt="International Conference on Learning Representations" height="18">
 
 </details>
@@ -233,7 +233,7 @@ The project covers Physical AI and recursive self-improvement (RSI). The collect
 <a id="year-2022"></a>
 
 <details>
-<summary><strong>2022</strong> &middot; 7 references</summary>
+<summary><strong>2022</strong> &middot; 8 references</summary>
 
 - Autotelic Agents with Intrinsically Motivated Goal-Conditioned Reinforcement Learning: A Short Survey. [[paper](<https://doi.org/10.1613/jair.1.13554>)] <img src="https://img.shields.io/static/v1?label=&amp;message=Journal+of+Artificial+Intelligence+Research&amp;color=087f80&amp;style=flat-square" alt="Journal of Artificial Intelligence Research" height="18">
 - Fleet-DAgger: Interactive Robot Fleet Learning with Scalable Human Supervision. [[paper](<https://arxiv.org/abs/2206.14349>)] <img src="https://img.shields.io/static/v1?label=&amp;message=CoRL&amp;color=416cb3&amp;style=flat-square" alt="Conference on Robot Learning" height="18">
@@ -242,20 +242,20 @@ The project covers Physical AI and recursive self-improvement (RSI). The collect
 - Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning. [[paper](<https://doi.org/10.1146/annurev-control-042920-020211>)] <img src="https://img.shields.io/static/v1?label=&amp;message=Annual+Review+of+Control%2C+Robotics%2C+and+Autonomous+Systems&amp;color=087f80&amp;style=flat-square" alt="Annual Review of Control, Robotics, and Autonomous Systems" height="18">
 - Scaling Up Multi-Task Robotic Reinforcement Learning. <img src="https://img.shields.io/static/v1?label=&amp;message=CoRL&amp;color=416cb3&amp;style=flat-square" alt="Conference on Robot Learning" height="18">
 - STaR: Bootstrapping Reasoning With Reasoning. [[paper](<https://doi.org/10.52202/068431-1126>)] <img src="https://img.shields.io/static/v1?label=&amp;message=NeurIPS&amp;color=416cb3&amp;style=flat-square" alt="Advances in Neural Information Processing Systems" height="18">
+- ThriftyDAgger: Budget-Aware Novelty and Risk Gating for Interactive Imitation Learning. [[paper](<https://arxiv.org/abs/2109.08273>)] <img src="https://img.shields.io/static/v1?label=&amp;message=CoRL&amp;color=416cb3&amp;style=flat-square" alt="Conference on Robot Learning" height="18">
 
 </details>
 
 <a id="year-2021"></a>
 
 <details>
-<summary><strong>2021</strong> &middot; 6 references</summary>
+<summary><strong>2021</strong> &middot; 5 references</summary>
 
 - CausalWorld: A Robotic Manipulation Benchmark for Causal Structure and Transfer Learning. <img src="https://img.shields.io/static/v1?label=&amp;message=ICLR&amp;color=416cb3&amp;style=flat-square" alt="International Conference on Learning Representations" height="18">
 - PEBBLE: Feedback-Efficient Interactive Reinforcement Learning via Relabeling Experience and Unsupervised Pre-training. [[paper](<https://arxiv.org/abs/2106.05091v1>)] <img src="https://img.shields.io/static/v1?label=&amp;message=ICML&amp;color=416cb3&amp;style=flat-square" alt="International Conference on Machine Learning" height="18">
 - Recovery RL: Safe Reinforcement Learning With Learned Recovery Zones. [[paper](<https://arxiv.org/abs/2010.15920>)] <img src="https://img.shields.io/static/v1?label=&amp;message=IEEE+RA-L&amp;color=087f80&amp;style=flat-square" alt="IEEE Robotics and Automation Letters" height="18">
 - Reward tampering problems and solutions in reinforcement learning: a causal influence diagram perspective. [[paper](<https://doi.org/10.1007/s11229-021-03141-4>)] <img src="https://img.shields.io/static/v1?label=&amp;message=Synthese&amp;color=087f80&amp;style=flat-square" alt="Synthese" height="18">
 - RMA: Rapid Motor Adaptation for Legged Robots. [[paper](<https://arxiv.org/abs/2107.04034>)] <img src="https://img.shields.io/static/v1?label=&amp;message=RSS&amp;color=416cb3&amp;style=flat-square" alt="Robotics: Science and Systems" height="18">
-- ThriftyDAgger: Budget-Aware Novelty and Risk Gating for Interactive Imitation Learning. [[paper](<https://arxiv.org/abs/2109.08273>)] <img src="https://img.shields.io/static/v1?label=&amp;message=CoRL&amp;color=416cb3&amp;style=flat-square" alt="Conference on Robot Learning" height="18">
 
 </details>
 

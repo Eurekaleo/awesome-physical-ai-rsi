@@ -95,7 +95,7 @@ export function renderReadme(references) {
     "| [`assets/`](assets/) | Public artwork and asset credits |",
     "| [`tools/`](tools/) | README generation, validation, build, and preview |",
     "",
-    "[Maintenance](docs/MAINTENANCE.md) | [Deployment](docs/DEPLOYMENT.md) | [Publication checklist](docs/PUBLICATION.md) | [Asset credits](assets/CREDITS.md)",
+    "[Bibliography updates](data/README.md) | [Maintenance](docs/MAINTENANCE.md) | [Deployment](docs/DEPLOYMENT.md) | [Publication checklist](docs/PUBLICATION.md) | [Asset credits](assets/CREDITS.md)",
     "",
     "## References",
     "",

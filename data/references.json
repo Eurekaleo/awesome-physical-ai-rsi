@@ -796,8 +796,8 @@
       "Saining Xie"
     ],
     "year": 2025,
-    "venue": "arXiv",
-    "type": "preprint",
+    "venue": "International Conference on Machine Learning",
+    "type": "conference",
     "url": "https://arxiv.org/abs/2503.09595",
     "doi": ""
   },
@@ -1649,7 +1649,7 @@
     "year": 2026,
     "venue": "arXiv",
     "type": "preprint",
-    "url": "https://arxiv.org/abs/2606.30988v3",
+    "url": "https://arxiv.org/abs/2606.30988v4",
     "doi": ""
   },
   {
@@ -1751,7 +1751,7 @@
   },
   {
     "id": "arxiv260728251",
-    "title": "Self-Evolving Learning for Embodied AI with Criticality Model",
+    "title": "Policy-Level Recursive Self-Improvement for Embodied AI with a Criticality World Model",
     "authors": [
       "Linxuan He",
       "Yuying Tian",
@@ -2311,7 +2311,7 @@
     "year": 2026,
     "venue": "arXiv",
     "type": "preprint",
-    "url": "https://arxiv.org/abs/2609.20659v1",
+    "url": "https://arxiv.org/abs/2609.20659v2",
     "doi": ""
   },
   {
@@ -2437,8 +2437,8 @@
       "et al."
     ],
     "year": 2025,
-    "venue": "arXiv",
-    "type": "preprint",
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
     "url": "https://arxiv.org/abs/2504.16054",
     "doi": ""
   },
@@ -2922,7 +2922,7 @@
       "Daniel S. Brown",
       "Ken Goldberg"
     ],
-    "year": 2021,
+    "year": 2022,
     "venue": "Conference on Robot Learning",
     "type": "conference",
     "url": "https://arxiv.org/abs/2109.08273",
@@ -3590,8 +3590,8 @@
       "Chelsea Finn"
     ],
     "year": 2023,
-    "venue": "arXiv",
-    "type": "preprint",
+    "venue": "Conference on Robot Learning",
+    "type": "conference",
     "url": "https://arxiv.org/abs/2303.01488",
     "doi": ""
   },
@@ -3971,11 +3971,11 @@
       "Jeannette Bohg",
       "Chelsea Finn"
     ],
-    "year": 2023,
-    "venue": "arXiv",
-    "type": "preprint",
-    "url": "https://arxiv.org/abs/2310.15145",
-    "doi": ""
+    "year": 2024,
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "type": "conference",
+    "url": "https://doi.org/10.1109/ICRA57147.2024.10610421",
+    "doi": "10.1109/ICRA57147.2024.10610421"
   },
   {
     "id": "yang2024unisim",
@@ -4115,11 +4115,11 @@
       "Yuan Li",
       "et al."
     ],
-    "year": 2024,
-    "venue": "arXiv",
-    "type": "preprint",
-    "url": "https://arxiv.org/abs/2412.18194",
-    "doi": ""
+    "year": 2025,
+    "venue": "IEEE/CVF International Conference on Computer Vision",
+    "type": "conference",
+    "url": "https://doi.org/10.1109/ICCV51701.2025.01037",
+    "doi": "10.1109/ICCV51701.2025.01037"
   },
   {
     "id": "zhang2025dgm",
