@@ -77,8 +77,8 @@ Select a card to jump directly to its section.
 
 ## The review at a glance
 
-<p align="center"><img src="assets/readme/figures/figure-2.png" width="900" alt="Figure 2. The review at a glance. The rows give the four uses of an acquired change (Sections 3–6), the four conditions for carrying it into the next round (Section 8), and the four claims a comparison can establish (Section 7)."></p>
-<p align="center"><sub><b>Figure 2. The review at a glance.</b> The rows give the four uses of an acquired change (Sections 3–6), the four conditions for carrying it into the next round (Section 8), and the four claims a comparison can establish (Section 7).</sub></p>
+<p align="center"><img src="assets/readme/figures/figure-2.png" width="900" alt="Figure 2. The review at a glance. The rows give the four uses of an acquired change (Sections 3–6), the four conditions for carrying it into the next round, and the four claims a comparison can establish. Illustrations show the grasping robot’s four breakdowns from Section 1."></p>
+<p align="center"><sub><b>Figure 2. The review at a glance.</b> The rows give the four uses of an acquired change (Sections 3–6), the four conditions for carrying it into the next round, and the four claims a comparison can establish. Illustrations show the grasping robot’s four breakdowns from Section 1.</sub></p>
 
 > [!NOTE]
 > **What current evidence shows.** Existing experiments demonstrate behavioral gains, some later-learning benefits, and local procedure improvements, with detailed hardware evidence concentrated in manipulation. Isolating the causal chain that recursion requires is the next step.
@@ -119,8 +119,8 @@ The same physical experience can leave very different kinds of change behind, an
 | **Reuse and recovery** | Memory, skill, contract, program | Retrieve, recover, or synthesize | Reusable execution knowledge | §5 External knowledge |
 | **Learning procedure** | Collector, evaluator, editor, updater | Choose experience, judge, or construct updates | Better subsequent learning | §6 Learning procedure updates |
 
-<p align="center"><img src="assets/readme/figures/figure-3.png" width="900" alt="Figure 3. Four later uses of acquired change. Each column gives the retained change and its immediate use. Dashed arrows show secondary handoffs: a policy may become a collector, a model may supply judgments, and memory may guide an updater."></p>
-<p align="center"><sub><b>Figure 3. Four later uses of acquired change.</b> Each column gives the retained change and its immediate use. Dashed arrows show secondary handoffs: a policy may become a collector, a model may supply judgments, and memory may guide an updater.</sub></p>
+<p align="center"><img src="assets/readme/figures/figure-3.png" width="900" alt="Figure 3. Four later uses of acquired change. Each column gives the retained change and its immediate use (Table 3). Dashed arrows show secondary handoffs: a policy may become a collector, a model may supply judgments, and memory may guide an updater."></p>
+<p align="center"><sub><b>Figure 3. Four later uses of acquired change.</b> Each column gives the retained change and its immediate use (Table 3). Dashed arrows show secondary handoffs: a policy may become a collector, a model may supply judgments, and memory may guide an updater.</sub></p>
 
 <p align="right"><sub><a href="#repository-guide">↑ Back to guide</a></sub></p>
 

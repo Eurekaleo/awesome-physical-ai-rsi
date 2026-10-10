@@ -40,8 +40,8 @@ export const CONDITIONS_NOTE =
 
 export const FIGURES = {
   1: ["Learning behavior and learning how to improve it.", "The upper loop applies a fixed recipe; the lower route retains repair knowledge that guides later learning. The dashed return asks whether that knowledge also improves how the next revision is made."],
-  2: ["The review at a glance.", "The rows give the four uses of an acquired change (Sections 3–6), the four conditions for carrying it into the next round (Section 8), and the four claims a comparison can establish (Section 7)."],
-  3: ["Four later uses of acquired change.", "Each column gives the retained change and its immediate use. Dashed arrows show secondary handoffs: a policy may become a collector, a model may supply judgments, and memory may guide an updater."],
+  2: ["The review at a glance.", "The rows give the four uses of an acquired change (Sections 3–6), the four conditions for carrying it into the next round, and the four claims a comparison can establish. Illustrations show the grasping robot’s four breakdowns from Section 1."],
+  3: ["Four later uses of acquired change.", "Each column gives the retained change and its immediate use (Table 3). Dashed arrows show secondary handoffs: a policy may become a collector, a model may supply judgments, and memory may guide an updater."],
   6: ["Testing the two links of recursive self-improvement.", "Top: does acquired repair knowledge make the reviser produce a better learning procedure on common new failures? Bottom: does a self-revision proposed with that knowledge beat one proposed with it frozen? The diagram specifies proposed comparisons, not reported results."],
 };
 
