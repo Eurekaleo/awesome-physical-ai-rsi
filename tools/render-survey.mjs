@@ -55,12 +55,7 @@ function figure(number) {
 
 export function renderSurveySection() {
   const authors = SURVEY.authors
-    .map(([name, affiliations, url]) => {
-      const label = url
-        ? `<a href="${url}" target="_blank" rel="noopener noreferrer">${html(name)}</a>`
-        : html(name);
-      return `<span>${label}<sup>${affiliations.join(",")}</sup></span>`;
-    })
+    .map(([name, affiliations]) => `<span>${html(name)}<sup>${affiliations.join(",")}</sup></span>`)
     .join("");
   const lines = [
     '<section id="survey" class="survey-section" aria-labelledby="survey-title">',

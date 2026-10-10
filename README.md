@@ -10,7 +10,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/static/v1?label=&amp;message=Code%3A+MIT&amp;color=65716e&amp;style=flat-square" alt="Code: MIT" height="18"></a>
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome" height="18"></a>
 
-  <p><a href="https://eurekaleo.github.io/">Meng Luo</a><sup>1</sup> · Jiajia Song<sup>1</sup> · Shanqing Xu<sup>2</sup> · <a href="https://liyanlin06.github.io/">Yanlin Li</a><sup>1</sup> · Kaixin Li<sup>1</sup> · Ziyang Luo<sup>3</sup> · Wei Chen<sup>2</sup> · <a href="https://daniellin97.github.io/">Hongzhan Lin</a><sup>1</sup></p>
+  <p>Meng Luo<sup>1</sup> · Jiajia Song<sup>1</sup> · Shanqing Xu<sup>2</sup> · Yanlin Li<sup>1</sup> · Kaixin Li<sup>1</sup> · Ziyang Luo<sup>3</sup> · Wei Chen<sup>2</sup> · Hongzhan Lin<sup>1</sup></p>
   <p><sub><sup>1</sup> National University of Singapore &nbsp;·&nbsp; <sup>2</sup> Huazhong University of Science and Technology &nbsp;·&nbsp; <sup>3</sup> Hong Kong Baptist University</sub></p>
 </div>
 

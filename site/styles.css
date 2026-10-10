@@ -854,15 +854,6 @@ h2 {
   font-size: 13px;
   font-weight: 700;
 }
-.survey-authors a {
-  color: var(--green);
-  text-decoration: underline;
-  text-decoration-color: #b9cfc4;
-  text-underline-offset: 3px;
-}
-.survey-authors a:hover {
-  text-decoration-color: currentColor;
-}
 .survey-authors sup,
 .survey-affiliations sup {
   margin-left: 1px;
